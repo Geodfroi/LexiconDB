@@ -12,6 +12,7 @@ public class EntryContent {
     private final String labels;
     private String content;
     private boolean modified;
+    private byte[] image;
 
     public static String reorderLabels(String labels){
         if (labels == null || labels.isEmpty() || labels.isBlank())
@@ -24,10 +25,23 @@ public class EntryContent {
         return CollectionSt.toString(list, ", ");
     }
 
-    public EntryContent(int id, String content, String labelStr) {
+    public EntryContent(int id, String content, String labelStr, byte[] image) {
         this.id = id;
         this.content = content;
         this.labels = labelStr;
+        this.image = image;
+    }
+
+    public byte[] getImage() {
+        return image;
+    }
+
+    public boolean hasImage(){
+        return image != null && image.length > 0;
+    }
+
+    public boolean hasContent() {
+        return content == null || content.isEmpty() || content.isBlank();
     }
 
     public int getId() {
@@ -51,6 +65,13 @@ public class EntryContent {
         }
     }
 
+    public void setImage(byte[] image) {
+        if (Arrays.equals(this.image,image)){
+            this.image = image;
+            modified();
+        }
+    }
+
     private void modified() {
         this.modified = true;
     }
@@ -66,9 +87,5 @@ public class EntryContent {
     @Override
     public String toString() {
         return labels;
-    }
-
-    public boolean isEmpty() {
-        return content == null || content.isEmpty() || content.isBlank();
     }
 }

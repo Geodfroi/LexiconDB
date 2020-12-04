@@ -1,6 +1,6 @@
 package ch.azure.aurore.lexiconDB;
 
-import ch.azure.aurore.IO.API.FileHelper;
+import ch.azure.aurore.IO.API.Disk;
 
 import java.sql.*;
 import java.util.ArrayList;
@@ -17,31 +17,34 @@ public class LexiconDatabase {
 
     private static final String ENTRIES_CONTENT_FIELD = "Content";
     private static final String ENTRIES_LABEL_FIELD = "Labels";
+    private static final String ENTRIES_IMAGE_FIELD = "Image";
 
     private static final String LINKS_MIN_FIELD = "MinID";
     private static final String LINKS_MAX_FIELD = "MaxID";
 
-    private static final String CREATE_ENTRIES_TABLE = "CREATE TABLE IF NOT EXISTS " + ENTRIES_TABLE_NAME + " (_id INTEGER PRIMARY KEY, " + ENTRIES_CONTENT_FIELD + " TEXT, " + ENTRIES_LABEL_FIELD + " Text)";
+    private static final String CREATE_ENTRIES_TABLE = "CREATE TABLE IF NOT EXISTS " + ENTRIES_TABLE_NAME + " (_id INTEGER PRIMARY KEY, " + ENTRIES_CONTENT_FIELD + " TEXT, " + ENTRIES_LABEL_FIELD + " TEXT, " + ENTRIES_IMAGE_FIELD + " BLOB)";
     private static final String CREATE_LINKS_TABLE = "CREATE TABLE IF NOT EXISTS " + LINKS_TABLE_NAME + " (" + LINKS_MIN_FIELD + " INTEGER, " + LINKS_MAX_FIELD + " INTEGER)";
-    private static final String INSERT_CONTENT_STATEMENT = "INSERT INTO " + ENTRIES_TABLE_NAME + " (" + ENTRIES_CONTENT_FIELD + ", " + ENTRIES_LABEL_FIELD + ") VALUES (?,?)";
+    private static final String INSERT_ENTRY_STATEMENT = "INSERT INTO " + ENTRIES_TABLE_NAME + " (" + ENTRIES_CONTENT_FIELD + ", " + ENTRIES_LABEL_FIELD + ", " + ENTRIES_IMAGE_FIELD + ") VALUES (?,?,?)";
     private static final String INSERT_LINK_STATEMENT = "INSERT INTO " + LINKS_TABLE_NAME + " (" + LINKS_MIN_FIELD + ", " + LINKS_MAX_FIELD + ") VALUES (?,?)";
     private static final String QUERY_ENTRIES_STATEMENT = "SELECT * FROM " + ENTRIES_TABLE_NAME;
     private static final String QUERY_LINKS_STATEMENT = "SELECT * FROM " + LINKS_TABLE_NAME + " WHERE " + LINKS_MIN_FIELD + " = ? OR " + LINKS_MAX_FIELD + " = ?";
     private static final String REMOVE_ENTRY_STATEMENT = "DELETE FROM " + ENTRIES_TABLE_NAME + " WHERE _id = ?";
     private static final String REMOVE_LINK_STATEMENT = "DELETE FROM " + LINKS_TABLE_NAME + " WHERE " + LINKS_MIN_FIELD + " = ? AND " + LINKS_MAX_FIELD + " =?";
-    private static final String UPDATE_ENTRY_STATEMENT = "UPDATE " + ENTRIES_TABLE_NAME + " SET " + ENTRIES_CONTENT_FIELD + " = ?, " + ENTRIES_LABEL_FIELD + " = ? WHERE _id = ?";
+    private static final String UPDATE_ENTRY_STATEMENT = "UPDATE " + ENTRIES_TABLE_NAME + " SET " + ENTRIES_CONTENT_FIELD + " = ?, " + ENTRIES_LABEL_FIELD + " = ?, " + ENTRIES_IMAGE_FIELD + " = ? WHERE _id = ?";
 
     //endregion
 
     public static void main(String[] args) {
         String pathStr =  "C:\\Users\\auror\\OneDrive\\Apps\\Lexicon\\TestLexicon.SQLite";
+        Disk.removeFile(pathStr);
+
         LexiconDatabase.getInstance().open(pathStr);
-        int animalID = LexiconDatabase.getInstance().createEntry("Wolves and Elephants are animals", "animal");
-        int wolfId =   LexiconDatabase.getInstance().createEntry("The wolf is an animal", "wolf");
-        int elephantId = LexiconDatabase.getInstance().createEntry("Elephants are very big", "elephants");
-        int catID = LexiconDatabase.getInstance().createEntry("Cats are sly animals", "cat");
-        int lionsID = LexiconDatabase.getInstance().createEntry("Lions are big felines", "lion");
-        int felineID = LexiconDatabase.getInstance().createEntry("Felines are hunting animals", "feline");
+        int animalID = LexiconDatabase.getInstance().createEntry("Wolves and Elephants are animals", "animal", null);
+        int wolfId =   LexiconDatabase.getInstance().createEntry("The wolf is an animal", "wolf", null);
+        int elephantId = LexiconDatabase.getInstance().createEntry("Elephants are very big", "elephants", null);
+        int catID = LexiconDatabase.getInstance().createEntry("Cats are sly animals", "cat", null);
+        int lionsID = LexiconDatabase.getInstance().createEntry("Lions are big felines", "lion", null);
+        int felineID = LexiconDatabase.getInstance().createEntry("Felines are hunting animals", "feline",null);
 
         LexiconDatabase.getInstance().insertLink(new EntriesLink(catID, felineID));
         LexiconDatabase.getInstance().insertLink(new EntriesLink(lionsID, felineID));
@@ -51,13 +54,15 @@ public class LexiconDatabase {
         LexiconDatabase.getInstance().close();
 
         pathStr = "C:\\Users\\auror\\OneDrive\\Apps\\Lexicon\\OtherLexicon.SQLite";
+        Disk.removeFile(pathStr);
+
         LexiconDatabase.getInstance().open(pathStr);
-        LexiconDatabase.getInstance().createEntry("Cars are vehicles", "car");
-        LexiconDatabase.getInstance().createEntry("vehicles are very fast", "vehicle");
-        LexiconDatabase.getInstance().createEntry("Buses are often late", "bus");
+        LexiconDatabase.getInstance().createEntry("Cars are vehicles", "car", null);
+        LexiconDatabase.getInstance().createEntry("vehicles are very fast", "vehicle",null);
+        LexiconDatabase.getInstance().createEntry("Buses are often late", "bus",null);
         LexiconDatabase.getInstance().close();
 
-        FileHelper.openFile("C:\\Users\\auror\\OneDrive\\Apps\\Lexicon");
+        Disk.openFile("C:\\Users\\auror\\OneDrive\\Apps\\Lexicon");
     }
 
     public static LexiconDatabase getInstance() {
@@ -81,7 +86,7 @@ public class LexiconDatabase {
         if (conn != null)
             close();
 
-        FileHelper.backupFile(databasePath);
+        Disk.backupFile(databasePath);
 
         String connectStr = "jdbc:sqlite:" + databasePath;
         try {
@@ -92,7 +97,7 @@ public class LexiconDatabase {
             statement.execute(CREATE_LINKS_TABLE);
             statement.close();
 
-            insertContentStatement = conn.prepareStatement(INSERT_CONTENT_STATEMENT);
+            insertContentStatement = conn.prepareStatement(INSERT_ENTRY_STATEMENT);
             insertLinkStatement = conn.prepareStatement(INSERT_LINK_STATEMENT);
             queryAllStatement = conn.prepareStatement(QUERY_ENTRIES_STATEMENT);
             queryLinksStatement = conn.prepareStatement(QUERY_LINKS_STATEMENT);
@@ -139,11 +144,12 @@ public class LexiconDatabase {
         }
     }
 
-    public int createEntry(String contentStr, String labels) {
+    public int createEntry(String contentStr, String labels, byte[] imageArray) {
         ResultSet result = null;
         try {
             insertContentStatement.setString(1, contentStr);
             insertContentStatement.setString(2, labels);
+            insertContentStatement.setBytes(3, imageArray);
 
             int updateCount = insertContentStatement.executeUpdate();
             if (updateCount != 1)
@@ -194,7 +200,8 @@ public class LexiconDatabase {
                 int id = result.getInt(1);
                 String content = result.getString(2);
                 String labels = result.getString(3);
-                EntryContent item = new EntryContent(id, content, labels);
+                var array = result.getBytes(4);
+                EntryContent item = new EntryContent(id, content, labels, array);
                 list.add(item);
             }
 
@@ -277,6 +284,7 @@ public class LexiconDatabase {
             updateEntryStatement.setString(1, entry.getContent());
             updateEntryStatement.setString(2, entry.getLabels());
             updateEntryStatement.setInt(3, entry.getId());
+            updateEntryStatement.setBytes(4, entry.getImage());
 
             int updateCount = updateEntryStatement.executeUpdate();
             if (updateCount != 1)
