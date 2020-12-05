@@ -39,11 +39,11 @@ public class LexiconDatabase {
         Disk.removeFile(pathStr);
 
         LexiconDatabase.getInstance().open(pathStr);
-        int animalID = LexiconDatabase.getInstance().createEntry("Wolves and Elephants are animals", "animal", null);
+        int animalID = LexiconDatabase.getInstance().createEntry("Wolves, elephants and black cats are animals", "animal", null);
         int wolfId =   LexiconDatabase.getInstance().createEntry("The wolf is an animal", "wolf", null);
         int elephantId = LexiconDatabase.getInstance().createEntry("Elephants are very big", "elephants", null);
-        int catID = LexiconDatabase.getInstance().createEntry("Cats are sly animals", "cat", null);
-        int lionsID = LexiconDatabase.getInstance().createEntry("Lions are big felines", "lion", null);
+        int catID = LexiconDatabase.getInstance().createEntry("Cats are sly animals", "blackCat", null);
+        int lionsID = LexiconDatabase.getInstance().createEntry("Lions are big felines", "whiteLion", null);
         int felineID = LexiconDatabase.getInstance().createEntry("Felines are hunting animals", "feline",null);
 
         LexiconDatabase.getInstance().insertLink(new EntriesLink(catID, felineID));
@@ -250,6 +250,10 @@ public class LexiconDatabase {
         try {
             removeEntryStatement.setInt(1, item.getId());
             if (removeEntryStatement.executeUpdate() == 1) {
+
+                Set<EntriesLink> links = queryLinks(item.getId());
+                links.forEach(this::removeLink);
+
                 return true;
             }
 
@@ -278,13 +282,13 @@ public class LexiconDatabase {
         return false;
     }
 
-    public boolean updateEntry(EntryContent entry){
+    boolean updateEntry(EntryContent entry){
 
         try {
             updateEntryStatement.setString(1, entry.getContent());
             updateEntryStatement.setString(2, entry.getLabels());
-            updateEntryStatement.setInt(3, entry.getId());
-            updateEntryStatement.setBytes(4, entry.getImage());
+            updateEntryStatement.setBytes(3, entry.getImage());
+            updateEntryStatement.setInt(4, entry.getId());
 
             int updateCount = updateEntryStatement.executeUpdate();
             if (updateCount != 1)
