@@ -1,6 +1,5 @@
 package ch.azure.aurore.lexiconDB;
 
-import ch.azure.aurore.Collections.CollectionSt;
 import ch.azure.aurore.Strings.Strings;
 
 import java.util.ArrayList;
@@ -65,7 +64,7 @@ public class EntryContent {
                 map(Strings::toFirstLower).
                 sorted(String::compareToIgnoreCase).collect(Collectors.toList());
 
-        this.labels = CollectionSt.toString(list, ", ");
+        this.labels = Strings.toString(list, ", ");
         onModified();
     }
 

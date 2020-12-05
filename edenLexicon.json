@@ -1,0 +1,4805 @@
+[
+  {
+    "Content": "[empty]",
+    "Labels": [
+      "replicantOverseer"
+    ],
+    "Links": [
+      "RO8UTT7XOUUSVK44"
+    ],
+    "Key": "00FUHUVK0DROC8ZA"
+  },
+  {
+    "Content": "A Runewright's advanced abilities will be necessary to forge the advanced weapons of the Travellers. Runewright are not front combat unit and will need to be protected at all cost.",
+    "Labels": [
+      "Runewright"
+    ],
+    "Links": [
+      "1RRXJRZ6TZC3JXIS"
+    ],
+    "Key": "094VD3MPD83O8KDP"
+  },
+  {
+    "Content": "Heavily armed colonial orbitals, gunstars are designed for planetary defence, jump gate interdiction as well as for the protection of space assets.. As such, Gunstars cannot fire their weapons against ground target. Gunstar can travel in a compact configuration in the hold of colonial starships before being deployed into place.\r\rGunstar platforms are highly modular and can accommodate a large variety of different weapons and subsystems, while remaining cheaper than the permanent assignement of a picket ship.\r\r",
+    "Labels": [
+      "gunstars"
+    ],
+    "Links": [
+      "8LYVR63V8MJZMHFJ"
+    ],
+    "Key": "0CBWWKTFC0DXYQG8"
+  },
+  {
+    "Content": "Fast assault marine in power armour equipped with a jetpack. Few in numbers but highly trained, assault troops are the shock unit of planetary invasions charged of securing landing zones for the rest of the infantry.",
+    "Labels": [
+      "assaultTrooper"
+    ],
+    "Links": [
+      "SPR3K0FRMBA6LPQT"
+    ],
+    "Key": "0EKNPGHR53TE8HY3"
+  },
+  {
+    "Content": "Giant metallic piece of equipment roughly in the shape of a man. Golem highly advanced robotic frames granted half-sentience through arcanoTech to guard sensitive Traveller installations. Akin to very advanced drones, Golem are not sentient and will never abandon their watch until destruction.",
+    "Labels": [
+      "golem"
+    ],
+    "Links": [
+      "L8E132EZIATN7756"
+    ],
+    "Key": "0GLS9D5UHA0LU1Q3"
+  },
+  {
+    "Content": "lighttugger : Ancient spacecraft equipped with a reactionless conjoiner drive allowing relativistic speeds., \r\rOn a larger scale, lighttuggers are ancient spacecrafts capable of achieving near light speed and travelling to other stars.",
+    "Labels": [
+      "lighttugger"
+    ],
+    "Links": [
+      "O9RBKZSWUR913NFR"
+    ],
+    "Key": "0LDXT6AWH8PO09DQ"
+  },
+  {
+    "Content": "A small automated hovercraft, defenceless and vulnerable while under ways, the auto turret provides some protection to locations of interest which do not warrant an active presence. Usually deployed in numbers to provide interlocked field of fire.\r",
+    "Labels": [
+      "sentryGun",
+      "autoTurret"
+    ],
+    "Links": [
+      "LV55CSX9EK8U86NM"
+    ],
+    "Key": "0LUYDWIU8T10XMZP"
+  },
+  {
+    "Content": "Melee weapon capable of destroying mines, armour and infantry",
+    "Labels": [
+      "nanoFlail"
+    ],
+    "Links": [
+      "D5I0XS3OHI2BVEMO"
+    ],
+    "Key": "0NJRAP2X9MEXFJ4A"
+  },
+  {
+    "Content": "The center of an colonial forward base, the control center houses the commandant and its staff, and coordinates all colonial assets within the region through its massive communication array.",
+    "Labels": [
+      "controlCenter"
+    ],
+    "Links": [
+      "D4ND46ELA9ZT73G3"
+    ],
+    "Key": "0O80LPBHOFWQBUIY"
+  },
+  {
+    "Content": "- gaian : specialised organelle shield, jump, move\r\r- compact : necromancy marker ",
+    "Labels": [
+      "psyTech"
+    ],
+    "Links": [
+      "3PLHXI0FHPO99A1I",
+      "6R6DFXZZ8AOU4WGI"
+    ],
+    "Key": "0ONXTDEHXJF86XBQ"
+  },
+  {
+    "Content": "outcastInfrastructure",
+    "Labels": [
+      "microwaveRelay"
+    ],
+    "Links": [
+      "F9FG4AFPSXXSFHF2"
+    ],
+    "Key": "0RPWUMKAOUSTTDZM"
+  },
+  {
+    "Content": "One of the heaviest warship of the Colonial Navy, the Battlestar fields both ship of the line and carrier capabilities. The Battlestar will typically use his spacecraft complement as an escort as she batter her target with her main armement. With a range of capabilities, the Battlestar is often used in  reconnaissance in force mission. As such, only experienced colonial officers who have demonstrated both initiative and responsibility can hope to be given an independent command on the bridge of a Battlestar.",
+    "Labels": [
+      "battlestar",
+      "battlestar"
+    ],
+    "Links": [
+      "5MMK9JXGNWGAII8D"
+    ],
+    "Key": "0WCQXZ29Y70RTRU8"
+  },
+  {
+    "Content": "",
+    "Labels": [
+      "bolt"
+    ],
+    "Links": [
+      "S6Y08ENFAUB27FY4"
+    ],
+    "Key": "0YR4SI7DWXDYLOGO"
+  },
+  {
+    "Content": "One of the biggest unit supplied to the marines expeditionary corp,  the arbalest is a dedicated long-range artillery unit. In order to be able to field heavy weapons, the arbalest has a low weapon capacity, a high frame and slow maneuvering capabilities making it a poor choice for frontline assault.",
+    "Labels": [
+      "arbalest"
+    ],
+    "Links": [
+      "U7L0L5JRUFEOHADK"
+    ],
+    "Key": "15NX3VHDNLSO58F7"
+  },
+  {
+    "Content": "alchemist : Transform matter into its component states., \r\rlittle doctor: matter explosion reaction \r",
+    "Labels": [
+      "alchemist"
+    ],
+    "Links": [
+      "OPIJOMAKN3EWHM7Z"
+    ],
+    "Key": "16AMT8KSB57S8ETG"
+  },
+  {
+    "Content": "[empty]",
+    "Labels": [
+      "hunter"
+    ],
+    "Links": [
+      "1RRXJRZ6TZC3JXIS"
+    ],
+    "Key": "1B1S397371DU1USY"
+  },
+  {
+    "Content": "psyPower",
+    "Labels": [
+      "mindBurst"
+    ],
+    "Links": [
+      "F9FG4AFPSXXSFHF2"
+    ],
+    "Key": "1J0CDKOEO2UO820G"
+  },
+  {
+    "Content": "https://strategywiki.org/wiki/Command_%26_Conquer:_Generals/GLA\r",
+    "Labels": [
+      "__http"
+    ],
+    "Links": [
+      "F9FG4AFPSXXSFHF2"
+    ],
+    "Key": "1J3FOPBE5KZVL8N5"
+  },
+  {
+    "Content": "[empty]",
+    "Labels": [
+      "battleFollowers",
+      "followers"
+    ],
+    "Links": [
+      "2S39EA7FIDLKA6RM",
+      "4D27A9WGMUZR7D92",
+      "BS0JCX365JJ5XAL7"
+    ],
+    "Key": "1OAXYR3CLIARFATA"
+  },
+  {
+    "Content": "The ranks of traveller commanders tied together in strict hierarchical relationships under a Grand Master form his knights. Not all knights are commanders. Past their induction as squires, each knight will find his own speciality and its own array of abilities, regardless of ranks.\r\rKnights are the only truly sentient Travellers. As such, they do not value the lives of their battle followers any more that they would any other tool.\r\r\r\r\r\r",
+    "Labels": [
+      "knights",
+      "knightTravellers",
+      "liegemen"
+    ],
+    "Links": [
+      "094VD3MPD83O8KDP",
+      "1B1S397371DU1USY",
+      "1RRXJRZ6TZC3JXIS",
+      "4D27A9WGMUZR7D92",
+      "7MKY2DZ0ZHZ4PPU5",
+      "BRQCN0SH27M5EZJE",
+      "BS0JCX365JJ5XAL7",
+      "D9FN5F0XDOI860LQ",
+      "VVZS034MV99PMB3A"
+    ],
+    "Key": "1RRXJRZ6TZC3JXIS"
+  },
+  {
+    "Content": "colonialOrbital",
+    "Labels": [
+      "dockyard"
+    ],
+    "Links": [
+      "F9FG4AFPSXXSFHF2"
+    ],
+    "Key": "1TLOYMTDSBC4A1FY"
+  },
+  {
+    "Content": "sonicEmitter - multidirectional infantry incapacitor \r\rsonicWeaponry - stream liquify unprotected organics \r\r",
+    "Labels": [
+      "sonicEmitter"
+    ],
+    "Links": [
+      "F9FG4AFPSXXSFHF2"
+    ],
+    "Key": "1WI20E9DE7BW2RYN"
+  },
+  {
+    "Content": "sonicCannon - directional - can kill infantry inside light vehicles. \rsonicWeaponry",
+    "Labels": [
+      "sonicCannon"
+    ],
+    "Links": [
+      "F9FG4AFPSXXSFHF2"
+    ],
+    "Key": "1XC7UK99HH21CFPW"
+  },
+  {
+    "Content": "Fallen troops and POW are fitted with implants and revived by acolytes inside the conversionPlant. Being basically cyborg zombis, revenants lack the wits to do but the most simple tasks and are used for menial labour, freeing other compact troops to more worthile tasks. They can defend themselves if attacked however and even use range weapons if any is at hand.",
+    "Labels": [
+      "revenant"
+    ],
+    "Links": [
+      "M4FOKQETIZHXRKDC"
+    ],
+    "Key": "1ZKNMQ1K805CT2PP"
+  },
+  {
+    "Content": "gaianInfrastructure",
+    "Labels": [
+      "formicMount"
+    ],
+    "Links": [
+      "F9FG4AFPSXXSFHF2"
+    ],
+    "Key": "22AG1GODPC1M5W3J"
+  },
+  {
+    "Content": "biopod : Safety capsule which dissolves once on the ground., \r",
+    "Labels": [
+      "biopod"
+    ],
+    "Links": [
+      "ZOG04LC2Z0BSN41J"
+    ],
+    "Key": "237IM2GQ63L7GP76"
+  },
+  {
+    "Content": "The support vessel is equipped with production facilities and can replace expended ammunitions and crafts. Its primary task however is to build the necessary infrastructures in order to support the fleet inside a star system.",
+    "Labels": [
+      "supplyFrigate",
+      "supportVessel"
+    ],
+    "Links": [
+      "5MMK9JXGNWGAII8D"
+    ],
+    "Key": "28VK0T3KNRXUG3VP"
+  },
+  {
+    "Content": "spaceElevator - by tractor beam tunner \r\rorbitalTether",
+    "Labels": [
+      "groundTether"
+    ],
+    "Links": [
+      "FOMTV2F73ITBFMMC"
+    ],
+    "Key": "2CLUGA3CWEOA3OJU"
+  },
+  {
+    "Content": "travellerInfantryWeapon",
+    "Labels": [
+      "plasmaGun"
+    ],
+    "Links": [
+      "F9FG4AFPSXXSFHF2"
+    ],
+    "Key": "2CMQNEIPLV1FR9LN"
+  },
+  {
+    "Content": "travellerArmour",
+    "Labels": [
+      "dragoon",
+      "immortal"
+    ],
+    "Links": [
+      "F9FG4AFPSXXSFHF2"
+    ],
+    "Key": "2CVY9PQENUNYQST4"
+  },
+  {
+    "Content": "javelin: One-use anti-armor rocket with limited anti-air capabilities., \r",
+    "Labels": [
+      "javelin"
+    ],
+    "Links": [
+      "JDZDMIVZI8MLN0IC",
+      "OPIJOMAKN3EWHM7Z"
+    ],
+    "Key": "2EVSSOER0TQPMUPU"
+  },
+  {
+    "Content": "avatar : liege battlesuit,  construct able to field defenses., \r",
+    "Labels": [
+      "avatar"
+    ],
+    "Links": [
+      "L8E132EZIATN7756"
+    ],
+    "Key": "2F1BYZVALXPQSECN"
+  },
+  {
+    "Content": "The genetic offspring of their clan matron, sisters need time and a steady supply of spice to come onto their own as Matrons. They unlock new abilities with the ingestion of spice and use of their powers. An overdose of spice may cripple them however.\r\rThey are typically found a the front line in command of a starship or directing the battle from a command vehicle. A sister represents a heavy investment for her clan, and losing too many in a battle can be crippling for a Matron.\r\rIn personal combat, sisters are weaker and less experienced than matrons and as such more relient on advanced gaian equipment and weapons.",
+    "Labels": [
+      "battleSister"
+    ],
+    "Links": [
+      "6PQ2OQLW2F8CO1DQ"
+    ],
+    "Key": "2FI3M5SLHKLTMGRE"
+  },
+  {
+    "Content": "defiler\rpacifier",
+    "Labels": [
+      "irradiationTechnology"
+    ],
+    "Links": [
+      "3PLHXI0FHPO99A1I"
+    ],
+    "Key": "2KAE8XWG84TBHQPV"
+  },
+  {
+    "Content": "",
+    "Labels": [
+      "maserCannon"
+    ],
+    "Links": [
+      "OPIJOMAKN3EWHM7Z"
+    ],
+    "Key": "2M5TZXB0O1WEP3Z6"
+  },
+  {
+    "Content": "travellerInfantryWeapons",
+    "Labels": [
+      "portableShield",
+      "portableShield"
+    ],
+    "Links": [
+      "F9FG4AFPSXXSFHF2"
+    ],
+    "Key": "2NCM2OSBNCE02E4Q"
+  },
+  {
+    "Content": "The lowest of the low, lancers are the barely sentient foot soldiers of the Travellers. Only able to heed simple orders, they are mostly limited to watch duties and attack en-masse at the behest of their masters, carrying simple weapons.",
+    "Labels": [
+      "lancer"
+    ],
+    "Links": [
+      "1OAXYR3CLIARFATA"
+    ],
+    "Key": "2S39EA7FIDLKA6RM"
+  },
+  {
+    "Content": "A mainstay of the Gaian infantry, replicants are numerous, cheap and expendable. They are armed with conventional projectile weapons and lightly armoured. Of limited intelligence and initiative, replicants are significantly more efficient when lead by a replicant overseer.\r",
+    "Labels": [
+      "replicant"
+    ],
+    "Links": [
+      "RO8UTT7XOUUSVK44"
+    ],
+    "Key": "2V87V8TT51KLGK98"
+  },
+  {
+    "Content": "[empty]",
+    "Labels": [
+      "missileSilo"
+    ],
+    "Links": [
+      "JKL9SDIFZ7WZ6HBF"
+    ],
+    "Key": "2W1BAC3GFY0GRE4I"
+  },
+  {
+    "Content": "gaianNavy",
+    "Labels": [
+      "battleship"
+    ],
+    "Links": [
+      "F9FG4AFPSXXSFHF2"
+    ],
+    "Key": "32S8GOFIBWCHB7WD"
+  },
+  {
+    "Content": "raven : Affinity linked war bird used for reconnaissance; can attack in flocks, \r",
+    "Labels": [
+      "hawk"
+    ],
+    "Links": [
+      "ZOG04LC2Z0BSN41J"
+    ],
+    "Key": "37EGSGQ0QPKPJKFE"
+  },
+  {
+    "Content": "A template race created by the Gaians as an area denial biological weapon. Formics are designed to collect all resources in their territory, expand and aggressively pursue the nearest threat to extinction. Formics will eventually grow out of control if left unchecked and represent an existential threat to the Gaians.",
+    "Labels": [
+      "formics"
+    ],
+    "Links": [
+      "45EGO6YJETNKZPFB",
+      "AD0HAAOENWHWMV24",
+      "CU2OXR6I0RS4PREP",
+      "LSM0TLMUXS0DK18V",
+      "WXPQMLPNTEQGQJJ1"
+    ],
+    "Key": "3C5WLHU8HK78EF5Z"
+  },
+  {
+    "Content": "Most outcast aircraft are VI operated drones, allowing for swarm tactics or surveillance without the risk of losing key personal.\r\rcarrierDrone\r\rspiderTurret\rgunship\r\rraptorDrone\r\r\rUnlike their ground unit brethren, Network aircraft have a more mechanical appearance. \r\rsentinels \r",
+    "Labels": [
+      "outcastCrafts",
+      "outcastAircraft",
+      "outcastSpacecrafts"
+    ],
+    "Links": [
+      "GSM4O6OZA8W9AQ1J",
+      "8SH4DGS72NYQ9CO7",
+      "ZLJ0OL9GZTOEZ5WO",
+      "X1HL5JPEQWNNXQLG",
+      "7UL2O8DB0FJRG6OX",
+      "MBLO0W7U5AYZO45B",
+      "CKYVACSTCHTO94CA",
+      "TGR0FT9220I7AWMM",
+      "MA4IEE0K21YSV34A",
+      "DBBBWEQJC6BHPCOW"
+    ],
+    "Key": "3I4JTHOC648SMYK2"
+  },
+  {
+    "Content": "One of the most technologically advanced race in the galaxy, the travellers have mastered the process of energy transmutation, which enable their unit production, to power their units remotely and operate their stargate network. \r\rThey do not have electronics, but can use the naturally occurring phenomenon of post-physical permanence to imbue their mechanical units with the spirits of their dead, functionally creating drone units. They can also choose to reincarnate them in new bodies, a privilege usually reserved for the higher casts. \r\rhardLight\r\rThe compact make use of cybernetics to turn sentient into obedient slaves.\r\rTheir entire civilisation is build around the mothership and its captive singularity.\r\rmissileTechnology\rirradiationTechnology\r\r[empty]\r\r\r\rNominally an alliance among different alien races, the Tetrarchy are under the control of the Advents and their client species. As the name implies, the tetra\r\r\rThe area of space controlled by the Tetrarchy is unknown; given the Tetrarchy superior FTL technology, it is assumed to be at several times the size of terran space.\r\r    \"affronter\": \"One of the combine races. The affronters are methane breathing squid like creatures. They  always wear  environnemental suits, and their superior intelligence makes them perfect battle commanders.\",\r\rVaren\r\r",
+    "Labels": [
+      "travellerTechnology"
+    ],
+    "Links": [
+      "9LCM3CB0EABTCZ8E",
+      "AIGRSXQXKT0QUFYT",
+      "IRC9GDNDPLV9UDYK",
+      "ZHOVQWRJQKNUEN1E"
+    ],
+    "Key": "3JINCGEZNW9M1LUY"
+  },
+  {
+    "Content": "Using the outcast impulse LASER technology, the battle LASER is bulky, but efficient weapon capable of burning through light armour.",
+    "Labels": [
+      "battleLASER"
+    ],
+    "Links": [
+      "JDZDMIVZI8MLN0IC",
+      "OPIJOMAKN3EWHM7Z"
+    ],
+    "Key": "3K8ZANSWT3GBF5C9"
+  },
+  {
+    "Content": "Ground units regroup all powered units over a certain size. They may not occupy Infrastructure and use fuel or energy in order to move, but are significantly more powerful than infantry units.\r\rAmong the terran, colonial ground units focus on artillery and fire power in support of infantry.",
+    "Labels": [
+      "groundUnits",
+      "armouredUnits"
+    ],
+    "Links": [
+      "0G52EZKO42DXOB8H",
+      "3QTT41T10V5RLE58",
+      "AFRMUE9R31MDGQYW",
+      "BC4UHRD5WA6HX5XF",
+      "GTCZXF4B4HTMX5YZ",
+      "L8E132EZIATN7756",
+      "QEWF66ZDEWPM65EP",
+      "TKLJOKM96CUF3M0X",
+      "TO68J9HI9WZWBXGX",
+      "U7L0L5JRUFEOHADK"
+    ],
+    "Key": "3NC1K05FQ3RMG4ZU"
+  },
+  {
+    "Content": "The colonial special forces are the  specialising in reconnaissance and sabotage. Legionnaire make use of top of the shelf gear such as highly advanced stealth-suits and endure the most rigorous training in the colonial army.",
+    "Labels": [
+      "legionnaire",
+      "colonialSpecialForces"
+    ],
+    "Links": [
+      "KLGBD7WVDG7PFMMS"
+    ],
+    "Key": "3T6TV93JGTL03G2Q"
+  },
+  {
+    "Content": "The commander unit in charge of a formic infestation. The survival of the queen is critical as her death will mean the death of the nest as well. Queens will produce as formic as well, including in time other queens if enough resources are available.",
+    "Labels": [
+      "queen"
+    ],
+    "Links": [
+      "3C5WLHU8HK78EF5Z"
+    ],
+    "Key": "45EGO6YJETNKZPFB"
+  },
+  {
+    "Content": "Deadly against infantry and lightly armoured target, the spitterGun is a semi-organic weapon capable of projecting acid to quite the distance. Useless against aircrafts, and its stock of acid is limited. With no mean of recharging it, it is thrown away once emptied.",
+    "Labels": [
+      "spitterGun"
+    ],
+    "Links": [
+      "QL122QLHLLE3P4E3"
+    ],
+    "Key": "4737ZFUZLNXR2YB7"
+  },
+  {
+    "Content": "husk : Sentient being infested with viral nanomachines. , \r",
+    "Labels": [
+      "husk"
+    ],
+    "Links": [
+      "F9FG4AFPSXXSFHF2"
+    ],
+    "Key": "48IXQG2TGABSX8X5"
+  },
+  {
+    "Content": "\r\rtraveller Infrastructure strategy concentrate on constant terraforming and expansion of their void reactors' network. \rcitadel, structures, travellerAssets\r\rtraveller's economy depends mostly on controlled void reactors, which require a certain amount of empty ground to operate. Another central Infrastructure is the Ziggurat, which hosts the spirit of the dead.\r\rtraveller's ground transportation relies on the stargate network composed of Transport pylons, Stargates.\r\r\rForge: \"Supply light weapons and equipment for traveller infantry.\", \r\r\rwardenBridge\r\rWith a virtually unlimited energy generation through its singularity core, the challenge consist in insuring a reliable energy flow from the mothership to the remainder of the compact forces and expand their range of activity.\r\r\rThe local traveller chapter's duties are dispersed among its knights\r\rrevenant : ciborgified enemy POW\rconstruction by reality bending \rOverseer \rmenials   \roverlord\r\rWraith - melee battle-cyborg\r\rHierarch \r\rOracle \r\r\r\rmonolyth - base defence\r\rassaultBarge \"traveller heavy transport; store infantry in a buffer\",\r\rorca\rcollector\rsaucer\r\r",
+    "Labels": [
+      "travellerAssets"
+    ],
+    "Links": [
+      "1OAXYR3CLIARFATA",
+      "1RRXJRZ6TZC3JXIS",
+      "4D27A9WGMUZR7D92",
+      "4P4NX6HOS1UJ3X4E",
+      "56O2FA6LTTQAM1HT",
+      "57XH2JITM4VIT2FY",
+      "6JL4NFZW0PTI0JS1",
+      "8TN2ADP30S3E79WW",
+      "AIGRSXQXKT0QUFYT",
+      "BG104JDZTYZ5EFCF",
+      "BS0JCX365JJ5XAL7",
+      "EMLUB00WA0N38EVV",
+      "GE6C2YCKESQX5TIB",
+      "L8E132EZIATN7756",
+      "QL9U16DAO2N7EHCE",
+      "RHLPO3SAZ6TZRVDX",
+      "TMWELU4V16MXK9KX",
+      "VELINSCFLL76KZ7C",
+      "YRM32FC7W859NIWM",
+      "Z3MPRDVK8ZFESSPF"
+    ],
+    "Key": "4D27A9WGMUZR7D92"
+  },
+  {
+    "Content": "A heavily walker designed for close infantry support. The Juggernaut forego brain-interface technology and is piloted by simple movement amplification. Rather slow and unwieldy, it is poorly suited as an anti-aircraft role.  It is small enough to be delivered by dropship.",
+    "Labels": [
+      "juggernaut"
+    ],
+    "Links": [
+      "U7L0L5JRUFEOHADK"
+    ],
+    "Key": "4K9B8UFLYJQWGWS7"
+  },
+  {
+    "Content": "colonial technology is a mix of very old pre-spaceflight concepts with very few advances. This conservatism is reflected in the colonial weaponry, which mostly relies on coilguns. The use and study of technologies leading to the collapse are forbidden, especially among them genetics and AI development. The colonial retain the use of atomic weapons, mainly as a ship killing weapons. It would need a very good reason to use them in atmosphere, mostly because of the need of securing habitable worlds. It is pragmatic enough to use fusion bottles to cover the huge energy requirements of its starships and equipment. The most notable advance is the Jump drive, the FTL method of the colonial which prompted the renewal of terran space colonisation.\r\rionThrusters\r\rmissileTechnology",
+    "Labels": [
+      "colonialTechnology"
+    ],
+    "Links": [
+      "0TMBDDDD44WK7JE1",
+      "M2D8GXJUW9UU2U9L",
+      "SPR3K0FRMBA6LPQT",
+      "ZHOVQWRJQKNUEN1E"
+    ],
+    "Key": "4KH1NQ05DPT0J365"
+  },
+  {
+    "Content": "outcastInfrastructure",
+    "Labels": [
+      "obelisk"
+    ],
+    "Links": [
+      "4D27A9WGMUZR7D92",
+      "6AMPHV3VSEC4PRJE"
+    ],
+    "Key": "4P4NX6HOS1UJ3X4E"
+  },
+  {
+    "Content": "technology",
+    "Labels": [
+      "powerGeneration"
+    ],
+    "Links": [
+      "ZHOVQWRJQKNUEN1E"
+    ],
+    "Key": "4Q2R1HQFB8EOQU0Y"
+  },
+  {
+    "Content": "psyPower",
+    "Labels": [
+      "stasisField"
+    ],
+    "Links": [
+      "F9FG4AFPSXXSFHF2"
+    ],
+    "Key": "4VABAR7MS88RCDWR"
+  },
+  {
+    "Content": "holographic defenders \r",
+    "Labels": [
+      "wardenBridge"
+    ],
+    "Links": [
+      "6AMPHV3VSEC4PRJE"
+    ],
+    "Key": "4ZQ0PEU41YD37L6D"
+  },
+  {
+    "Content": "[empty]",
+    "Labels": [
+      "militaryBase"
+    ],
+    "Links": [
+      "ED200HNI2ZYG5MM3",
+      "JEPAKVD9KLXA1TBK",
+      "TKLJOKM96CUF3M0X"
+    ],
+    "Key": "517IIS1A28LFHYVL"
+  },
+  {
+    "Content": "supportPower",
+    "Labels": [
+      "fury"
+    ],
+    "Links": [
+      "F9FG4AFPSXXSFHF2"
+    ],
+    "Key": "537YQJYS3Y4Y2PMH"
+  },
+  {
+    "Content": "",
+    "Labels": [
+      "grunt"
+    ],
+    "Links": [
+      "4D27A9WGMUZR7D92",
+      "BS0JCX365JJ5XAL7"
+    ],
+    "Key": "56O2FA6LTTQAM1HT"
+  },
+  {
+    "Content": "",
+    "Labels": [
+      "huntingSpear"
+    ],
+    "Links": [
+      "6JL4NFZW0PTI0JS1"
+    ],
+    "Key": "573F5CJJUYZJK9FX"
+  },
+  {
+    "Content": "travellerAircraft",
+    "Labels": [
+      "saucer"
+    ],
+    "Links": [
+      "4D27A9WGMUZR7D92"
+    ],
+    "Key": "57XH2JITM4VIT2FY"
+  },
+  {
+    "Content": "A slow moving vehicle dispensing seeds growing into defences",
+    "Labels": [
+      "gardener"
+    ],
+    "Links": [
+      "AD0HAAOENWHWMV24"
+    ],
+    "Key": "59BZCI0MQG5EVJJ2"
+  },
+  {
+    "Content": "microwaveTechnology",
+    "Labels": [
+      "ElectromagneticCannon",
+      "EMCannon"
+    ],
+    "Links": [
+      "X3S64WN6S0F61BFA"
+    ],
+    "Key": "59KA3DVCFGN21XL8"
+  },
+  {
+    "Content": "\rSolar array multiple satelites \r",
+    "Labels": [
+      "solarArray"
+    ],
+    "Links": [
+      "AY2VJ7D6NAC4C6YU"
+    ],
+    "Key": "5CCW9AXFNN0PB8FB"
+  },
+  {
+    "Content": "outcastInfrastructure",
+    "Labels": [
+      "workshop"
+    ],
+    "Links": [
+      "F9FG4AFPSXXSFHF2"
+    ],
+    "Key": "5F8C41FAKM9NXY2C"
+  },
+  {
+    "Content": "Despite or maybe because of its technological inferiority, the colonial easily fields the largest space ships of all the races. The Colonial Navy's space warfare doctrine is built around battle groups consisting of a capital ship and her escorts. The starship of the Colonial Navy will also make heavy use of their large complement of fighter crafts for both offence and defence. \r\r\r\rescortFrigate     \"frigate\": \"",
+    "Labels": [
+      "colonialNavy",
+      "colonialSpacecraft",
+      "colonialFrontierFleet"
+    ],
+    "Links": [
+      "0WCQXZ29Y70RTRU8",
+      "5ZJ3PQALBEHCXX7Q",
+      "8LYVR63V8MJZMHFJ",
+      "8QDSFIZ9O1UCDN3R",
+      "WTIWBI818P6FRMXD"
+    ],
+    "Key": "5MMK9JXGNWGAII8D"
+  },
+  {
+    "Content": "gaianInfantryWeapons",
+    "Labels": [
+      "portableLASER"
+    ],
+    "Links": [
+      "F9FG4AFPSXXSFHF2"
+    ],
+    "Key": "5OQ57HDY1R6MU7A9"
+  },
+  {
+    "Content": "fieldMortar : Small tracked vehicle capable of rapid direct and indirect fire. Devastating in numbers., \r",
+    "Labels": [
+      "fieldMortar"
+    ],
+    "Links": [
+      "IWV2Z4JMGGEVEIYI"
+    ],
+    "Key": "5UDR37LU0XIU4EEP"
+  },
+  {
+    "Content": "Spaceships encompasses all the large units capable of interplanetary of interstellar travels. Space assets not capable of propulsion are categorized as orbitals. Some spaceship carry a number of smaller spacecrafts for attack, defence or planetary assault.\r\rEach races fields very different classes of spacecraft, both in size and abilities. \r\r Gaian spacecrafts are biological constructs that grow over time and the colonial navy fields various size of combat vessels and huge transports.",
+    "Labels": [
+      "navy",
+      "spaceships"
+    ],
+    "Links": [
+      "5MMK9JXGNWGAII8D",
+      "BG104JDZTYZ5EFCF",
+      "NGMRD3ZITWDEKC8F",
+      "O9RBKZSWUR913NFR",
+      "TMWELU4V16MXK9KX",
+      "X79WX60R1PSEECIE"
+    ],
+    "Key": "5ZJ3PQALBEHCXX7Q"
+  },
+  {
+    "Content": "Discoherent energy virus - eat information: disable higher level technology and transmit to other units, even affects spirits",
+    "Labels": [
+      "phage",
+      "scramblerVirus"
+    ],
+    "Links": [
+      "ZSG02P08RWBW8EEI"
+    ],
+    "Key": "619H6I2XMLFI550U"
+  },
+  {
+    "Content": "",
+    "Labels": [
+      "ancible"
+    ],
+    "Links": [
+      "E74PZWTHDUPHU18N"
+    ],
+    "Key": "6C69T5R0A0ZTOQHU"
+  },
+  {
+    "Content": "travellerInfantryWeapons",
+    "Labels": [
+      "concussionRifle"
+    ],
+    "Links": [
+      "6JL4NFZW0PTI0JS1"
+    ],
+    "Key": "6ESV7F5P0LGYH629"
+  },
+  {
+    "Content": "Copperheads are one-seated void-superiority fighters capable of atmospheric flight. Their superior avionics require the use of cyber plugs to control, limiting their number given the rarity of such pilots. \r\r    \"copperhead\": \"Pilot integrated with cybernetic brain plugs.\",\r\r",
+    "Labels": [
+      "copperhead"
+    ],
+    "Links": [
+      "DBBBWEQJC6BHPCOW"
+    ],
+    "Key": "6HEYWPZQCVAHYZPW"
+  },
+  {
+    "Content": "- use of shields for self-desence, no anti-ballistic weaponry\r\r  lightBolter \"Fires bolts of solid light capable of piercing almost anything.\",\r\rtraveller weaponry consists mostly of direct energy weapons.\r\r- FTL missiles\r\r- pocket shreder black hole  hawkinks emitter\r\r\r\rphaserBank\rvoidArtillery\r\r\r\rphotonCannon\r\rdisintegrator",
+    "Labels": [
+      "travellerWeapons",
+      "travellerWeaponry"
+    ],
+    "Links": [
+      "4D27A9WGMUZR7D92",
+      "573F5CJJUYZJK9FX",
+      "6ESV7F5P0LGYH629",
+      "AIGRSXQXKT0QUFYT",
+      "B2BXUO5QAJFT5ZON",
+      "DASLOJGF7DME3B7N",
+      "EP2R96DJZ9PPDQYC",
+      "N11EVGE8SNFV18T9",
+      "SWIZ4LMQVYGH7QJK",
+      "T5LLH7IVCKQ3DNGJ",
+      "Z4GF3C4AK3AC3US7"
+    ],
+    "Key": "6JL4NFZW0PTI0JS1"
+  },
+  {
+    "Content": "streamGroundUnits\r\rwarframe \"Heavy war platform inhabited by living algorithms.\", \r",
+    "Labels": [
+      "warframe"
+    ],
+    "Links": [
+      "F9FG4AFPSXXSFHF2"
+    ],
+    "Key": "6JTWU2NMCDSSBV0T"
+  },
+  {
+    "Content": "spore bomber",
+    "Labels": [
+      "mentaRay"
+    ],
+    "Links": [
+      "ZOG04LC2Z0BSN41J"
+    ],
+    "Key": "6NH79RNWDRW6J67F"
+  },
+  {
+    "Content": "An traveller Infrastructure part of the portal network, portal rings are in charge of the matter-energy conversion process which allow the rapid deployment of troops on the battlefield. Portals are passive structure which can be used by any unit marching up to up and thus need to be defended.",
+    "Labels": [
+      "portal",
+      "portalRing",
+      "stargate"
+    ],
+    "Links": [
+      "6AMPHV3VSEC4PRJE"
+    ],
+    "Key": "6OPA47P4BRFNWYIY"
+  },
+  {
+    "Content": "The leadership of the Gaian Ecology, consisting of nominally equal elder matrons.\r\rThe sisters, genetic offspring of the clan matron artificially fast grown, need time and a steady supply of spice to come into their own and turn into Matrons. They unlock new abilities with the ingestion of spice and steady use of their powers. An overdose of spice may cripple them however. \r",
+    "Labels": [
+      "lodge"
+    ],
+    "Links": [
+      "2FI3M5SLHKLTMGRE",
+      "6R4HS9S334JZ98TC",
+      "AD0HAAOENWHWMV24"
+    ],
+    "Key": "6PQ2OQLW2F8CO1DQ"
+  },
+  {
+    "Content": "The most powerful gaian infantry unit, the matron controls her family through her monopoly on spice production. Through generations of selective breeding and genetic manipulations, matrons have achieved a high degree of psy control, which they need spice to develop and sustain.\r\rMatron begin their life as Sisters, the genetic offspring of their clan matron. They need time, experience and a steady supply of spice to come onto their own as Matron.\r\rWithout spice, without power, a matron becomes very vulnerable. Some matrons have developed ways to recuperate power without it, but it remains a long and difficult process.",
+    "Labels": [
+      "Sorceress",
+      "matron"
+    ],
+    "Links": [
+      "6PQ2OQLW2F8CO1DQ"
+    ],
+    "Key": "6R4HS9S334JZ98TC"
+  },
+  {
+    "Content": "One of the eight races; the third race of terran origins. The Lodge of the sisters of Gaia, or Gaians, make extensive use of biotech for their craft and Infrastructures. A thousand year of painstaking genetic breeding resulted in the development of humanity's latent psy powers. \r\rThe Gaians make use of a race specific resource known as spice, which is the key to their psy powers. \r\rPsyTech\r",
+    "Labels": [
+      "gaianTechnology",
+      "gaianLore"
+    ],
+    "Links": [
+      "0TMBDDDD44WK7JE1",
+      "DXY461FRS5FLX14T",
+      "JD3OP9H72IV34XAT",
+      "ZHOVQWRJQKNUEN1E"
+    ],
+    "Key": "6R6DFXZZ8AOU4WGI"
+  },
+  {
+    "Content": "Special resources are specific to each race and are usually involved in producing higher tier assets.\r\rThe Gaians use biomatter and spices. The colonial use requisition points. The outcast uses nanites and antimatter.\rThe Stream use subroutines. The travellers uses battle honour.",
+    "Labels": [
+      "raceResource",
+      "specialResource"
+    ],
+    "Links": [
+      "YMA1V1QORKNN4PDR"
+    ],
+    "Key": "70C7A9CEJ2PZ2ICQ"
+  },
+  {
+    "Content": "travellerInfantryWeapons",
+    "Labels": [
+      "plasmaCutter"
+    ],
+    "Links": [
+      "F9FG4AFPSXXSFHF2"
+    ],
+    "Key": "74OV11IUEG1BJ482"
+  },
+  {
+    "Content": "outcastInfrastructure",
+    "Labels": [
+      "windTurbine"
+    ],
+    "Links": [
+      "E74PZWTHDUPHU18N"
+    ],
+    "Key": "78E9CLXYSPDGP89L"
+  },
+  {
+    "Content": " produce heavy units to be transferred to the ground. \r\r - retreat into pocketUniverse \r",
+    "Labels": [
+      "craftSpire"
+    ],
+    "Links": [
+      "8TN2ADP30S3E79WW"
+    ],
+    "Key": "7BXONZYZVKCWPBHN"
+  },
+  {
+    "Content": "sonicWeaponry - stream liquify unprotected organics ",
+    "Labels": [
+      "sonicWeaponry"
+    ],
+    "Links": [
+      "OPIJOMAKN3EWHM7Z"
+    ],
+    "Key": "7DXO0NLWX83XIMG0"
+  },
+  {
+    "Content": "The travellers rely on a network of portals and transport pylons to rapidly deploy their troops on the battlefield. The portal rings convert the troop into energy which is then transmitted along the pylon web to their stargate destination. Interestingly, the energy packets are notably slower than the speed of light and take some time to arrive at destination. \r\rThe portal network can only be used by infantry and the smaller ground units and craft as they are limited by the size of the portal.\r\rWith a planetary transmitter in place, a mothership can link into the network and move troops to and from orbit. ",
+    "Labels": [
+      "portalNetwork",
+      "stargateNetwork"
+    ],
+    "Links": [
+      "3JINCGEZNW9M1LUY"
+    ],
+    "Key": "7KNXA0MR5PR5DN6W"
+  },
+  {
+    "Content": "blur\rprecog\rwarp",
+    "Labels": [
+      "defencePower"
+    ],
+    "Links": [
+      "RWZ0PIR2J5LIRY0A"
+    ],
+    "Key": "7M95CIFO6GDKM4KG"
+  },
+  {
+    "Content": "[empty]",
+    "Labels": [
+      "ecclesiast"
+    ],
+    "Links": [
+      "1RRXJRZ6TZC3JXIS"
+    ],
+    "Key": "7MKY2DZ0ZHZ4PPU5"
+  },
+  {
+    "Content": "spaceElevator - by tractor beam technology \r",
+    "Labels": [
+      "orbitalTether"
+    ],
+    "Links": [
+      "AY2VJ7D6NAC4C6YU"
+    ],
+    "Key": "7NMLJLJQTUM426XZ"
+  },
+  {
+    "Content": "travellerGroundWeaponry",
+    "Labels": [
+      "neuralDisruptor"
+    ],
+    "Links": [
+      "F9FG4AFPSXXSFHF2"
+    ],
+    "Key": "7NU1445VIFD6GILM"
+  },
+  {
+    "Content": "streamInfrastructure",
+    "Labels": [
+      "warpGate"
+    ],
+    "Links": [
+      "F9FG4AFPSXXSFHF2"
+    ],
+    "Key": "7T1TXYJ57B6S2NP3"
+  },
+  {
+    "Content": "gunship : Heavy rotor troop transport with anti-tank capabilities. \r\rcolonialCraft",
+    "Labels": [
+      "gunship"
+    ],
+    "Links": [
+      "3I4JTHOC648SMYK2"
+    ],
+    "Key": "7UL2O8DB0FJRG6OX"
+  },
+  {
+    "Content": "",
+    "Labels": [
+      "infantryWeaponry",
+      "infantryWeapons",
+      "lightWeaponry",
+      "lightWeapons"
+    ],
+    "Links": [
+      "CR7GA7257TV7UZKV",
+      "JDZDMIVZI8MLN0IC",
+      "OPIJOMAKN3EWHM7Z",
+      "QL122QLHLLE3P4E3",
+      "V6ZIY650GRPFM5P1",
+      "Z4GF3C4AK3AC3US7"
+    ],
+    "Key": "81XVBLQ0TFLJRR5A"
+  },
+  {
+    "Content": "landCruiser : Gigantic rail-mounted field artillery with very low fire-rate., \r\rcrocodile : heavily armed atrillery/howitzer platform housing an infantry platoon.",
+    "Labels": [
+      "landCruiser"
+    ],
+    "Links": [
+      "F9FG4AFPSXXSFHF2"
+    ],
+    "Key": "859ZJVPEU9WCGY6A"
+  },
+  {
+    "Content": "An air and space superiority fighter, the Eagle is fragile but fast, fielding an array of missiles to take care of its foes. It usually play escorts troop transports. Eagle fighters can be deployed from high orbit, but cannot reach it on their own power. As the mainstay of colonial aerospace power for centuries, the Eagle is employed both by the Marines and by local garrison.",
+    "Labels": [
+      "eagleFighter"
+    ],
+    "Links": [
+      "LNU1IIA0TAYF2V0S"
+    ],
+    "Key": "87XJ4L2XKTSMKZJM"
+  },
+  {
+    "Content": "[empty]\r",
+    "Labels": [
+      "FirstExodus"
+    ],
+    "Links": [
+      "CJCX86XTG4FFNIRV",
+      "Y75E5B8798M5FFZC"
+    ],
+    "Key": "8ALCDDJLDNSSW1C0"
+  },
+  {
+    "Content": "",
+    "Labels": [
+      "barrack"
+    ],
+    "Links": [
+      "JKL9SDIFZ7WZ6HBF"
+    ],
+    "Key": "8CQCRBGLESHINH4E"
+  },
+  {
+    "Content": "amalgam of assault spikes ",
+    "Labels": [
+      "shoal"
+    ],
+    "Links": [
+      "BG104JDZTYZ5EFCF"
+    ],
+    "Key": "8IATPNQOLAMMS26E"
+  },
+  {
+    "Content": "gaianInfantryWeapon",
+    "Labels": [
+      "neuroGlove"
+    ],
+    "Links": [
+      "F9FG4AFPSXXSFHF2"
+    ],
+    "Key": "8JLVPT42HUAH0DZ6"
+  },
+  {
+    "Content": "A dispersed and nomadic people, the Outcasts have always had trouble bringing up their numbers. They are reticent to commit themselves to combat and leave infantry works to machines.\r\rTrue organic infantry are therefore mostly elites. A well-trained party of outcast organic can often dispatch many times their numbers without taking any casualty. For all their advantages, organic are content to leave actual strategic planning to AIs. Orcanics do not field any command unit; with the exceptions of the longed-lived Omars. \r\rSpartans are elite shock troops using VI assisted power armors. Finally, Ghosts are elite  cyborgs using //stealth technology.\r\r",
+    "Labels": [
+      "organicInfantry",
+      "organicPersonnel"
+    ],
+    "Links": [
+      "DBBBWEQJC6BHPCOW",
+      "J27N7GGOO3Q6N050",
+      "LA197C2N3NXYCVLQ",
+      "MOLKQTJ14STWUVKN",
+      "NDS2YGRDDT6TLKGA",
+      "RCASTLOKWU485VC3",
+      "RHLPO3SAZ6TZRVDX",
+      "Z4XL5BNR855UKS4E"
+    ],
+    "Key": "8L7RCNSZD2ZHNXZJ"
+  },
+  {
+    "Content": "A heavy walker used in melee and range combat, the Ironside is a versatile heavy battleMech controlled by a cybernetic enhanced pilot.\r",
+    "Labels": [
+      "ironside",
+      "jaeger"
+    ],
+    "Links": [
+      "QEWF66ZDEWPM65EP"
+    ],
+    "Key": "8LQOQ0Y0OFR9ICM2"
+  },
+  {
+    "Content": "Orbital facilities are necessary to maintain and service the colonial navy's numerous spacecrafts. \r\r Flydocks are large constructs hosting a wing of starfighters for planet defence, as well as transports to the surface. Dockyards are dedicated to the maintenance and servicing of capital ships, and can event produce smaller crafts.",
+    "Labels": [
+      "colonialOrbital",
+      "colonialSatellite"
+    ],
+    "Links": [
+      "0CBWWKTFC0DXYQG8",
+      "5MMK9JXGNWGAII8D",
+      "M2D8GXJUW9UU2U9L",
+      "P69OFXLIV0355O4Y"
+    ],
+    "Key": "8LYVR63V8MJZMHFJ"
+  },
+  {
+    "Content": " colonialInfantry, colonialArmour, colonialAircrafts, colonialNavy",
+    "Labels": [
+      "colonialUnits",
+      "colonialGroundForces"
+    ],
+    "Links": [
+      "0G52EZKO42DXOB8H",
+      "5MMK9JXGNWGAII8D",
+      "KLGBD7WVDG7PFMMS",
+      "LNU1IIA0TAYF2V0S",
+      "TKLJOKM96CUF3M0X",
+      "TMWELU4V16MXK9KX"
+    ],
+    "Key": "8QDSFIZ9O1UCDN3R"
+  },
+  {
+    "Content": "travellerNavalWeapon",
+    "Labels": [
+      "blackHoleGenerator"
+    ],
+    "Links": [
+      "F9FG4AFPSXXSFHF2"
+    ],
+    "Key": "8QZD5ZCKPI2CN0I3"
+  },
+  {
+    "Content": "With its rare configuration as a rotor aircraft, the cobra attack helicopter is a highly modular weapon platform, capable of anti-armour, anti-personnel warfare. It's limited speed makes it a target for air-supremacy fighters. It can be controlled both by AI or manned by a pilot. With specialised equipment pods and a dedicated co-pilot, the cobra can be use as an information warfare craft.",
+    "Labels": [
+      "cobra",
+      "attackHelicopter"
+    ],
+    "Links": [
+      "3I4JTHOC648SMYK2"
+    ],
+    "Key": "8SH4DGS72NYQ9CO7"
+  },
+  {
+    "Content": "",
+    "Labels": [
+      "travellerOrbital",
+      "travellerSatellite"
+    ],
+    "Links": [
+      "4D27A9WGMUZR7D92",
+      "7BXONZYZVKCWPBHN",
+      "P69OFXLIV0355O4Y"
+    ],
+    "Key": "8TN2ADP30S3E79WW"
+  },
+  {
+    "Content": "While most colonial assets are requisitioned from out system, the expenditure of ammunitions is such than the establishment of a local supply is often a priority. The auto-factory produces basic equipment, structure materials and ammunitions necessary for local operations.",
+    "Labels": [
+      "autoFactory"
+    ],
+    "Links": [
+      "D4ND46ELA9ZT73G3"
+    ],
+    "Key": "90ES8KOTV2J64WNH"
+  },
+  {
+    "Content": "outcastGroundWeapons",
+    "Labels": [
+      "gatlingGun"
+    ],
+    "Links": [
+      "SIFO5WOFDG2E45GF"
+    ],
+    "Key": "94VNCLJJ6N82WAQ1"
+  },
+  {
+    "Content": "colonialInfrastructure",
+    "Labels": [
+      "fieldGenerator"
+    ],
+    "Links": [
+      "F9FG4AFPSXXSFHF2"
+    ],
+    "Key": "94WUQ7EZDLV65PP7"
+  },
+  {
+    "Content": "outcastInfrastructure",
+    "Labels": [
+      "armoury"
+    ],
+    "Links": [
+      "DBBBWEQJC6BHPCOW"
+    ],
+    "Key": "950GLLGNUKD5PMCM"
+  },
+  {
+    "Content": "colonialSpacecrafts",
+    "Labels": [
+      "starfighter"
+    ],
+    "Links": [
+      "F9FG4AFPSXXSFHF2"
+    ],
+    "Key": "9620T5KQQAVRI5AG"
+  },
+  {
+    "Content": "",
+    "Labels": [
+      "structures",
+      "infrastructure"
+    ],
+    "Links": [
+      "5T6QSL4TRF5EDWT2",
+      "9ELQDNF3JWWVWJQ0",
+      "AL07WRASEM5N1DTJ",
+      "E74PZWTHDUPHU18N",
+      "P69OFXLIV0355O4Y",
+      "TMWELU4V16MXK9KX",
+      "ZGQ5YKFHG7BT056A"
+    ],
+    "Key": "9ELQDNF3JWWVWJQ0"
+  },
+  {
+    "Content": "",
+    "Labels": [
+      "flakTower"
+    ],
+    "Links": [
+      "D4ND46ELA9ZT73G3",
+      "Z6LQRDIFW10QKPNI"
+    ],
+    "Key": "9HCPZJJBTB43ZT49"
+  },
+  {
+    "Content": "",
+    "Labels": [
+      "hardLight"
+    ],
+    "Links": [
+      "3JINCGEZNW9M1LUY"
+    ],
+    "Key": "9LCM3CB0EABTCZ8E"
+  },
+  {
+    "Content": "nano-assembler",
+    "Labels": [
+      "foundry"
+    ],
+    "Links": [
+      "F9FG4AFPSXXSFHF2"
+    ],
+    "Key": "9QLE123B3WK6QUV3"
+  },
+  {
+    "Content": "bonePistol\rshard blade\r\rchemicalLASER\r\rBeside psyonics, gaian weaponry make use of projectiles propelled by a liquid organic compound, organic LASERs and electrically charged projectiles.",
+    "Labels": [
+      "gaianWeapons",
+      "gaianWeaponry"
+    ],
+    "Links": [
+      "9QT48S1HB07AIR7Q",
+      "JD3OP9H72IV34XAT",
+      "O49YI78U1509KY5I",
+      "Q70LD5MH81C7RTRH",
+      "QL122QLHLLE3P4E3",
+      "T0UKVYMB9VOJX20E",
+      "Z4GF3C4AK3AC3US7"
+    ],
+    "Key": "9QT48S1HB07AIR7Q"
+  },
+  {
+    "Content": "psyPower",
+    "Labels": [
+      "suicide"
+    ],
+    "Links": [
+      "F9FG4AFPSXXSFHF2"
+    ],
+    "Key": "9TY67MLDNLM33I27"
+  },
+  {
+    "Content": "Gun pits are hastily prepared gun positions in the field, providing impromptu air defence against a strategic location or an artillery battery for assault support. ",
+    "Labels": [
+      "gunPit"
+    ],
+    "Links": [
+      "HZ1WBH5P2M7RVB4L"
+    ],
+    "Key": "9ZE79QPDC7FZCTK9"
+  },
+  {
+    "Content": "   homingMine :  Stealth mine which borrows itself and track nearby enemies when they draw close.,\r \"Latch onto an enemy and pierce its shielding with its industrial cutting laser.\"",
+    "Labels": [
+      "homingMine",
+      "spiderMine"
+    ],
+    "Links": [
+      "QEWF66ZDEWPM65EP"
+    ],
+    "Key": "A10W58TA1OUJ4IGF"
+  },
+  {
+    "Content": "[empty]\r\r//Colonial civilians are present on the frontier servicing mining operations and research outposts.\r\r",
+    "Labels": [
+      "civilians"
+    ],
+    "Links": [
+      "KLGBD7WVDG7PFMMS",
+      "WZOQ9CVLPUDAD8QQ"
+    ],
+    "Key": "A1NG97Y9823ZAIUA"
+  },
+  {
+    "Content": "A Outcast sidearm, the impulse pistol is effective at short range against unarmoured enemy infantry. It has a slow rate of fire and its damage output cannot be modified like the Battle Laser, yet its sturdiness, durability, cheap cost and small size make it a necessary weapon for rear-echelon troops. Linked to a power pack, it enjoys surprising durability.",
+    "Labels": [
+      "impulsePistol"
+    ],
+    "Links": [
+      "F9FG4AFPSXXSFHF2"
+    ],
+    "Key": "A4QHOQYOSDK53EDY"
+  },
+  {
+    "Content": "The first race of terran origins. The Outcasts is a catch-all terms for the diaspora of early pioneers and later exiles who leaved earth on slower than light crafts before the long night. \r\r- transhumans\r- merged with the network\r\r- gravitics : reactionelss drive\r- pure ai, antimater, cosmonik, drones, chip reincarnation.\r\r      \"description\": \"\\rRely on simple drones to mundane tasks, perimeter survey\\r\\rmodular Infrastructures with movable core, ready to relocate base in jeopardy\\r\\rMind \\rReplicator core;\\r\\romni technology : control nanites with mind\\r- nanofarm\\r\\requipment\\r- stimpack and healthkit\\r\\rjump - disabling jump\\r\\rinfantry\\r- WeaponRanger : covert sniper and mine\\r\\rground\\r- Utility truck : howitzer, anti-air, supply truck, transport\\r\\rutility\\r- mine dispenser \\r- tunneler - under-ground transport or builder\\r\\rair\\r- Cobra : attack helicopter, IT pods, no cargo\\r- Reconnaisance drone - control of battlefield\\r \\rground defense\\r- fire platform : cover ground/air defense, SAM\\r- IT center, command post -  air control, ai power and data links, IT work on Ai programms\\r- drone control\\r- artillery : control chunk of territory\\r\\r- EM field\\r- probabilitz weapon - magic from computing - caps drive (strike // empire des 1000 planetes)\\r- matter converter plant\\r\\rspacecraft\\r- continental missile, anti-spacecraft missile\\r- corvette\\r- shift modular transport - different pods for didferent performances\\r- corvette- intersystem ship\\r\\r- Cutter, privateer\\rorbital\\r- comm sattelite\\r- modular orbital - prebuilt, assembled by shuttles, upgrade to build capital ships\\r- Skylab : build zero-g weaponry\\r\\rSuperweapon\\r- tactical Atomics - atomic effect\\r\\rweapons\\r- smart ammo\\r\\rsuperWeapon :  neutron bombs\\r\\rammo printer\\r\\rDrone control sloup\\r\\rdrone package - grant drone protection for ground unit\\rgauss platform -ground interdiction and spacecraft defense\\rCorvette \\r\\ralternate produciton - as annex to colony network\\rhydroponic farm - water for food\\rLaboratory \\rWater condensator- condensate water\\rsolar plant\\rFuel plant - water + energy for fuel.\\rgenerator - fuel for energy\\rdefense point \\r\\rmaglev rail\\r\\r- ICBM\",\r     \r      \"description\": \"infantry mass production\\r\\rmecanism: nanite count - use for AI powers and quick build\\rnanites used for highest tech, can assemble from everything but favor biometal\\r\\r- energy capacitors - sink energy\\rAi bunker\\rNano flash build - fail after use\\r\\requipment\\r- mindChip - portable conscience, pseudoAi\\r\\rinfantery\\r- lineBot: armored, rotary hand cannon\\r\\rAutorepair\\r\\rproduction - build semi-component which can be reassembled into units\\r\\r- mainframe - non sentient calculus extensuin - control more units\\r- nanite forge\\r\\rspacecraft - many times human accelearion\\r- GSV - rectangle shape, build the fleet\\r- () mind-ship \\r\\rsuperweapon\\r- forester : nanite reduction on grand scale, leave terrain untouched\\r- AI infestation - self replicating AI virus\\r\\rBattleCommander - build unit through nanites\\r\\ruse nanites - banned by treaties\\r\\rborg cube\\rdeath star - death cube 6 circular weaponry\\r\\rmechanical spider with twin circular laser\",\r\r\rnetwortk\rOne of the xenos race, the network is an ancient race composed entirely of distributed AI, each unit and Infrastructures is a collection of subroutines. The network's origin and initial creators are unknown. \r\rDespite their mechanical nature, owning to the network use of nanotech, network assets are oddly organic looking at first glance. In effect, each unit forms are dedicated to a specific function within the collective. \r\rnetwork units also possesses a unique ability to convert different energy sources to their own use. \r\renergy requirements to build something purely out of nanites are enourmous : huge nanite penalty \r\rnanites as resource: need energy to convert from matter. \r\rwhisp Nanoparticule cloud which recycle battlefields refuse. Can be absorbed to recharge and repair nearby units. \r\rbasic types that thuses together \r\rbuild inside chambers with ressources, heal itself \r\rslab, blob , transmute ressources, extract basic ressource cell with ability to transform into types \r\rcreate surcface ships. \r\rnodule - create basic units. \r\rDrone - anti-personnal \r\ringeneer - it unit, brain unit \r\rengine - energy unit \r\ralpha cube \r\rphage guardian - low power lasers - projectiles and light units \r\rbeta sloop \r\rswarm nest - empty carrier moved by its content \r\r- subteranean bases \r\rLASER propulsion from surface \r\r- solar farms in orbit \r\r- organised in nest, colony \r\r- replace the swarm. \r\r- heat seeker ants \r\r     ",
+    "Labels": [
+      "outcasts"
+    ],
+    "Links": [
+      "DBBBWEQJC6BHPCOW",
+      "LSW1606MHQVJF8GS",
+      "MA3DZDY4IO27HKR5",
+      "OPIJOMAKN3EWHM7Z",
+      "TGR0FT9220I7AWMM",
+      "Y75E5B8798M5FFZC",
+      "YM8WK6OZ3ZK1ASG0"
+    ],
+    "Key": "A8ZRCU0CJNRIFYFY"
+  },
+  {
+    "Content": "The Shrike is a mysterious entity created by the future conjoiners. Unfortunately, \r",
+    "Labels": [
+      "shrike"
+    ],
+    "Links": [
+      "6R3KS43Q52K26B7O"
+    ],
+    "Key": "AA2JY7OR6JY2YLRI"
+  },
+  {
+    "Content": "Gaian infantry is mostly composed of fast grown bioroïd troops in the service of the Lodge, while habitats and groves are tended to and protected by organic drones.\r\rforester\r\rSynths - biomechanical creatures created through synthTech\r\r\rBrutes are genetically enhanced armoured apes used as shock troops.\r\r- outworlder : bioenginerred for outer space combat\r\r \"navigator, mentat\r\rKaiju\rgardener\rbrute   \r  \"labourer\": \"formic unit\\r\\rgaianGroundUnit\r \"myrmidon\": \"zerg defense drone no digestive track die when energy is expanded \r\rGaian's use of aircraft \r\rgaianAircraft, gaianAirForce, gaianAirPower\r\rglider    : Single air lift with no engines, \\r",
+    "Labels": [
+      "gaianAssets"
+    ],
+    "Links": [
+      "3C5WLHU8HK78EF5Z",
+      "59BZCI0MQG5EVJJ2",
+      "6PQ2OQLW2F8CO1DQ",
+      "BC4UHRD5WA6HX5XF",
+      "DFG6MOBCAEKGYT1B",
+      "JD3OP9H72IV34XAT",
+      "LGULGADCGMTIN82I",
+      "N7CI2XAOYLWHS9BL",
+      "NGMRD3ZITWDEKC8F",
+      "QEED7CRU7MMSLZAP",
+      "RO8UTT7XOUUSVK44",
+      "TMWELU4V16MXK9KX",
+      "WLRWBK3IQAKAH8UF",
+      "ZOG04LC2Z0BSN41J"
+    ],
+    "Key": "AD0HAAOENWHWMV24"
+  },
+  {
+    "Content": "An unarmed parasite spacecraft designed for transport.",
+    "Labels": [
+      "pinnace"
+    ],
+    "Links": [
+      "F9FG4AFPSXXSFHF2"
+    ],
+    "Key": "ADQMVCYS6QE9H820"
+  },
+  {
+    "Content": "Heavy sniper rifle. It can damage light vehicle and is deadly against infantry. It's low capacity and big size makes it unwieldy for assault troops however.\", \r\r-variety of payloads for different tasks\r\routcastInfantryWeapon",
+    "Labels": [
+      "anti-materialRifle"
+    ],
+    "Links": [
+      "F9FG4AFPSXXSFHF2"
+    ],
+    "Key": "AI8HGJBX3FH4VBHC"
+  },
+  {
+    "Content": "Despite their technological achievements, they have retained a feudal society which gives rises to staunch feuds between rival lords and prevent their dominance of local space. An traveller warrior rises in rank through the accumulation of battle honours, which allows him to rise his energy allocation and call forth more subordinates and equipment. As such the travellers often field lightly equipped infantry even thought it would be more practical to rely on their advanced technology, as the goal isn't merely to win battles. It takes serious opposition and an existential threat for a system lord to deploy heavy weaponry and not be censured by its peers and lose battle honour. \r\r. Beyond honour, a system lord will focusand supporting Infrastructures.\r\r\r\r Feodality - feodality lord in relashionship, with domains and\r rivality between knights - moveing castle.\r\renergy allocation to spend on own troups and equipment, tech max by merit and energy cost\rmind buffer - saved on the network, lost if alone\r\r\rproduction\r- void reactor\r- spacecraft conveyor : energy to other planets or ships\r\r- Ion Frigate\r\rspacecraft defence\r- Warp gate - built by sections to allow bigger ships",
+    "Labels": [
+      "travellers"
+    ],
+    "Links": [
+      "3JINCGEZNW9M1LUY",
+      "4D27A9WGMUZR7D92",
+      "6JL4NFZW0PTI0JS1",
+      "A8XYA2YE7VN23OGS",
+      "BPLJ96QKXZVIA10Y"
+    ],
+    "Key": "AIGRSXQXKT0QUFYT"
+  },
+  {
+    "Content": "",
+    "Labels": [
+      "fissionPile"
+    ],
+    "Links": [
+      "9ELQDNF3JWWVWJQ0"
+    ],
+    "Key": "AL07WRASEM5N1DTJ"
+  },
+  {
+    "Content": "travellerNavalWeapon",
+    "Labels": [
+      "voidArtillery"
+    ],
+    "Links": [
+      "F9FG4AFPSXXSFHF2"
+    ],
+    "Key": "AOOX6ZEWFXUHLISW"
+  },
+  {
+    "Content": "killerSat : Stationary satellites in high orbit.,",
+    "Labels": [
+      "killerSat"
+    ],
+    "Links": [
+      "AY2VJ7D6NAC4C6YU"
+    ],
+    "Key": "ASZQMLD99U4OG0DS"
+  },
+  {
+    "Content": "outcastSpacecraft",
+    "Labels": [
+      "orionMissile"
+    ],
+    "Links": [
+      "F9FG4AFPSXXSFHF2"
+    ],
+    "Key": "ATMQLT5F6D5YD62G"
+  },
+  {
+    "Content": "The crawler is an unarmed modular base designed to exploit on site resources. Once resources are exhausted or under threat, it can pack up and leave for another location. The crawler has limited Infrastructure capacity for defence and storage.",
+    "Labels": [
+      "crawler"
+    ],
+    "Links": [
+      "LV55CSX9EK8U86NM"
+    ],
+    "Key": "AXIR4ISGNI7CSDEX"
+  },
+  {
+    "Content": "The Outcasts make intensive use of their stealth technology to field an array of satellites above the battlefield.\r\renergyCollector\r\rbattlePlate",
+    "Labels": [
+      "outcastOrbital",
+      "outcastSatellite"
+    ],
+    "Links": [
+      "7NMLJLJQTUM426XZ",
+      "DBBBWEQJC6BHPCOW",
+      "F2QOLUVBVEQQ2M59",
+      "L2TN10JU531IFLN0",
+      "P69OFXLIV0355O4Y"
+    ],
+    "Key": "AY2VJ7D6NAC4C6YU"
+  },
+  {
+    "Content": " : Use hard light ammunition which convert energy to matter before shooting it, \r",
+    "Labels": [
+      "prometheanRifle"
+    ],
+    "Links": [
+      "6JL4NFZW0PTI0JS1",
+      "CVBAIH6XVHX73BWL"
+    ],
+    "Key": "B2BXUO5QAJFT5ZON"
+  },
+  {
+    "Content": "Can teleport units onto enemy ships once close enough.",
+    "Labels": [
+      "assaultBarge"
+    ],
+    "Links": [
+      "X79WX60R1PSEECIE"
+    ],
+    "Key": "B3OTNR97WGM9Y011"
+  },
+  {
+    "Content": "Heavily armoured automated battle tank, a Bolo's weaponry can be specialised for ground, air or orbital targets. A bolo is an experimental unit housing control by a mind, and as such is tremendously difficult to produce.\r\rManufacturing and self-repair capabilities allow this unit to operate independently, raising the possibility of its wiping out an entire weak faction on his own.",
+    "Labels": [
+      "bolo"
+    ],
+    "Links": [
+      "LV55CSX9EK8U86NM"
+    ],
+    "Key": "BBADPCJD7O5VOS7I"
+  },
+  {
+    "Content": "",
+    "Labels": [
+      "synths",
+      "organicContructs"
+    ],
+    "Links": [
+      "AD0HAAOENWHWMV24",
+      "NEADKTHAUBNXAI2O"
+    ],
+    "Key": "BC4UHRD5WA6HX5XF"
+  },
+  {
+    "Content": "A commander is an experienced command unit tasked with overseeing combat and combat operations on the frontiers.",
+    "Labels": [
+      "colonialOfficer"
+    ],
+    "Links": [
+      "BRQCN0SH27M5EZJE",
+      "RFZ7N8AZEI26WU12"
+    ],
+    "Key": "BCQRP26XJ9U0O9YY"
+  },
+  {
+    "Content": "shiftCarrier :  Carry parasite spacecraft and walkers for FTL transport.,\r\rdreadnaught\r\rinterdictor\r\rlamprey\r\rshoal\r\rmothership\r",
+    "Labels": [
+      "travellerNavy",
+      "travellerSpacecraft"
+    ],
+    "Links": [
+      "4D27A9WGMUZR7D92",
+      "5ZJ3PQALBEHCXX7Q",
+      "R3DY4LTW6Q6LJFDF"
+    ],
+    "Key": "BG104JDZTYZ5EFCF"
+  },
+  {
+    "Content": "colonialInfrastructure",
+    "Labels": [
+      "fuelTank"
+    ],
+    "Links": [
+      "F9FG4AFPSXXSFHF2"
+    ],
+    "Key": "BNJ4HHTUZOKEXB6S"
+  },
+  {
+    "Content": "fusion bottles",
+    "Labels": [
+      "atomic",
+      "atomicWeapon",
+      "fusion",
+      "fusionBottle"
+    ],
+    "Links": [
+      "4KH1NQ05DPT0J365"
+    ],
+    "Key": "BNRKMV2GJYVS4UH6"
+  },
+  {
+    "Content": "defencePower",
+    "Labels": [
+      "warp"
+    ],
+    "Links": [
+      "F9FG4AFPSXXSFHF2"
+    ],
+    "Key": "BNYH3BMR0B9A7I7C"
+  },
+  {
+    "Content": "colonialSpacecraft",
+    "Labels": [
+      "dropship"
+    ],
+    "Links": [
+      "LNU1IIA0TAYF2V0S"
+    ],
+    "Key": "BOC5C3TM657L8XYR"
+  },
+  {
+    "Content": "The Gaians have co-opted many non-sentient xenospecies into their gene database. And the Outcast AIs and Minds are a new artificial species of human descents. While their true origins are still uncertain Travellers have been established to be of human-descent, while their dealing with arcanoTech have left them decidedly unhuman.\r\rDespite millennia of star travel, transhumanity has yet to encounter any true alien civilisations. ",
+    "Labels": [
+      "xenos"
+    ],
+    "Links": [
+      "ZHOVQWRJQKNUEN1E",
+      "ZGQ5YKFHG7BT056A"
+    ],
+    "Key": "BPLJ96QKXZVIA10Y"
+  },
+  {
+    "Content": "Command units are special unit capable of making use of their race powers. A command unit can gain access to new powers each times it reaches a new level.\r\rCommand units are linked to each other inside a hierarchy, and command the loyalty of their subordinate units, making them a priority target for their enemies. The supreme commander is the leader of his faction. In some cases, a sub-commander may elect to form a splinter faction.",
+    "Labels": [
+      "commander",
+      "commandUnit"
+    ],
+    "Links": [
+      "1RRXJRZ6TZC3JXIS",
+      "BCQRP26XJ9U0O9YY",
+      "L17VAF45J2O8QOCW"
+    ],
+    "Key": "BRQCN0SH27M5EZJE"
+  },
+  {
+    "Content": "interdictor - inhibitor frigate \r",
+    "Labels": [
+      "interdictor"
+    ],
+    "Links": [
+      "KPRD8TR202OPN3U3"
+    ],
+    "Key": "BSSGIJJ1TQJU382U"
+  },
+  {
+    "Content": "drake: Air mount able to sit two warriors, \r",
+    "Labels": [
+      "drake",
+      "wyvern"
+    ],
+    "Links": [
+      "ZOG04LC2Z0BSN41J"
+    ],
+    "Key": "C1WVW67730VBNO04"
+  },
+  {
+    "Content": "Central node commanding a wing of drones",
+    "Labels": [
+      "wingCommander"
+    ],
+    "Links": [
+      "F9FG4AFPSXXSFHF2"
+    ],
+    "Key": "C205U9ENNB7I7XNY"
+  },
+  {
+    "Content": "A four-legged robotic supply platform designed to carry equipment through hard terrain alongside regular infantry. Slow and unarmed, the mule is nevertheless durable and well armoured.",
+    "Labels": [
+      "mule"
+    ],
+    "Links": [
+      "DAYN12U0WXJCNX1N"
+    ],
+    "Key": "C2FS2K5ZRB17W6DE"
+  },
+  {
+    "Content": " A favorite of armoured infantry, this low-tech melee weapon can pierce heavy armoured troops , \r",
+    "Labels": [
+      "pneumaticSpike"
+    ],
+    "Links": [
+      "CR7GA7257TV7UZKV"
+    ],
+    "Key": "CFG64TA3V8KGADDF"
+  },
+  {
+    "Content": "outcastInfantryWeaponry",
+    "Labels": [
+      "electromagneticRifle",
+      "EMRifle"
+    ],
+    "Links": [
+      "F9FG4AFPSXXSFHF2"
+    ],
+    "Key": "CK6F1L10VOUSLGBG"
+  },
+  {
+    "Content": "Outcast minds are anathema to the colonial.\r\r- minds computing power housed in subspace, not in hardware, thus do not have a dimension but need an anchor to affect this dimension. severing the anchor strand the mind in subspace.\r- achieved singularity.\r- housed in a probe spacecraft\r- only being capable of controlling gravitics in real time, and thus necessary to the operation of top tier units.\r- use of gravitics to produce to tier replicators.\r-only being capable of programming new heuristic SI.\rMinds : achieved singularity, no real space dimensions.",
+    "Labels": [
+      "mind"
+    ],
+    "Links": [
+      "3I4JTHOC648SMYK2"
+    ],
+    "Key": "CKYVACSTCHTO94CA"
+  },
+  {
+    "Content": "The basic soldier unit of a formic nest. With very limited cognition on their own, spadassins will relentlessly attack en masse any enemies of the nest regardless of losses.",
+    "Labels": [
+      "spadassin"
+    ],
+    "Links": [
+      "3C5WLHU8HK78EF5Z"
+    ],
+    "Key": "CU2OXR6I0RS4PREP"
+  },
+  {
+    "Content": "affronter heavy battle-suit",
+    "Labels": [
+      "tripod"
+    ],
+    "Links": [
+      "L8E132EZIATN7756"
+    ],
+    "Key": "CVWA72GLYJJJZI4O"
+  },
+  {
+    "Content": "The Colonial authority war doctrine relies on the creation of a series of linked strongholds on occupied worlds and a strong navy presence in orbit. The production capabilities on site are often limited, and the expeditionary force relies on an unbroken logistic trail from orbit to the ground.",
+    "Labels": [
+      "colonialBuildings",
+      "colonialInfrastructure",
+      "colonialStructure"
+    ],
+    "Links": [
+      "TS89RXMXBF0Y5QMJ",
+      "Z6LQRDIFW10QKPNI"
+    ],
+    "Key": "D4ND46ELA9ZT73G3"
+  },
+  {
+    "Content": "Bioreactors : colony of energy producing bacteria\r\rFungus : generate biomass\rBiomassPump\rhive\r\r  \"formicMount\": \"gaianInfrastructure\rheadcrabColony ",
+    "Labels": [
+      "gaianInfrastructure"
+    ],
+    "Links": [
+      "M185WNGRNQ6QBGXX"
+    ],
+    "Key": "D53C5NAQZ7SH1O77"
+  },
+  {
+    "Content": "The smaller outcast spacecraft, combat wasps are semi-autonomous drones tasked with destroying the enemy with different payloads. A combat wasp with an antimatter warhead is the most dangerous anti-ship weapon in the outcast arsenal. Unlike conventional missiles, combat wasp can act autonomously as well as be retrieved if left unused at the end of the fight.",
+    "Labels": [
+      "combatWasp"
+    ],
+    "Links": [
+      "F9FG4AFPSXXSFHF2"
+    ],
+    "Key": "D5BSG2HZBPBFZNCI"
+  },
+  {
+    "Content": "[empty]",
+    "Labels": [
+      "grandMaster",
+      "liegeLord",
+      "lord"
+    ],
+    "Links": [
+      "1RRXJRZ6TZC3JXIS"
+    ],
+    "Key": "D9FN5F0XDOI860LQ"
+  },
+  {
+    "Content": "colonialGroundWeaponry, gaianGroundWeapons, outcastGroundWeapons, travellerGroundWeapons, travellerGroundWeapons, streamGroundWeapons, weaponry ",
+    "Labels": [
+      "groundWeapon",
+      "groundWeaponry"
+    ],
+    "Links": [
+      "SIFO5WOFDG2E45GF"
+    ],
+    "Key": "D9JZITUW0FE7JIEZ"
+  },
+  {
+    "Content": "defencePowers",
+    "Labels": [
+      "forceField"
+    ],
+    "Links": [
+      "F9FG4AFPSXXSFHF2"
+    ],
+    "Key": "D9UXBZ00BYOUXH3U"
+  },
+  {
+    "Content": "gaian pacifier nullifz one enemz at a time",
+    "Labels": [
+      "pacifier"
+    ],
+    "Links": [
+      "6JL4NFZW0PTI0JS1"
+    ],
+    "Key": "DASLOJGF7DME3B7N"
+  },
+  {
+    "Content": "An array of robotic utility platforms used to assist in the defence and logistic of outcast outposts and ships. None of them is AI capable and require AI or organic telecontrol for anything beyond their simple programming.",
+    "Labels": [
+      "dronePlatforms"
+    ],
+    "Links": [
+      "C2FS2K5ZRB17W6DE",
+      "DBBBWEQJC6BHPCOW",
+      "FBQ08KQN8OG594PX",
+      "PRIZKSWB0FFE7PBS",
+      "ZSG02P08RWBW8EEI"
+    ],
+    "Key": "DAYN12U0WXJCNX1N"
+  },
+  {
+    "Content": "As organic personnel are few in numbers and better used elsewhere, outcasts must rely heavily on drone platforms for security reconnaissance and combat and are cross-trained to fill many roles on the battlefield. A base AI can defend itself without the need for organic troops. Past the singularity...\r\rOutcast infantry weaponry rely mostly on LASERs with a few specialized projectile weapons.\r\r\r\rOutcast favour hidden underground bases and mobile resource extraction utilities.\r\r\r//Without the benefit of centuries of Gaian biotech, outcasts clone technology take far longer to prep a body to reincarnation. \r\r\rsynths\rhusk : Sentient being infested with viral nanomachines. , \r\rframe: Humanoïd platform inhabited by living algorythms., \r\rOutcast infantry are\r\routcast air power rely heavily on drones, although its air superiority fighter are cyborg controlled.\r",
+    "Labels": [
+      "outcastAssets"
+    ],
+    "Links": [
+      "3I4JTHOC648SMYK2",
+      "6HEYWPZQCVAHYZPW",
+      "8L7RCNSZD2ZHNXZJ",
+      "950GLLGNUKD5PMCM",
+      "A8ZRCU0CJNRIFYFY",
+      "AY2VJ7D6NAC4C6YU",
+      "DAYN12U0WXJCNX1N",
+      "DBBBWEQJC6BHPCOW",
+      "E74PZWTHDUPHU18N",
+      "FG3W0WDXBFOSJHA2",
+      "HZ1WBH5P2M7RVB4L",
+      "JKL9SDIFZ7WZ6HBF",
+      "LA197C2N3NXYCVLQ",
+      "LV55CSX9EK8U86NM",
+      "M7AS214HACDYNM2R",
+      "MR8O7T4BM4GR3MBD",
+      "O9RBKZSWUR913NFR",
+      "OPIJOMAKN3EWHM7Z",
+      "PBW39IDI4MZPONFT",
+      "RHLPO3SAZ6TZRVDX",
+      "TGR0FT9220I7AWMM",
+      "TMWELU4V16MXK9KX"
+    ],
+    "Key": "DBBBWEQJC6BHPCOW"
+  },
+  {
+    "Content": "colonialNavalWeapons, gaianNavalWeapons, outcastNavalWeapons, travellerNavalWeapons, travellerNavalWeapons, outcastNavalWeapons, weaponry ",
+    "Labels": [
+      "navalWeaponry",
+      "navalWeapons"
+    ],
+    "Links": [
+      "4WSWLSINSKETLYAO",
+      "JBQQYTUP8PH3B9HN",
+      "LO139K5U0RXMRHRN",
+      "OPIJOMAKN3EWHM7Z",
+      "Q70LD5MH81C7RTRH"
+    ],
+    "Key": "DE5CRH1WARTQFHUH"
+  },
+  {
+    "Content": " : Air transport specialized in breaching defences, ",
+    "Labels": [
+      "breachShuttle",
+      "lamprey"
+    ],
+    "Links": [
+      "AD0HAAOENWHWMV24",
+      "XZTPREDYM591R7DW"
+    ],
+    "Key": "DFG6MOBCAEKGYT1B"
+  },
+  {
+    "Content": "Mining outposts operate in the asteroid belt, smelting raw ore to produce metal or harvesting ice. Mining outposts are manned by convicts and the small garrison needed to keep them under control.",
+    "Labels": [
+      "miningOutpost"
+    ],
+    "Links": [
+      "8LYVR63V8MJZMHFJ"
+    ],
+    "Key": "DO0AQ7Z15UGHSDVK"
+  },
+  {
+    "Content": "transdimensionalTechnology : pass through walls, true invisibility\riron curtain : true invicibility for a time\r\rarcanoTech",
+    "Labels": [
+      "transdimensionalTechnology",
+      "arcanoTech"
+    ],
+    "Links": [
+      "F9FG4AFPSXXSFHF2"
+    ],
+    "Key": "DSF4BUHQ2HUBHHOX"
+  },
+  {
+    "Content": "travellerInfantryWeapon",
+    "Labels": [
+      "autoShotgun",
+      "chipGun"
+    ],
+    "Links": [
+      "F9FG4AFPSXXSFHF2"
+    ],
+    "Key": "DUXGVRCWA176G4XS"
+  },
+  {
+    "Content": "",
+    "Labels": [
+      "gaussCannon"
+    ],
+    "Links": [
+      "SIFO5WOFDG2E45GF"
+    ],
+    "Key": "DVUQDMR00HO1WXW2"
+  },
+  {
+    "Content": "[empty]",
+    "Labels": [
+      "organicConstructs"
+    ],
+    "Links": [
+      "6R6DFXZZ8AOU4WGI"
+    ],
+    "Key": "DXY461FRS5FLX14T"
+  },
+  {
+    "Content": "Biological drone  swarm which seek the enemy before exploding.",
+    "Labels": [
+      "snarks"
+    ],
+    "Links": [
+      "F9FG4AFPSXXSFHF2"
+    ],
+    "Key": "E1DPAT60MRR0RVG9"
+  },
+  {
+    "Content": "travellerSpacecraft",
+    "Labels": [
+      "dreadnaught"
+    ],
+    "Links": [
+      "F9FG4AFPSXXSFHF2"
+    ],
+    "Key": "E42TAJTSCC7UAITW"
+  },
+  {
+    "Content": "travellerInfantryWeapon",
+    "Labels": [
+      "forceLance",
+      "photonLance"
+    ],
+    "Links": [
+      "CVBAIH6XVHX73BWL"
+    ],
+    "Key": "E6T4PDGHM0VBKP0N"
+  },
+  {
+    "Content": "Mass driver : put robotic payload in orbit\r\rOutcast build their outpost under the surface. \r\rmemoryCore \r\r\r",
+    "Labels": [
+      "outcastBuildings",
+      "outcastStructures"
+    ],
+    "Links": [
+      "6C69T5R0A0ZTOQHU",
+      "78E9CLXYSPDGP89L",
+      "9ELQDNF3JWWVWJQ0",
+      "DBBBWEQJC6BHPCOW",
+      "HZ1WBH5P2M7RVB4L",
+      "P8QA0IMP2E4FLKY0",
+      "RX5MZ491BXU26IZV"
+    ],
+    "Key": "E74PZWTHDUPHU18N"
+  },
+  {
+    "Content": "[empty]",
+    "Labels": [
+      "casern"
+    ],
+    "Links": [
+      "517IIS1A28LFHYVL"
+    ],
+    "Key": "ED200HNI2ZYG5MM3"
+  },
+  {
+    "Content": "attackPower",
+    "Labels": [
+      "pyro",
+      "pyrokinesis"
+    ],
+    "Links": [
+      "F9FG4AFPSXXSFHF2"
+    ],
+    "Key": "ELK3MRK3KIOYCW8M"
+  },
+  {
+    "Content": "The different races have all achieved some manner of faster than light travel or information transmission.\r\rAmong the terrans, the outcasts are unique as they don't possess FTL technology as such, but rely on their ancible and farcast technology to transmit personal between their outposts. They have to rely on sublight spacecraft for interstellar travel to new systems.\r\rThe Gaians' FTL is entirely dependent on psy power to open ship-size wormholes. Their voidhawks piloted by a starship navigator magi can instantly jump themselves to another location. The Gaian have also developed the psy amplifier, which allows for instant communication across lightyears between individuals. Some sisters can use their psy abilities to teleport short distances and avoid danger. Psy FTL is highly depended on the skill and instincts of the operator, and as such can be unreliable. Also, only short jumps are limited, and several jump magi taking turn are needed to travel interstellar distances at speed.\r\rThe Colonial colonial's navy make use of its jump drive to achieve interstellar travel.\r\r\rtraveller's aircrafts and spacecraft make use of linear displacement drive technology, or \"skip drive\", which is in effect FTL. It operates by skipping the unit a very short distance away and as such reach very high pseudo velocity while the unit stays immobile, thus negating all inertia. However, only mothership have the energy requirement to reach pseudo-velocities exceeding light speed. On the ground, traveller units make extensive use of their portable network to rapidly deploy troops. For interstellar travel, traveller make use of Jump relays, which are a scaled up variant on their portal network technology; as such jump relay work in pairs and a jump relay need to be present in the target system.\r\rThe compact is unique has it relies on two different mode of FTL transportation: they use the webway for interstellar travel and rely on their farcast network for ground transportation. The stream has mastered quantum teleportation, which allows not only for instant teleportation but time travel as well, albeit at a staggering cost.\r",
+    "Labels": [
+      "FTL",
+      "teleportation"
+    ],
+    "Links": [
+      "0TMBDDDD44WK7JE1"
+    ],
+    "Key": "EM3LHF1YUW7CU1AS"
+  },
+  {
+    "Content": "travellerAircrafts",
+    "Labels": [
+      "monolyth"
+    ],
+    "Links": [
+      "4D27A9WGMUZR7D92"
+    ],
+    "Key": "EMLUB00WA0N38EVV"
+  },
+  {
+    "Content": "Blight   living computer virus / melting plague   \rdistributed consciousness virus\rtake over fibers",
+    "Labels": [
+      "meldingPlague"
+    ],
+    "Links": [
+      "6JL4NFZW0PTI0JS1"
+    ],
+    "Key": "EP2R96DJZ9PPDQYC"
+  },
+  {
+    "Content": "A structure specifically dedicated to house as many subroutines as possible. The intelligence can take control of battlefield unit within its network and pilot them far more efficiently than local subroutines.",
+    "Labels": [
+      "cortexNode"
+    ],
+    "Links": [
+      "F9FG4AFPSXXSFHF2"
+    ],
+    "Key": "ER4PQO6E1479CMSO"
+  },
+  {
+    "Content": "Basic chemical assault rifle allocated to rear echelon troops and base personal.\r\r\r    viper  Submachine gun alloted to rear echelon troops and base technicians.,",
+    "Labels": [
+      "submachineGun"
+    ],
+    "Links": [
+      "SIFO5WOFDG2E45GF"
+    ],
+    "Key": "ETJE0V7I8UJT59N1"
+  },
+  {
+    "Content": "invisibility\rrecon\rdecoy\rbulletTime\rgravityBurst\rsuicide",
+    "Labels": [
+      "powers"
+    ],
+    "Links": [
+      "S6Y08ENFAUB27FY4"
+    ],
+    "Key": "EZZ2VGEZS8J9DNN9"
+  },
+  {
+    "Content": "TRelay - travellerOrbital for ground to ground teleportation \rFarcastNetwork\r",
+    "Labels": [
+      "TRelay"
+    ],
+    "Links": [
+      "AY2VJ7D6NAC4C6YU",
+      "EN5LO8DW36VGUM64"
+    ],
+    "Key": "F2QOLUVBVEQQ2M59"
+  },
+  {
+    "Content": "",
+    "Labels": [
+      "_noLinks"
+    ],
+    "Links": [
+      "0RPWUMKAOUSTTDZM",
+      "1J0CDKOEO2UO820G",
+      "1J3FOPBE5KZVL8N5",
+      "1TLOYMTDSBC4A1FY",
+      "1WI20E9DE7BW2RYN",
+      "1XC7UK99HH21CFPW",
+      "22AG1GODPC1M5W3J",
+      "2CMQNEIPLV1FR9LN",
+      "2CVY9PQENUNYQST4",
+      "2NCM2OSBNCE02E4Q",
+      "32S8GOFIBWCHB7WD",
+      "44ZZ3JX8EMGVO2MZ",
+      "48IXQG2TGABSX8X5",
+      "4VABAR7MS88RCDWR",
+      "537YQJYS3Y4Y2PMH",
+      "5F8C41FAKM9NXY2C",
+      "5OQ57HDY1R6MU7A9",
+      "6JTWU2NMCDSSBV0T",
+      "74OV11IUEG1BJ482",
+      "7NU1445VIFD6GILM",
+      "7T1TXYJ57B6S2NP3",
+      "859ZJVPEU9WCGY6A",
+      "8JLVPT42HUAH0DZ6",
+      "8QZD5ZCKPI2CN0I3",
+      "94WUQ7EZDLV65PP7",
+      "9620T5KQQAVRI5AG",
+      "9QLE123B3WK6QUV3",
+      "9TY67MLDNLM33I27",
+      "A4QHOQYOSDK53EDY",
+      "ADQMVCYS6QE9H820",
+      "AI8HGJBX3FH4VBHC",
+      "AOOX6ZEWFXUHLISW",
+      "ATMQLT5F6D5YD62G",
+      "BNJ4HHTUZOKEXB6S",
+      "BNYH3BMR0B9A7I7C",
+      "C205U9ENNB7I7XNY",
+      "CK6F1L10VOUSLGBG",
+      "D5BSG2HZBPBFZNCI",
+      "D9UXBZ00BYOUXH3U",
+      "DSF4BUHQ2HUBHHOX",
+      "DUXGVRCWA176G4XS",
+      "E1DPAT60MRR0RVG9",
+      "E42TAJTSCC7UAITW",
+      "ELK3MRK3KIOYCW8M",
+      "ER4PQO6E1479CMSO",
+      "FII8KBM1BXX5A90H",
+      "GF5TZRLNUVNRC82W",
+      "GKM3OHHGMQSR7976",
+      "GS2BN9ALBBD8VIBT",
+      "HDFBBP2PZNTOXV4R",
+      "HW48MG134M6O2VQ3",
+      "I5GFB2C9HBJEFDW5",
+      "I83NBE62J05E3SZS",
+      "ID6S1U2OV8ARKFN2",
+      "IEZSMQ6ZYL0D6HFW",
+      "IHZZ9H7QPERAD00N",
+      "IJOZQNBD6H76TIBI",
+      "IK7ZZN949GQSZKLB",
+      "JD9NVCKYYVNL8F80",
+      "KHLJOK6ZHZHBBKU6",
+      "KIA3CNDXBOHJKR3W",
+      "KIALZ7CFPR7N9A9J",
+      "KMK3LD4CLEYMVB2F",
+      "L3O14TDNR6K4OD11",
+      "L7C19GHMOJJV0N05",
+      "LJXW3BKBLOJTOSUN",
+      "LM828CY17A0J7BFY",
+      "M23GS27XRTM3NTYC",
+      "MAHSVCHIC1XAYDO2",
+      "MNWDE01B75C7F4TO",
+      "MSGB2MGJTPKH4QUD",
+      "N779GMFWEI358TYT",
+      "NKVM1IJPUL0T7RUN",
+      "NXAZZMWOFGX79PAY",
+      "OOSMID25XVCV07F6",
+      "OZS397BN2BD88G5T",
+      "P13D9BWOYW72F1TE",
+      "PDJNSHGT4NHSGF34",
+      "PK100QHJVNY0JLDZ",
+      "PSK7I757LK2453B9",
+      "PTYO0UVZ68NRGL7C",
+      "PU3ZS3PDVTLEFUXU",
+      "Q8P0ZXJQNXICNXLA",
+      "QEUQ93B9XNRYUDRQ",
+      "QIIUQNLCDSWZ67SA",
+      "QUMWCFNEUXQ6ZBGF",
+      "QXUZ055WH024DPUW",
+      "R5GVIATS6Z4E629V",
+      "RDYK4ZVPFRCUN1TU",
+      "SOPWGVCTHX0XYG5I",
+      "TD7EJU57H7WD4219",
+      "TN2QJI0ZQ0OQ4UMA",
+      "TQDF2BJ0WHJWP1Y2",
+      "UO60ZDK5TATLOL3N",
+      "VJ925F9W5O244OBJ",
+      "VK51ZAC5OGPHD4ZO",
+      "VSZGIBG7GSZ1PBHZ",
+      "W9QZ7PYGFGNLONUQ",
+      "WR8ESJJJ9WNGRPBD",
+      "X1VYSGNCHA888H9N",
+      "X2EOY267KV6HCWNE",
+      "XQPGRAE47IKLJFOZ",
+      "XVNOKZS79KW52Y4O",
+      "YIC04O5J2ED3T59A",
+      "YQDAECBZBTFST13U",
+      "Z7455TMQQI5RV3UL",
+      "ZBPXNMTUZGX35YKN",
+      "ZXW4JHNQ1D68FJOW"
+    ],
+    "Key": "F9FG4AFPSXXSFHF2"
+  },
+  {
+    "Content": "\rAI controlled utility bots used for maintenance, unit repairs and resource extraction. Spider bots can be equipped with light weaponry for mobile base security.\r\r\r",
+    "Labels": [
+      "spiderBot",
+      "spiderTurret"
+    ],
+    "Links": [
+      "DAYN12U0WXJCNX1N"
+    ],
+    "Key": "FBQ08KQN8OG594PX"
+  },
+  {
+    "Content": "",
+    "Labels": [
+      "depot",
+      "logisticDepot"
+    ],
+    "Links": [
+      "TKLJOKM96CUF3M0X"
+    ],
+    "Key": "FFYGN1QJLF31KMGD"
+  },
+  {
+    "Content": "segmented tank > lose parts as damageged \r",
+    "Labels": [
+      "millipede"
+    ],
+    "Links": [
+      "DBBBWEQJC6BHPCOW"
+    ],
+    "Key": "FG3W0WDXBFOSJHA2"
+  },
+  {
+    "Content": "- not instantaneous, tramlines\r- create new entry points and sorty points.\r- anyone can use it, create a jump network\r- sorties are not arbitrary: not in a gravity well.\r- not the originator of the webay, only recentrly learned how to anchor new passages., may be natural in origin or the lefover of precursor civilisation,",
+    "Labels": [
+      "webway"
+    ],
+    "Links": [
+      "F9FG4AFPSXXSFHF2"
+    ],
+    "Key": "FII8KBM1BXX5A90H"
+  },
+  {
+    "Content": "Water is needed to produce and maintain organic units. It is also a source of fuel.",
+    "Labels": [
+      "ice",
+      "water"
+    ],
+    "Links": [
+      "Y8VMBM4O7N589QRY"
+    ],
+    "Key": "FQIZL7I8TV5ZN96Y"
+  },
+  {
+    "Content": " grapshop flechette canister \r",
+    "Labels": [
+      "grapshotCannon"
+    ],
+    "Links": [
+      "4WSWLSINSKETLYAO"
+    ],
+    "Key": "FS9DWHPWIP1XCMCW"
+  },
+  {
+    "Content": "A lightly armoured track vehicle with all-terrain capabilities, the amtrack can be kitted to different different roles. It usually sport a quad cannon effective against air power and infantry, as well as twin grenade dispenser which can be used for defence or attack depending on their ammunition.\r\r ",
+    "Labels": [
+      "amtrack",
+      "armouredCarrier"
+    ],
+    "Links": [
+      "0G52EZKO42DXOB8H",
+      "TO68J9HI9WZWBXGX"
+    ],
+    "Key": "FSZMMDC5FZNJK8UI"
+  },
+  {
+    "Content": "Kosmonic especially rely on those for extended perimeter defence. All outcast outposts maintain a selection of automatic drone vehicles. Most rely on speed and agility for defence. ",
+    "Labels": [
+      "droneVehicles"
+    ],
+    "Links": [
+      "M0SPPTY8CVUZYOEB",
+      "LV55CSX9EK8U86NM"
+    ],
+    "Key": "FUT204IWKD66ESAX"
+  },
+  {
+    "Content": "Special forces are special infantry units specific to each race capable of levelling up and of using special powers in battle. Unlike command unit, special units do not exert command over other units.",
+    "Labels": [
+      "specialForces",
+      "specialUnits"
+    ],
+    "Links": [
+      "RHLPO3SAZ6TZRVDX",
+      "TMWELU4V16MXK9KX"
+    ],
+    "Key": "FXE1AX0FLFODMBX5"
+  },
+  {
+    "Content": "A cheap infantry unit, conscripts are raw recruits with minimal training, light armour and simple weapons. They are mostly used for rear-echelon tasks such as guard duties, manual labour, base logistics or patrols in order to liberate more efficient units for frontline combat. Conscript do not use requisition points however, and as such are interesting despite their poor effectiveness from a company commander perspective. They can also be trained to higher tier roles through VET.",
+    "Labels": [
+      "guardsman",
+      "conscript"
+    ],
+    "Links": [
+      "RFZ7N8AZEI26WU12"
+    ],
+    "Key": "G9IFOTRGJ4N7GM94"
+  },
+  {
+    "Content": "test",
+    "Labels": [
+      "acolyte"
+    ],
+    "Links": [
+      "4D27A9WGMUZR7D92",
+      "BS0JCX365JJ5XAL7"
+    ],
+    "Key": "GE6C2YCKESQX5TIB"
+  },
+  {
+    "Content": "colonialGroundWeapons",
+    "Labels": [
+      "flameThrower"
+    ],
+    "Links": [
+      "F9FG4AFPSXXSFHF2"
+    ],
+    "Key": "GF5TZRLNUVNRC82W"
+  },
+  {
+    "Content": "Callup all wildlife to the specified location.",
+    "Labels": [
+      "infestation"
+    ],
+    "Links": [
+      "F9FG4AFPSXXSFHF2"
+    ],
+    "Key": "GKM3OHHGMQSR7976"
+  },
+  {
+    "Content": "The outcasts make heavy use of cybernetics. If regular infantry have a brain chip to record their consciousness for reincarnation, some special individuals receive extensive cyber augmentation allowing them to control the outcast advanced weaponry.  Each new outcast is tested as his body comes online, but only a small fraction has any chance to successfully pass through the conversion process; losses during the conversion itself are not uncommon. This places a limit on the number of cyborg at hand for frontline duty.\r\rThe compact use of cybernetics is different. Instead of enhancing the abilities of their units, compact cyborgs are basically slaves whose thought are controlled by their implants, turning them into biological drones. The technology is used both on compact races and enemy POW.",
+    "Labels": [
+      "cybernetic",
+      "cyberPlugs",
+      "cyborg"
+    ],
+    "Links": [
+      "3PLHXI0FHPO99A1I",
+      "Y75E5B8798M5FFZC",
+      "ZHOVQWRJQKNUEN1E"
+    ],
+    "Key": "GPHQUHX2L3YZOM5D"
+  },
+  {
+    "Content": "Main escort ship of the colonial. Produced in the thousands. The destroyer is built around its main weapon.",
+    "Labels": [
+      "destroyer"
+    ],
+    "Links": [
+      "F9FG4AFPSXXSFHF2"
+    ],
+    "Key": "GS2BN9ALBBD8VIBT"
+  },
+  {
+    "Content": "A collection of mobile turbo-engines mounted of a connecting frame, the carrier drone will be on call to lift outcast ground units to and from the battlefield by sticking to them through their magnetic clamps, giving the outcasts an unparalleled advantage in mobility. \r\rAs specialised transport systems, carrier drone carry no weapons or means of defence.",
+    "Labels": [
+      "carrierDrone",
+      "albatross",
+      "osprey"
+    ],
+    "Links": [
+      "3I4JTHOC648SMYK2"
+    ],
+    "Key": "GSM4O6OZA8W9AQ1J"
+  },
+  {
+    "Content": "Engels : chtulu tech ",
+    "Labels": [
+      "engel"
+    ],
+    "Links": [],
+    "Key": "GWJOVX2N9KN0FFIX"
+  },
+  {
+    "Content": "A low tech projectile weapon fielded by varen troops. The cordite gun uses a chemical mix to propel explosive packets at the enemy.",
+    "Labels": [
+      "corditeGun"
+    ],
+    "Links": [
+      "V6ZIY650GRPFM5P1"
+    ],
+    "Key": "GXRCT2PJ1XNN8YY9"
+  },
+  {
+    "Content": "Falcon\rghost\rguardian\rsloop    \r\rfreighter    \rFTL Comm Drone   \rdevourer\rberserker\rbrig\rskimmer\rclipper\rpredator\rinterceptor\rdestroyer\rmassRelay\rskyranger\rman-of-war\rscimitar\rgriffon\rclanker\ratlasMech    \rreconBike\rMobile Armor     \rAIMissile\rarbiter\rchronosphere\relder\rgrenadier\rmegalith\rmobile firebase             \rmobileInfantry              \rOperator         \rPraetor               \rRanger\rRenegade \rRipper                \rScrambler Pylon\r\rTalon\rtacticalMissile\rSpectre \rStalker\rtroll\rgrendel\rTitan",
+    "Labels": [
+      "__unitNames"
+    ],
+    "Links": [
+      "F9FG4AFPSXXSFHF2"
+    ],
+    "Key": "HDFBBP2PZNTOXV4R"
+  },
+  {
+    "Content": "The science of manipulating biological organism, the use of biotech differs wildly among the different races\r\rGaians make expensive use of biotech technology to grow their habitats and spacecraft as well as produce their servitors. The matrons themselves are the end result of centuries of incremental geneering in order to further humanity's latent psy powers. The gaians don't rely on biotech for every use, still retaining mechanical devices where practical, for example in small arms production. The gaians are unique among the races for achieving FTL technology through geneering.\r\r- By constrast, the swarm is\r\r- The Outlanders make use of biotech to generate in-vitro bodies to house their ghost.",
+    "Labels": [
+      "biotech"
+    ],
+    "Links": [
+      "6R6DFXZZ8AOU4WGI"
+    ],
+    "Key": "HDUH3H902QFHPV1O"
+  },
+  {
+    "Content": "A bulky unarmed aircraft fitted with refrigeration tanks tasked with picking the injured and the dead on the battlefield and delivering them to the conversion plant.",
+    "Labels": [
+      "collector"
+    ],
+    "Links": [
+      "8M373ZR7ZAQIUVJW"
+    ],
+    "Key": "HIK8ZI8GF8N6GKWR"
+  },
+  {
+    "Content": "A resource type specific to the colonial. Requisition points are used by company commanders to transfer new units from the core world. They regenerate with time, depending on the ground controlled and specific achievements and leader perks. The commander can only have a specific amount of units under his or her control, corresponding to a maximum requisition pool, which in turn depends on the commander level.",
+    "Labels": [
+      "requisition",
+      "requisitioned",
+      "requisitionPoints"
+    ],
+    "Links": [
+      "70C7A9CEJ2PZ2ICQ"
+    ],
+    "Key": "HIROJSWIBTO0DPBX"
+  },
+  {
+    "Content": "impaler The standard assault rifle carried by assault marines. Its huge tungsten slugs are capable to pierce most armours. Unarmoured troops can't make effective use of this weapon. , \r\r",
+    "Labels": [
+      "impaler"
+    ],
+    "Links": [
+      "CR7GA7257TV7UZKV"
+    ],
+    "Key": "HIU3N2NYEK84B0WW"
+  },
+  {
+    "Content": "Mechanized power suit used for repair and construction work. Some civilian outfit with light weaponry to provide defence to their operations. Those units are used both by colonial cililians and military personnel.",
+    "Labels": [
+      "powerLoader"
+    ],
+    "Links": [
+      "J1HWB7L1BVG20PCH",
+      "U7L0L5JRUFEOHADK"
+    ],
+    "Key": "HL25JDZOCOHMG698"
+  },
+  {
+    "Content": "A low profile reinforced casemate can host a platoon of soldiers, who can make use of its fire slits, or can be upgraded with a defence gun. Often constucted at the bottom of a cliff, casemates can be remarkably hard to spot from a distance.",
+    "Labels": [
+      "bunker",
+      "casemate"
+    ],
+    "Links": [
+      "HZ1WBH5P2M7RVB4L"
+    ],
+    "Key": "HQGIAWBL98TNHQJZ"
+  },
+  {
+    "Content": "colonialGroundWeapons",
+    "Labels": [
+      "howitzer"
+    ],
+    "Links": [
+      "F9FG4AFPSXXSFHF2"
+    ],
+    "Key": "HW48MG134M6O2VQ3"
+  },
+  {
+    "Content": "An outcast underground base is ensured by layers of entrenched and hardened security checkpoints. By contrast, security in the field will rely on low-tech solutions quick to be erected and dismantled as the need require.\r\rsecurityTurret\rspiderTUrret",
+    "Labels": [
+      "outcastDefences"
+    ],
+    "Links": [
+      "HQGIAWBL98TNHQJZ",
+      "9ZE79QPDC7FZCTK9",
+      "E74PZWTHDUPHU18N",
+      "QRQRAZL4JA7VJPOY",
+      "DBBBWEQJC6BHPCOW"
+    ],
+    "Key": "HZ1WBH5P2M7RVB4L"
+  },
+  {
+    "Content": "outcastNavalWeaponry",
+    "Labels": [
+      "XRayBomb"
+    ],
+    "Links": [
+      "F9FG4AFPSXXSFHF2"
+    ],
+    "Key": "I5GFB2C9HBJEFDW5"
+  },
+  {
+    "Content": "colonialInfrastructure",
+    "Labels": [
+      "landingPad",
+      "spaceport"
+    ],
+    "Links": [
+      "F9FG4AFPSXXSFHF2"
+    ],
+    "Key": "I83NBE62J05E3SZS"
+  },
+  {
+    "Content": "vector  \"Main battle drone of the tesseract. Effective in air, space or ground interdiction in numbers.\", \r",
+    "Labels": [
+      "vector"
+    ],
+    "Links": [
+      "F9FG4AFPSXXSFHF2"
+    ],
+    "Key": "ID6S1U2OV8ARKFN2"
+  },
+  {
+    "Content": "travellerArmour",
+    "Labels": [
+      "spiderTank",
+      "tarantula"
+    ],
+    "Links": [
+      "F9FG4AFPSXXSFHF2"
+    ],
+    "Key": "IEZSMQ6ZYL0D6HFW"
+  },
+  {
+    "Content": "Scaffolding are a temporary structure built in low-orbit, within which a new spacecraft will be built, elements of the scaffolding being used in the construction. The process is costly and time consuming, but allows the Infrastructure of space assets without the need of permanent and noticeable orbitals. Scaffolding cannot withstand fire and needs to be protected. Once the unit it complete, the scaffolding is dismantled.",
+    "Labels": [
+      "scaffolding"
+    ],
+    "Links": [
+      "AY2VJ7D6NAC4C6YU"
+    ],
+    "Key": "IHDHWG3FYPBKCCY2"
+  },
+  {
+    "Content": "travellerInfrastructure",
+    "Labels": [
+      "forge"
+    ],
+    "Links": [
+      "F9FG4AFPSXXSFHF2"
+    ],
+    "Key": "IHZZ9H7QPERAD00N"
+  },
+  {
+    "Content": "streamSpacecraft",
+    "Labels": [
+      "kraken"
+    ],
+    "Links": [
+      "F9FG4AFPSXXSFHF2"
+    ],
+    "Key": "IJOZQNBD6H76TIBI"
+  },
+  {
+    "Content": "outcastNavalWeapon",
+    "Labels": [
+      "LASERBattery",
+      "TURBOLaser"
+    ],
+    "Links": [
+      "F9FG4AFPSXXSFHF2"
+    ],
+    "Key": "IK7ZZN949GQSZKLB"
+  },
+  {
+    "Content": "Assault carriers are used to transport and assist the ground forces of the Colonial Authority during planetery invasions.",
+    "Labels": [
+      "assaultCarrier"
+    ],
+    "Links": [
+      "TKLJOKM96CUF3M0X"
+    ],
+    "Key": "ILASSQBRHZHAW90E"
+  },
+  {
+    "Content": "A rather large example of the colonial ion weaponry, the ion cannon is typically mounted on colonial spacecrafts and can be used both for planetary strike and as an anti-ship weapon. Beyond its destructive power, the EMP effect will destroy unprotected technologies. It's drawback over more conventional weapons like railgun are its low recharge rate and cost.",
+    "Labels": [
+      "ionCannon"
+    ],
+    "Links": [
+      "4WSWLSINSKETLYAO"
+    ],
+    "Key": "IOJ4V4UYXGC2L8YE"
+  },
+  {
+    "Content": "A traveller faction is known as a chapter, under the supreme authority of a Liege Lord. Unlike other races, chapter are nearly always in a constant state of war which each other, only declaring neutrality under the direst of circonstance. While close feudal relationship ties the liege men of the chapter, rebellion can occur if the ruler cannot demonstrate his supremacy or his imprudent in allowing independent command to ambitious subordinates. ",
+    "Labels": [
+      "chapter",
+      "travellerChapter"
+    ],
+    "Links": [
+      "3JINCGEZNW9M1LUY",
+      "PCXK3JTJFQDETO30"
+    ],
+    "Key": "IRC9GDNDPLV9UDYK"
+  },
+  {
+    "Content": "fury\rwarp",
+    "Labels": [
+      "supportPower"
+    ],
+    "Links": [
+      "RWZ0PIR2J5LIRY0A"
+    ],
+    "Key": "ISWDVU2LQBANPDEB"
+  },
+  {
+    "Content": "[empty]",
+    "Labels": [
+      "colonialUtilityVehicles"
+    ],
+    "Links": [
+      "TKLJOKM96CUF3M0X",
+      "HL25JDZOCOHMG698",
+      "MUOWEIQIRDLKT5WU"
+    ],
+    "Key": "J1HWB7L1BVG20PCH"
+  },
+  {
+    "Content": "While outcasts are individuals reincarnated into fresh bodies by mindloading technologies. Doughboys are blanks, new individuals geneered with superior size, strength and endurance at the expense of poor intelligence in order to supplant outcast poor numbers. Doughboys are useful as heavy fire platform when confronting hostile AIs as they are resistant to being suborned by remote hacking.",
+    "Labels": [
+      "doughboy"
+    ],
+    "Links": [
+      "8L7RCNSZD2ZHNXZJ"
+    ],
+    "Key": "J27N7GGOO3Q6N050"
+  },
+  {
+    "Content": "wave : Burst of raw telekinesis power\r",
+    "Labels": [
+      "wave"
+    ],
+    "Links": [
+      "PCHGOVQLJ9EGABRY"
+    ],
+    "Key": "J4COROOVCP6JHLJ8"
+  },
+  {
+    "Content": "One of the eight races; the third race of terran origins. The Sisterhood of Gaia, or Gaians, make extensive use of biotech for their craft and Infrastructures. A thousand year of painstaking genetic breeding resulted in the development of humanity's latent psy powers.\r\rThe Gaians make use of a race specific resource known as spice, which is the key to their psy powers.\r\rGaian's society was founded originally as a matriarchy. It as since splintered into many clan each leaded by a head matron assisted by her daughters. Sexual reproduction has long since fallen out of use and a matron's daughter are essentially vat-grown variation on her own genetic material. This setup doesn't ensure enduring loyalty however, and a matron's instant of weakness is often am opportunity for a elder daughter to set out her own way. Males exists as subservient front troops, the most intelligent raising to commando status; with no hope for emancipation however due to their lack of psyonics.\r\r\r\r- edenism Infrastructure moon wells - psy accumulators\r- Matriarchy, leadership of sister.\r- gaian genetic adaptation \r\r\r      \"description\": \"edenists\r\rtree - civ;\r\rTech - biotech, internal boost hormones, regen\r\ruse harvest soul\r\rNoble convent family - unshakable loyalty through genetic failsafe\r\rmount creatures\rpsy powers in control cocoon\r- levitation, shielding, propulsion and telekinesis weapon\r- lockdown\r- psy ops\r\rBioEnergy - photosynthesis + matter \r\rtree cycle over deposit\rcreate saplings\r\rOrganelle : psy organs of sil units, mature and reproduce by mitosis\r\rbiocells - charge with bioenergy - life support ; growth agent\r\rtree\rgrow tree cove over deposits\r\rgrowth : use telekinesis to build advanced units\rregular build factory for infantry and ammo\r\rBioArmor - modular biotek armor\r\rspacecraft \rColony ship - self-sufficient tree ship\rhabitat - add modules with groth, defense and produciton\rspacecraft elevator - bring nurrishment to spacecraft\r\rroots - grow in the groud to better expoit biometal\r\rSuperWeaopn\rsuicide - destroy group of organelle - uge psy WeaponDamage, kill psy sensitive and wounded\r\rClone Farm for foot soldiers and specialized operatives from drops\r\rSolarMissile - keep accelerating in orbit\",",
+    "Labels": [
+      "gaian"
+    ],
+    "Links": [
+      "6R6DFXZZ8AOU4WGI",
+      "9QT48S1HB07AIR7Q",
+      "AD0HAAOENWHWMV24",
+      "LSW1606MHQVJF8GS",
+      "M7QW3TDSDNWP27PB",
+      "ZGQ5YKFHG7BT056A"
+    ],
+    "Key": "JD3OP9H72IV34XAT"
+  },
+  {
+    "Content": "shiftCarrier :  Carry parasite spacecraft and walkers for FTL transport.",
+    "Labels": [
+      "shiftCarrier"
+    ],
+    "Links": [
+      "F9FG4AFPSXXSFHF2"
+    ],
+    "Key": "JD9NVCKYYVNL8F80"
+  },
+  {
+    "Content": "A central building surrounded by landing areas.",
+    "Labels": [
+      "controlTower"
+    ],
+    "Links": [
+      "517IIS1A28LFHYVL"
+    ],
+    "Key": "JEPAKVD9KLXA1TBK"
+  },
+  {
+    "Content": "Outcast bases are built into the ground for stealth and protection, leaving only minimal presence on the ground. A base will slowly expand underground by adding modular extensions.",
+    "Labels": [
+      "baseModules"
+    ],
+    "Links": [
+      "2W1BAC3GFY0GRE4I",
+      "8CQCRBGLESHINH4E",
+      "DBBBWEQJC6BHPCOW"
+    ],
+    "Key": "JKL9SDIFZ7WZ6HBF"
+  },
+  {
+    "Content": "Deserving and experienced replicants are fused with a set of experimental self-regenerating and enhancing bioarmour. While greatly enhancing their performances and endurance, the technology isn't perfect as soldier and armour will eventually burnout after to many uses.\r",
+    "Labels": [
+      "guiver",
+      "bioTrooper"
+    ],
+    "Links": [
+      "RO8UTT7XOUUSVK44"
+    ],
+    "Key": "K289M65J6K42IX5V"
+  },
+  {
+    "Content": "outcastInfantryWeaponry",
+    "Labels": [
+      "fragmentationGrenade"
+    ],
+    "Links": [
+      "F9FG4AFPSXXSFHF2"
+    ],
+    "Key": "KHLJOK6ZHZHBBKU6"
+  },
+  {
+    "Content": "outcastArmour",
+    "Labels": [
+      "screamerMine"
+    ],
+    "Links": [
+      "F9FG4AFPSXXSFHF2"
+    ],
+    "Key": "KIA3CNDXBOHJKR3W"
+  },
+  {
+    "Content": "travellerInfantry",
+    "Labels": [
+      "scion"
+    ],
+    "Links": [
+      "F9FG4AFPSXXSFHF2"
+    ],
+    "Key": "KIALZ7CFPR7N9A9J"
+  },
+  {
+    "Content": "The colonial infantry relies on mass conscription from colonial worlds arriving to the frontline in cryogenic sleep in massive transports. The backbone of the infantry is the colonial guard charged with the defence of military and production facilities. When an installation is under heavy assault, the local commander may request relief by the marine expeditionary corp which will repel the invaders and secure the local planets. An expeditionary marine battalion typically fields a number of elite armour powered marines accompanied by vehicles and aircraft support. Colonial  are present on the frontier servicing mining operations and research outposts.\r\r\r ",
+    "Labels": [
+      "colonialInfantry",
+      "colonialPersonnel"
+    ],
+    "Links": [
+      "3T6TV93JGTL03G2Q",
+      "8QDSFIZ9O1UCDN3R",
+      "A1NG97Y9823ZAIUA",
+      "RFZ7N8AZEI26WU12",
+      "RHLPO3SAZ6TZRVDX",
+      "SPR3K0FRMBA6LPQT",
+      "WZOQ9CVLPUDAD8QQ"
+    ],
+    "Key": "KLGBD7WVDG7PFMMS"
+  },
+  {
+    "Content": "warp cannon - béast target to hyperspace",
+    "Labels": [
+      "warpCannon"
+    ],
+    "Links": [
+      "F9FG4AFPSXXSFHF2"
+    ],
+    "Key": "KMK3LD4CLEYMVB2F"
+  },
+  {
+    "Content": "Multi-fragmentation nano-missile which annihilate everything over a large area., \r",
+    "Labels": [
+      "tracker"
+    ],
+    "Links": [
+      "ML1EUUHD52DBS69M",
+      "OPIJOMAKN3EWHM7Z"
+    ],
+    "Key": "KQQMVR9CEY909DGI"
+  },
+  {
+    "Content": "The collection of all assets assembled for a purpose under the leadership of a supreme commander. Factions may ally or compete with other factions regardless of their techbase.",
+    "Labels": [
+      "faction"
+    ],
+    "Links": [
+      "BRQCN0SH27M5EZJE",
+      "TMWELU4V16MXK9KX"
+    ],
+    "Key": "L17VAF45J2O8QOCW"
+  },
+  {
+    "Content": "A small inexpensive orbital designed to maintain a detection and communication net around a planet or asteroid. Commsats are typically deployed in drove in order to establish a surveillance and communication net. They rely on numbers for effectiveness rather than stealth.",
+    "Labels": [
+      "commSat"
+    ],
+    "Links": [
+      "AY2VJ7D6NAC4C6YU"
+    ],
+    "Key": "L2TN10JU531IFLN0"
+  },
+  {
+    "Content": "Bioengineered flying wing.",
+    "Labels": [
+      "raider"
+    ],
+    "Links": [
+      "F9FG4AFPSXXSFHF2"
+    ],
+    "Key": "L3O14TDNR6K4OD11"
+  },
+  {
+    "Content": " \"sentinel, deathSphere\": \"An aircraft tasked with reconnaissance, the hunter seeks its prey through a powerful array of sensors mounted on its central hub. It uses its prehensile arms to slash as its victims and is deadly against infantry, while lacking the power to damage armoured troops. It's slow speed makes it a easy target for enemy aircrafts if it flies to high.\\r\\rsentinel : Guardian unit able to extirpate energy from its preys., \\r",
+    "Labels": [
+      "seeker"
+    ],
+    "Links": [
+      "F9FG4AFPSXXSFHF2"
+    ],
+    "Key": "L7C19GHMOJJV0N05"
+  },
+  {
+    "Content": "// immortal\r// tripods : affronter heavy battle-suit., \r// scarab \r// tarantula \r// odin",
+    "Labels": [
+      "travellerArmour"
+    ],
+    "Links": [
+      "0GLS9D5UHA0LU1Q3",
+      "2F1BYZVALXPQSECN",
+      "3NC1K05FQ3RMG4ZU",
+      "4D27A9WGMUZR7D92",
+      "CVWA72GLYJJJZI4O",
+      "QL9U16DAO2N7EHCE",
+      "VBHAYSALB7O9PUFS",
+      "WT8ODAUYSQBF1WGR"
+    ],
+    "Key": "L8E132EZIATN7756"
+  },
+  {
+    "Content": "Tech II Elite shock troop, genetically reconditioned and wearing an AI assisted power armour. Spartan are equipped with the very latest gear only made possible by mind integration, such as gravitic engines to increase mobility and defensive force fields. \r",
+    "Labels": [
+      "spartan"
+    ],
+    "Links": [
+      "8L7RCNSZD2ZHNXZJ"
+    ],
+    "Key": "LA197C2N3NXYCVLQ"
+  },
+  {
+    "Content": "\rGerminate habitat\r\r",
+    "Labels": [
+      "gaianOrbital",
+      "gaianSatellite"
+    ],
+    "Links": [
+      "AD0HAAOENWHWMV24",
+      "O3CLVA8AVCH3G86G",
+      "P69OFXLIV0355O4Y",
+      "XOMWH1SU1DP5BL0W"
+    ],
+    "Key": "LGULGADCGMTIN82I"
+  },
+  {
+    "Content": "A flying, gyroscopic device with three razor-sharp blades.",
+    "Labels": [
+      "sawBlade"
+    ],
+    "Links": [
+      "F9FG4AFPSXXSFHF2"
+    ],
+    "Key": "LJXW3BKBLOJTOSUN"
+  },
+  {
+    "Content": "produce husks",
+    "Labels": [
+      "conversionSpike"
+    ],
+    "Links": [
+      "F9FG4AFPSXXSFHF2"
+    ],
+    "Key": "LM828CY17A0J7BFY"
+  },
+  {
+    "Content": "On the frontier, old but reliable models of aircrafts and spacecrafts are typically assigned to patrol and security duties. Such design naturally favour surveillance and limited strike capability.\r\rSome advanced designs which are the preserve of the Marine Aerospace Corp put as their main focus fire support and transport for planetary assault.",
+    "Labels": [
+      "colonialCrafts"
+    ],
+    "Links": [
+      "87XJ4L2XKTSMKZJM",
+      "8QDSFIZ9O1UCDN3R",
+      "BOC5C3TM657L8XYR",
+      "NE87ZR34O12S6K11",
+      "OLW6S9K5QBK122HT",
+      "ZLJ0OL9GZTOEZ5WO"
+    ],
+    "Key": "LNU1IIA0TAYF2V0S"
+  },
+  {
+    "Content": "melt the ground, drowning enemy units",
+    "Labels": [
+      "sonicLiquifier"
+    ],
+    "Links": [
+      "OAZK77WMEV4RBJ1I"
+    ],
+    "Key": "LP84TIPUCCP2I5DH"
+  },
+  {
+    "Content": "Keepers of the nest are the labouring slave cast dedicated to resource extraction and nest extension in a formic hive. They are able to defend themselves in case of attack.",
+    "Labels": [
+      "keeper"
+    ],
+    "Links": [
+      "3C5WLHU8HK78EF5Z"
+    ],
+    "Key": "LSM0TLMUXS0DK18V"
+  },
+  {
+    "Content": "Originally from Sol, terrans have long departed their devastated home system for the stars. The first terran race, the outcasts, regroup all the different group which departed the earth on slower than light crafts before the hiatus. The Gaians are the result of an experiment to adapt human to living in space and allow them to colonize the solar system after earth becomes inhabitable.\r\r- long night : civilisation ending chaos\r- ",
+    "Labels": [
+      "terrans",
+      "human",
+      "humanrace",
+      "humanity",
+      "terranrace"
+    ],
+    "Links": [
+      "ZHOVQWRJQKNUEN1E"
+    ],
+    "Key": "LSW1606MHQVJF8GS"
+  },
+  {
+    "Content": "An advanced gaian spacecraft, a voidhawk is not built, but grow to full maturity over a period of time after its germination. An adult voidhawks produce offspring on a regular basis provided it has enough nourishment.\r\rA voidhawk's abilities are assured by its paterning organelles, psy reactive tissues which slowly regenerate over time. Those are used for reactionless propulsion and defence, and even FTL under the supervision of a jumper. Voidhawks are capable units on their own, but need to be crewed in order to exercise the full range of their abilities.\r\r\r",
+    "Labels": [
+      "voidhawk",
+      "voidhawk"
+    ],
+    "Links": [
+      "NGMRD3ZITWDEKC8F"
+    ],
+    "Key": "LUTRUZ42NYBF7QTD"
+  },
+  {
+    "Content": "\rcrawler\rJaeger Mech\rbattleMech \rspiderTurret\r\r",
+    "Labels": [
+      "outcastArmour",
+      "outcastGroundUnits"
+    ],
+    "Links": [
+      "0LUYDWIU8T10XMZP",
+      "BBADPCJD7O5VOS7I",
+      "DBBBWEQJC6BHPCOW",
+      "FUT204IWKD66ESAX",
+      "M0SPPTY8CVUZYOEB",
+      "QSEVQP3PHDRUWPC4",
+      "R9BSXWEXPOAB7SXH",
+      "TGR0FT9220I7AWMM",
+      "WT8ODAUYSQBF1WGR",
+      "ZLNQMBX2D6Q29V1T"
+    ],
+    "Key": "LV55CSX9EK8U86NM"
+  },
+  {
+    "Content": "Antimatter is produced in collider rings using a huge amount of energy. Effectively, antimatter is used as an energy storage rather than an energy source.",
+    "Labels": [
+      "antimatter"
+    ],
+    "Links": [
+      "R2JCANCXAIFOYXF8",
+      "70C7A9CEJ2PZ2ICQ"
+    ],
+    "Key": "LYW6ITWKA8MVOTQZ"
+  },
+  {
+    "Content": "A rapid-fire and inexpensive weapon usually mounted on lightly armoured units, the auto-cannon fires conventional chemically propelled explosive shells at enemy troops and armour. ",
+    "Labels": [
+      "autoCannon"
+    ],
+    "Links": [
+      "X3S64WN6S0F61BFA"
+    ],
+    "Key": "LZGAI2B69LK2U9JE"
+  },
+  {
+    "Content": "A small, fast drone platform intended for ground reconnaissance and hit-and-run attacks. Speed bikes are a stable of fully AI operated outcast outposts.  ",
+    "Labels": [
+      "speedBike"
+    ],
+    "Links": [
+      "FUT204IWKD66ESAX"
+    ],
+    "Key": "M0SPPTY8CVUZYOEB"
+  },
+  {
+    "Content": "edenist outpost",
+    "Labels": [
+      "oasis"
+    ],
+    "Links": [
+      "D53C5NAQZ7SH1O77"
+    ],
+    "Key": "M185WNGRNQ6QBGXX"
+  },
+  {
+    "Content": "outcastAircraft",
+    "Labels": [
+      "raptorDrone"
+    ],
+    "Links": [
+      "F9FG4AFPSXXSFHF2"
+    ],
+    "Key": "M23GS27XRTM3NTYC"
+  },
+  {
+    "Content": "The second race of terran origins. The Colonial colonial, otherwise known simply as the colonial, is the name of the authoritarian government controlling most of human space. After the near collapse of human civilisation following the long night, it enforces a strict ban on machine intelligence and genetic manipulations. It compensates its relative technologic inferiority by relying on discipline, training and manpower and huge industrial capacity. As such, most of their advanced units and equipment are not produced on site but are transferred from the core worlds. \r\rThe colonial military doctrine relies on overwhelming numbers and superior firepower. They secure the ground, build up military bases and support depot which allow them to requisition a larger task force. Their military force is divided in different specialised companies.\r\rCompany - division - reonforced by air - augment by conquered territory for garrison\rfuel refinery and grinder to break nodes\rfuel storage by containers in transport\raugment defcon to access superweapon\raugement supply run progress by killing enemies, accomplishing objectives, control strategic objectives, ship rare earth\rstrategic obj : control ground by establishing strong points, linked by maglev and energy lines\rFusion generator - enough for whole base and dependents, refenery can be switched to energy production\rFusion Bottle\rAirfield - massive transport from orbit to deploy heavy equipment\rsuperWeapon \rHeavy transports - storage, with gunships \relectromagnetic shielding in spacecraft - against laser\"",
+    "Labels": [
+      "colonials"
+    ],
+    "Links": [
+      "4KH1NQ05DPT0J365",
+      "8LYVR63V8MJZMHFJ",
+      "8QDSFIZ9O1UCDN3R",
+      "D4ND46ELA9ZT73G3",
+      "SIFO5WOFDG2E45GF"
+    ],
+    "Key": "M2D8GXJUW9UU2U9L"
+  },
+  {
+    "Content": "battleSleeve : Biotek mech armour fusing with its wearer., \r",
+    "Labels": [
+      "battleSleeve"
+    ],
+    "Links": [
+      "BC4UHRD5WA6HX5XF"
+    ],
+    "Key": "M70P03EUHZ4YXDHF"
+  },
+  {
+    "Content": "Nanoparticule cloud which recycle battlefields refuse. Can be absorbed to recharge and repair nearby units. \r",
+    "Labels": [
+      "whisp"
+    ],
+    "Links": [
+      "DBBBWEQJC6BHPCOW",
+      "ZSG02P08RWBW8EEI"
+    ],
+    "Key": "M7AS214HACDYNM2R"
+  },
+  {
+    "Content": "An automated mobile drone platform specialised in long range assault and base defence, the Raven will use its array of fabricators to build and rearm its complement of drones. Its airship design enables the Raven to stay in the air nearly indefinitely while severely limiting its mobility, making it vulnerable to enemy aircrafts and anti-air ground units when they close the range.",
+    "Labels": [
+      "raven",
+      "dronePlateform"
+    ],
+    "Links": [
+      "3I4JTHOC648SMYK2"
+    ],
+    "Key": "MA4IEE0K21YSV34A"
+  },
+  {
+    "Content": "structures, colonial",
+    "Labels": [
+      "colonialStructures"
+    ],
+    "Links": [
+      "F9FG4AFPSXXSFHF2"
+    ],
+    "Key": "MAHSVCHIC1XAYDO2"
+  },
+  {
+    "Content": "Simple, small and inexpensive outcast aircraft used for reconnaissance or as a rudimentary weapon platform. As a drone Platform, it can be remotely piloted by a command unit or act autonomously.\r",
+    "Labels": [
+      "helioDrone",
+      "UAV"
+    ],
+    "Links": [
+      "3I4JTHOC648SMYK2"
+    ],
+    "Key": "MBLO0W7U5AYZO45B"
+  },
+  {
+    "Content": "travellerInfantryWeapons",
+    "Labels": [
+      "gravRifle"
+    ],
+    "Links": [
+      "F9FG4AFPSXXSFHF2"
+    ],
+    "Key": "MNWDE01B75C7F4TO"
+  },
+  {
+    "Content": "Omars are near immortal cyborgs dating back to the first exodus, the original crews of the lighttuggers which departed earth centuries ago. There ever was only one generation of kosmoniks.\r\rThe old cyborgs are incredibly resilient and resourceful, as their battered mechanical bodies allow them to survive in full vacuum. While they don't have the endurance to travel for interplanetary distances, they can make use of stealth tech to board enemy ships. While still humanoid, Kosmoniks have long since abandoned a strict human appearance to don extra pairs of arms and manipulators.\r\rKosmoniks are command unit. It it not unusual to discover an entire outcast outpost being run by a Kosmonik and its host of robotic servitors.\r\r// kosmonic : Ancient soldiers heavily modified with cybernetics. In proximity they form a collective dramatically improving combat effectiveness. \r",
+    "Labels": [
+      "kosmonik",
+      "cybran",
+      "",
+      "moravec",
+      "omar"
+    ],
+    "Links": [
+      "8L7RCNSZD2ZHNXZJ",
+      "MOLKQTJ14STWUVKN",
+      "RWZ0PIR2J5LIRY0A"
+    ],
+    "Key": "MOLKQTJ14STWUVKN"
+  },
+  {
+    "Content": "irradiationTechnology\rorbital mounted radiation cannon : sterilize the surface",
+    "Labels": [
+      "sterilizer"
+    ],
+    "Links": [
+      "6UNGB495KG10IIRX"
+    ],
+    "Key": "MQXHXA7R8PHV63OM"
+  },
+  {
+    "Content": "[empty]",
+    "Labels": [
+      "launchPad"
+    ],
+    "Links": [
+      "DBBBWEQJC6BHPCOW"
+    ],
+    "Key": "MR8O7T4BM4GR3MBD"
+  },
+  {
+    "Content": "An old frontier service pistol; several centuries old but still effective.\r\rcolonialInfantryWeapon",
+    "Labels": [
+      "autopistol"
+    ],
+    "Links": [
+      "OPIJOMAKN3EWHM7Z"
+    ],
+    "Key": "MRRH8YVVKZ7GZRLQ"
+  },
+  {
+    "Content": "travellerNavalWeaponry",
+    "Labels": [
+      "gravityDeflector"
+    ],
+    "Links": [
+      "F9FG4AFPSXXSFHF2"
+    ],
+    "Key": "MSGB2MGJTPKH4QUD"
+  },
+  {
+    "Content": "The main building vehicle of  \" armed engineer vehicle capable of clearing obstructions as well as build roads and field defences.\",",
+    "Labels": [
+      "dozer"
+    ],
+    "Links": [
+      "J1HWB7L1BVG20PCH"
+    ],
+    "Key": "MUOWEIQIRDLKT5WU"
+  },
+  {
+    "Content": "travellerGroundWeapon\rphotonCannon : multi-purpose automatic cannon., \rhardLight\r",
+    "Labels": [
+      "photonCannon"
+    ],
+    "Links": [
+      "6JL4NFZW0PTI0JS1",
+      "JLA8EYM6E68DD7DT"
+    ],
+    "Key": "N11EVGE8SNFV18T9"
+  },
+  {
+    "Content": "Send an electric shockwave deadly to infantry.",
+    "Labels": [
+      "electroBlaster"
+    ],
+    "Links": [
+      "F9FG4AFPSXXSFHF2"
+    ],
+    "Key": "N779GMFWEI358TYT"
+  },
+  {
+    "Content": "Gaian organic drones are humanoid organic construct\r\r[empty]\r// \rServitors are constructs bioengineered for manual labour. Sergeants are an advanced version of the servitors, specialised in base defence.",
+    "Labels": [
+      "organicDrones"
+    ],
+    "Links": [
+      "AD0HAAOENWHWMV24",
+      "UH7MOCXPNNERUJWI",
+      "YGMN5DTMR05XHFFM"
+    ],
+    "Key": "N7CI2XAOYLWHS9BL"
+  },
+  {
+    "Content": "The most versatile troop fielded by the Outcasts, combat engineers can use their reclamation drones and small fabers to erect field defences as well as keep their fellow troops supplied. On the offence, combat engineers will flash produce a flight of short range attack drones.",
+    "Labels": [
+      "combatEngineer"
+    ],
+    "Links": [
+      "8L7RCNSZD2ZHNXZJ"
+    ],
+    "Key": "NDS2YGRDDT6TLKGA"
+  },
+  {
+    "Content": "An advanced experimental craft only available to elite marine divisions, the Vulture Mobile Suit can change configuration to adapt from air to ground combat. It is not void capable and thus cannot be directly deployed from ships in orbit.",
+    "Labels": [
+      "vulture"
+    ],
+    "Links": [
+      "LNU1IIA0TAYF2V0S"
+    ],
+    "Key": "NE87ZR34O12S6K11"
+  },
+  {
+    "Content": "Another product of Gaian biological engineering and cybernetic enhancements, striders are bioengineered fire platforms on stilts used to hunt down infantry from on height.",
+    "Labels": [
+      "strider"
+    ],
+    "Links": [
+      "BC4UHRD5WA6HX5XF"
+    ],
+    "Key": "NEADKTHAUBNXAI2O"
+  },
+  {
+    "Content": "Unlike the other races spacecrafts, Gaian spacecrafts are bioengineered constructs whose abilities typically outshine manufactured crafts, but as living beings they take a long time to grow and need specialized resources to produce.\r\rVoidhawks constitute the main batte force of a matron's space assets.\rbattleship\r\r  \"battleship\": \"",
+    "Labels": [
+      "gaianNavy",
+      "gaianSpacecrafts"
+    ],
+    "Links": [
+      "5ZJ3PQALBEHCXX7Q",
+      "AD0HAAOENWHWMV24",
+      "LUTRUZ42NYBF7QTD"
+    ],
+    "Key": "NGMRD3ZITWDEKC8F"
+  },
+  {
+    "Content": "colonialInfrastructure",
+    "Labels": [
+      "concrete"
+    ],
+    "Links": [
+      "F9FG4AFPSXXSFHF2"
+    ],
+    "Key": "NKVM1IJPUL0T7RUN"
+  },
+  {
+    "Content": "Specialists are heavily armoured revenants equipped with squad support weapons. ",
+    "Labels": [
+      "specialist"
+    ],
+    "Links": [
+      "RO8UTT7XOUUSVK44"
+    ],
+    "Key": "NQYBQ8E50HWJGBRU"
+  },
+  {
+    "Content": "chaff grendade degrade lasers \r",
+    "Labels": [
+      "chaffGrenade"
+    ],
+    "Links": [
+      "IWV2Z4JMGGEVEIYI"
+    ],
+    "Key": "NSIM07FDJBQNRJVW"
+  },
+  {
+    "Content": "gonarch\rruhar\rkashit :  Scarab-like beings with 4 upper-limbs. They run and repair the majority of the manned vehicle of the combine.,\r\rsectoid sectoid : Minion slave used for hard labour. It build Infrastructure through telekinesis., \rnihilanth\rprawns\rvarens, varesh :\"Bipedal reptilian bided forming the bulk of combine infantry. Their quick reproduction rate and low intelligence makes them perfect cannon fodder.\"\rtyrathca   \r\"ruhar\": \"Scorpion-like creature ensconced in a heavy power armour. They form the shock troops of the combine.\", ",
+    "Labels": [
+      "__raceNames"
+    ],
+    "Links": [
+      "F9FG4AFPSXXSFHF2"
+    ],
+    "Key": "NXAZZMWOFGX79PAY"
+  },
+  {
+    "Content": "",
+    "Labels": [
+      "gaianHabitat"
+    ],
+    "Links": [
+      "LGULGADCGMTIN82I"
+    ],
+    "Key": "O3CLVA8AVCH3G86G"
+  },
+  {
+    "Content": "psyPower",
+    "Labels": [
+      "gravityBurst"
+    ],
+    "Links": [
+      "S6Y08ENFAUB27FY4"
+    ],
+    "Key": "O3N7PDVEBYCVD4XZ"
+  },
+  {
+    "Content": "",
+    "Labels": [
+      "chemicalLASER"
+    ],
+    "Links": [
+      "9QT48S1HB07AIR7Q"
+    ],
+    "Key": "O49YI78U1509KY5I"
+  },
+  {
+    "Content": "A resource specific to the gaian, biomatter is necessary for the production of gaian bioengineered units. Biomaterials are not entirely organic. For exemple, servitors are covered with bioplastic exoskeletons.",
+    "Labels": [
+      "biomass",
+      "biomatter"
+    ],
+    "Links": [
+      "70C7A9CEJ2PZ2ICQ"
+    ],
+    "Key": "O6TO0J0IFZSMB1PL"
+  },
+  {
+    "Content": "Not having a dedicated military per se due to their fractious nature, outcast spaceships are mostly ancient exploratory vessels of different kind converted for warfare.\r\rOutcasts have a variety of spacecraft designs to insure their defence. Shuttles are small transport planes capable to transit to and from orbit. Q-Ships are based on an ancient freighter design converted for combat, and are capable of interplanetary travel. Copperheads are a one-seated void-superiority fighters capable of atmospheric flight.\r\r\r\\r\\rfreigther\\r\\r \\r\\rminingRig\\r\\r\\rhydroScoop",
+    "Labels": [
+      "outcastNavy",
+      "outcastSpaceships"
+    ],
+    "Links": [
+      "YXHMNE2A6N2MF5H6",
+      "0LDXT6AWH8PO09DQ",
+      "5ZJ3PQALBEHCXX7Q",
+      "TGR0FT9220I7AWMM",
+      "WYY8FP8JUU24UDYC",
+      "DBBBWEQJC6BHPCOW"
+    ],
+    "Key": "O9RBKZSWUR913NFR"
+  },
+  {
+    "Content": "The main gun fielded to colonial marines. The Bolter is a high-cycle gauss machine gun sending slugs of tungsten at several times the speed of sound, allowing colonial marines to present a credible threat to moderately armoured opponent.",
+    "Labels": [
+      "bolter"
+    ],
+    "Links": [
+      "SIFO5WOFDG2E45GF"
+    ],
+    "Key": "OFSLGOYSKEBQ37FG"
+  },
+  {
+    "Content": "An inexpensive ground attack craft, the Colonials use mass waves of Aurara to deliver a large payload of unguided ammunitions in saturation attacks. The Aurara relies fighter escort in the absence or air superiority as it does not have any means of defence on its own.",
+    "Labels": [
+      "auroraBomber"
+    ],
+    "Links": [
+      "LNU1IIA0TAYF2V0S"
+    ],
+    "Key": "OLW6S9K5QBK122HT"
+  },
+  {
+    "Content": "travellerInfantryWeapons",
+    "Labels": [
+      "singularityGrenades"
+    ],
+    "Links": [
+      "F9FG4AFPSXXSFHF2"
+    ],
+    "Key": "OOSMID25XVCV07F6"
+  },
+  {
+    "Content": "- heavy use of laser and drones, including for self defense\r\r\r-  \"defenseLaser\": \"low-powered LASER capable of detonating incoming projectiles as well as destroying infantry\",\r\rtelluricCanon Direct molten material throught a energy funnel to the target for tremendous damage\",\r\rtracker \rscramblerVirus\rmelange\rmeldingPlague\rsonicLiquifier\r\rgroundWeapon, outcastWeapon\r\rsonicEmitter \r\rsonicCannon \r\rnanoFlail \r\rheatRay \r\r\rUnlike other terran troops Outcast infantry make wide use of a variety of powered LASERs as frontline weapons. As troops are expected to be on their own for long period of time, doing away with the supply chain necessary for projectile weapons is seen as a good trade-off despite the weapons bulkiness and cost.\r\rThe mainstay is the Battle laser, whose damage output can be modified on the fly. The Impulse pistol is a low power sidearm ineffective against armour. The energy baton is a melee weapon dedicated to disrupt armoured opponents. The Electromagnetic rifle emits EM pulses powerful enough to disable lightly shielded armoured vehicles.\r\rOutcast troops still field some projectiles weapons in anti-aircraft and anti-armour roles. The Javelin is a one-shot multi-purpose homing missile capable of targeting enemy aircraft and armour. The Anti-material rifle is a versatile sniper weapon capable of damaging armoured targets.\r\r\rtelluricCannon\rguardianBattery\rminingLASER\rLASERBattery\rpositronLance\rXRayBomb\rmaserCannon\rMASERBeam\rtelluricCannon",
+    "Labels": [
+      "outcastWeapons",
+      "outcastWeaponry"
+    ],
+    "Links": [
+      "16AMT8KSB57S8ETG",
+      "2EVSSOER0TQPMUPU",
+      "2M5TZXB0O1WEP3Z6",
+      "3K8ZANSWT3GBF5C9",
+      "7DXO0NLWX83XIMG0",
+      "81XVBLQ0TFLJRR5A",
+      "A8ZRCU0CJNRIFYFY",
+      "DBBBWEQJC6BHPCOW",
+      "DE5CRH1WARTQFHUH",
+      "KQQMVR9CEY909DGI",
+      "MRRH8YVVKZ7GZRLQ",
+      "OPIJOMAKN3EWHM7Z",
+      "Q4VXRWC954MODJM4",
+      "T0UKVYMB9VOJX20E",
+      "VR4FV4FJSY3A662N",
+      "Z4GF3C4AK3AC3US7"
+    ],
+    "Key": "OPIJOMAKN3EWHM7Z"
+  },
+  {
+    "Content": "A resource specific to the Gaians. Spice is the key to unlocking the sisterhood psy powers, and is necessary to the operation of their higher tier units. The substance is highly addictive, and severance of supply could cost a matron her life. \r\rIt is produced in specialised bio-engineered pod, which requires large amount of heat and humidity. The control of those farms means power to the rival families. \r\r- edenism limitation- spice production - necessary to recharge psy powers",
+    "Labels": [
+      "spice"
+    ],
+    "Links": [
+      "F9FG4AFPSXXSFHF2"
+    ],
+    "Key": "OZS397BN2BD88G5T"
+  },
+  {
+    "Content": "outcastNavalWeapon",
+    "Labels": [
+      "telluricCanon"
+    ],
+    "Links": [
+      "F9FG4AFPSXXSFHF2"
+    ],
+    "Key": "P13D9BWOYW72F1TE"
+  },
+  {
+    "Content": "Satellites are space assets incapable of moving on their own. Like Infrastructures, they can be production or resource gathering facilities or serve as stationery defence. \r\rOutcasts satellites make use of stealth and are used mostly as monitoring stations. colonial orbitals are necessary to service its navy.",
+    "Labels": [
+      "orbitals",
+      "satellites"
+    ],
+    "Links": [
+      "8LYVR63V8MJZMHFJ",
+      "8TN2ADP30S3E79WW",
+      "9ELQDNF3JWWVWJQ0",
+      "AY2VJ7D6NAC4C6YU",
+      "LGULGADCGMTIN82I",
+      "TMWELU4V16MXK9KX"
+    ],
+    "Key": "P69OFXLIV0355O4Y"
+  },
+  {
+    "Content": "The cyberCore houses the array of advanced processors host and their refrigeration units. Once built, the cybercore will decompile its source data and give birth to an advanced AI.",
+    "Labels": [
+      "cyberCore"
+    ],
+    "Links": [
+      "E74PZWTHDUPHU18N"
+    ],
+    "Key": "P8QA0IMP2E4FLKY0"
+  },
+  {
+    "Content": "streamOrbital",
+    "Labels": [
+      "battlePlate"
+    ],
+    "Links": [
+      "DBBBWEQJC6BHPCOW"
+    ],
+    "Key": "PBW39IDI4MZPONFT"
+  },
+  {
+    "Content": "psyPowers",
+    "Labels": [
+      "kineticPowers"
+    ],
+    "Links": [
+      "RWZ0PIR2J5LIRY0A"
+    ],
+    "Key": "PCHGOVQLJ9EGABRY"
+  },
+  {
+    "Content": "A attack beast from the pat homeworld. Beside their agility and speed, the varrens stay relevant in an age of interstellar wars because of their incredible birth rate and growth speed.",
+    "Labels": [
+      "varren"
+    ],
+    "Links": [
+      "F9FG4AFPSXXSFHF2"
+    ],
+    "Key": "PDJNSHGT4NHSGF34"
+  },
+  {
+    "Content": "A teleportation system entirely dedicated to ground operation, the farcast network is build around  a collection of TRelays in orbit which allow outcast ground units to teleport instantly to and from any location under coverage. The energy cost is important however and farcasting is used mostly to recall expensive units about to be destroyed, though it can be used offensively as well.",
+    "Labels": [
+      "farcast",
+      "farcastNetwork",
+      "farcastTechnology"
+    ],
+    "Links": [
+      "3PLHXI0FHPO99A1I",
+      "EM3LHF1YUW7CU1AS"
+    ],
+    "Key": "PIB8YN9PYPF8A31D"
+  },
+  {
+    "Content": "travellerInfantryWeapon",
+    "Labels": [
+      "nanoWhip"
+    ],
+    "Links": [
+      "F9FG4AFPSXXSFHF2"
+    ],
+    "Key": "PK100QHJVNY0JLDZ"
+  },
+  {
+    "Content": "Female-looking bioroïd grown to superior standards and care, phantoms are the elite special forces of the gaian. While they usually prefer stealth to brute force, phantoms are more than able to handle a straight fight. A small phantom assault group is the default tactical option to seize enemy vessels and orbitals.",
+    "Labels": [
+      "phantom"
+    ],
+    "Links": [
+      "RO8UTT7XOUUSVK44"
+    ],
+    "Key": "PO69SFISGPZEP08X"
+  },
+  {
+    "Content": "A remote drone platform of humanoïd shape, droïds are mostly used by a base AI for maintenance and security duties. Their humanoïd shape enable them to operate common machinery and use the same infantry equipment than organic infantry. These robots are relatively cheap to produce, and despite their limited combat effectiveness can be employed in wave to overwhelm the enemy in an emergency.",
+    "Labels": [
+      "droïds",
+      "droïdInfantry"
+    ],
+    "Links": [
+      "DAYN12U0WXJCNX1N"
+    ],
+    "Key": "PRIZKSWB0FFE7PBS"
+  },
+  {
+    "Content": "A company is the basic task force unit of the colonial. Each company is lead by a commander. There are different kind of company, each with its own strengths and weaknesses: support, marine and armored company.",
+    "Labels": [
+      "company"
+    ],
+    "Links": [
+      "F9FG4AFPSXXSFHF2"
+    ],
+    "Key": "PSK7I757LK2453B9"
+  },
+  {
+    "Content": "travellerInfrastructure",
+    "Labels": [
+      "terraformSpike"
+    ],
+    "Links": [
+      "F9FG4AFPSXXSFHF2"
+    ],
+    "Key": "PTYO0UVZ68NRGL7C"
+  },
+  {
+    "Content": "travellerTacticalWeaponry",
+    "Labels": [
+      "technoInhibiter"
+    ],
+    "Links": [
+      "F9FG4AFPSXXSFHF2"
+    ],
+    "Key": "PU3ZS3PDVTLEFUXU"
+  },
+  {
+    "Content": "",
+    "Labels": [
+      "maserBeam",
+      "MASERBeam"
+    ],
+    "Links": [
+      "LO139K5U0RXMRHRN",
+      "OPIJOMAKN3EWHM7Z"
+    ],
+    "Key": "Q4VXRWC954MODJM4"
+  },
+  {
+    "Content": "sentinel : Guardian unit able to extirpate energy from its preys., \r",
+    "Labels": [
+      "sentinel"
+    ],
+    "Links": [
+      "F9FG4AFPSXXSFHF2"
+    ],
+    "Key": "Q8P0ZXJQNXICNXLA"
+  },
+  {
+    "Content": "gaussRifle : High power rifle. Select fire with different energy outputs., \r",
+    "Labels": [
+      "gaussRifle"
+    ],
+    "Links": [
+      "CR7GA7257TV7UZKV"
+    ],
+    "Key": "QEBN6TNUZ22ZK7ZP"
+  },
+  {
+    "Content": "Elite from the families born without psy powers and as such raised as an commando. \r",
+    "Labels": [
+      "valkyrie",
+      "valkyrie"
+    ],
+    "Links": [
+      "AD0HAAOENWHWMV24"
+    ],
+    "Key": "QEED7CRU7MMSLZAP"
+  },
+  {
+    "Content": "outcastTechnology, streamTechnology",
+    "Labels": [
+      "stealthTechnology"
+    ],
+    "Links": [
+      "F9FG4AFPSXXSFHF2"
+    ],
+    "Key": "QEUQ93B9XNRYUDRQ"
+  },
+  {
+    "Content": "Living tank",
+    "Labels": [
+      "OGRETank"
+    ],
+    "Links": [
+      "BC4UHRD5WA6HX5XF"
+    ],
+    "Key": "QGTPJQ0VC4I8WO1B"
+  },
+  {
+    "Content": "outcastGroundWeapon",
+    "Labels": [
+      "ATGun"
+    ],
+    "Links": [
+      "F9FG4AFPSXXSFHF2"
+    ],
+    "Key": "QIIUQNLCDSWZ67SA"
+  },
+  {
+    "Content": "colonialTechnology, outcastTechnology, travellerTechnology",
+    "Labels": [
+      "missile",
+      "missileTechnology"
+    ],
+    "Links": [
+      "ZHOVQWRJQKNUEN1E"
+    ],
+    "Key": "QM3JM3VW7XO315A0"
+  },
+  {
+    "Content": "A low tech but effective solution, trenches can be prepared in a short time and provide better survivability to outcast infantry to small armed fire and artillery barrages.",
+    "Labels": [
+      "trenches"
+    ],
+    "Links": [
+      "HZ1WBH5P2M7RVB4L"
+    ],
+    "Key": "QRQRAZL4JA7VJPOY"
+  },
+  {
+    "Content": "Lightly armoured with an emphasis on speed and active defence, the Striker is the main vehicle used by outcast forces to carry personal into battle. Jake of all trade, master of none, the Striker is an highly adaptable vehicle, that can be configured to serve as many role from self-propelled artillery to anti-tank warfare. With the proper kit, it will serve as a command center for local outcast troops.",
+    "Labels": [
+      "striker",
+      "personalCarrier"
+    ],
+    "Links": [
+      "LV55CSX9EK8U86NM",
+      "QEWF66ZDEWPM65EP"
+    ],
+    "Key": "QSEVQP3PHDRUWPC4"
+  },
+  {
+    "Content": "travellerGroundWeapon",
+    "Labels": [
+      "teslaCoil"
+    ],
+    "Links": [
+      "F9FG4AFPSXXSFHF2"
+    ],
+    "Key": "QUMWCFNEUXQ6ZBGF"
+  },
+  {
+    "Content": "outcastInfrastructure",
+    "Labels": [
+      "droneDispenser"
+    ],
+    "Links": [
+      "F9FG4AFPSXXSFHF2"
+    ],
+    "Key": "QXUZ055WH024DPUW"
+  },
+  {
+    "Content": "The use of antimatter for weaponry and for propulsion was and is considered a war crimes on earth and in the colonies after the fall. The outcast will not renounce antimatter production however, as it is one of the few advantages they have against the Terran colonial numbers. \r\rantimatterWarheads\rantimatterDrive\rpositronLance",
+    "Labels": [
+      "antimatterProduction"
+    ],
+    "Links": [
+      "LYW6ITWKA8MVOTQZ",
+      "Y75E5B8798M5FFZC"
+    ],
+    "Key": "R2JCANCXAIFOYXF8"
+  },
+  {
+    "Content": "travellerNavy\rfort Medium-sized liege ship. It can transport and produce planetary units.\",",
+    "Labels": [
+      "bastion"
+    ],
+    "Links": [
+      "BG104JDZTYZ5EFCF"
+    ],
+    "Key": "R3DY4LTW6Q6LJFDF"
+  },
+  {
+    "Content": "gaianTacticalWeapons",
+    "Labels": [
+      "forester"
+    ],
+    "Links": [
+      "F9FG4AFPSXXSFHF2"
+    ],
+    "Key": "R5GVIATS6Z4E629V"
+  },
+  {
+    "Content": "A simple, cheap to produce, chemical gun given to gaian troops, adapted to the lack of conventional producing capabilities of the gaians. It lacks anti-armour capabilities.\r",
+    "Labels": [
+      "carbine"
+    ],
+    "Links": [
+      "QL122QLHLLE3P4E3"
+    ],
+    "Key": "R68AB0CMSZHK86TY"
+  },
+  {
+    "Content": "A six-wheeld automated ground support unit, the Goliath is a versatile drone combat platform which will follows and support infantry squads in action. Typically armed with an infantry mortal or rocket pods, the goliath will make use of its small replicator and generators to resupply infantry troops.",
+    "Labels": [
+      "goliath",
+      "combatRover"
+    ],
+    "Links": [
+      "LV55CSX9EK8U86NM",
+      "QEWF66ZDEWPM65EP"
+    ],
+    "Key": "R9BSXWEXPOAB7SXH"
+  },
+  {
+    "Content": "In the field, headjacks will take command\r\r\r// Chipped units personalities can be downloaded in an emergency. Decuples the effectiveness of specialised vehicles.\r\r- can transmit personalities.",
+    "Labels": [
+      "headjack"
+    ],
+    "Links": [
+      "8L7RCNSZD2ZHNXZJ",
+      "DBBBWEQJC6BHPCOW"
+    ],
+    "Key": "RCASTLOKWU485VC3"
+  },
+  {
+    "Content": "A banned technology from before the hiatus, a universal constructor or molecular printer allow outcasts to design and produce any kind of item on site, including new printers. It is the key technology behind the outcasts ability to colonise new worlds without the benefit of an existing industrial basis. The technology has its limitation in practice, as the production of high tier components is incredibly energy and time consuming and must often be deferred for more immediate needs in basic equipment.",
+    "Labels": [
+      "faber",
+      "faberTechnology",
+      "UC",
+      "UCTechnology",
+      "universalConstructor"
+    ],
+    "Links": [
+      "Y75E5B8798M5FFZC"
+    ],
+    "Key": "RDT74WYYSE8YH98P"
+  },
+  {
+    "Content": "Throw several electrically charged shards in quick succession, incapacitating most infantry.",
+    "Labels": [
+      "spiker"
+    ],
+    "Links": [
+      "F9FG4AFPSXXSFHF2"
+    ],
+    "Key": "RDYK4ZVPFRCUN1TU"
+  },
+  {
+    "Content": "The colonial guard consists mostly of poorly trained conscripts toughened by experienced NCOs under the command of the local colonial officer. The colonial guard provides the first line of defence against enemy assault. As such, it is not expected to win on its own but to endure long enough for réinforment to arrive.",
+    "Labels": [
+      "colonialGuard"
+    ],
+    "Links": [
+      "BCQRP26XJ9U0O9YY",
+      "G9IFOTRGJ4N7GM94",
+      "KLGBD7WVDG7PFMMS"
+    ],
+    "Key": "RFZ7N8AZEI26WU12"
+  },
+  {
+    "Content": "The first type of land units. Infantry doesn't require fuel to move and can take shelter or take over infrastructures. Infantry units can navigate all types of terrain albeit at a slow pace. Beyond regular infantry and personnel. Each races dispose of its own kind of special forces.\r\rEvery race possesses its own infantry units and tactics.  Outcast infantry is scarce and relies on drone to shore up their numbers. colonial infantry relies on mass assaults speared by power armoured marine. traveller infantry fields mostly fresh troops eager to accumulate battle honour on their own.",
+    "Labels": [
+      "infantry"
+    ],
+    "Links": [
+      "4D27A9WGMUZR7D92",
+      "8L7RCNSZD2ZHNXZJ",
+      "BS0JCX365JJ5XAL7",
+      "DBBBWEQJC6BHPCOW",
+      "FXE1AX0FLFODMBX5",
+      "GTCZXF4B4HTMX5YZ",
+      "KLGBD7WVDG7PFMMS",
+      "M4FOKQETIZHXRKDC",
+      "YK9OJVN7BAZY8YT8",
+      "ZSG02P08RWBW8EEI"
+    ],
+    "Key": "RHLPO3SAZ6TZRVDX"
+  },
+  {
+    "Content": "A variation on their matter-energy conversion technology, the disintegrator disassemble the target at the molecular level without care for its armour. The process being energy intensive, it is usually only used against advanced enemy units resistant to conventional weaponry. Also, the bigger the target, the longer it takes for the disintegration field to establish itself, allowing time for escape.",
+    "Labels": [
+      "disintegrator"
+    ],
+    "Links": [
+      "JLA8EYM6E68DD7DT"
+    ],
+    "Key": "RLYIVCA09S9IFNZS"
+  },
+  {
+    "Content": "Bioroïd are advanced bioengineered humans grown in vats to serve the Lodge as shock troops and helpers. They are deprived of free will as they harbour a biological compulsion to serve their ecology, putting all fears of rebellion to rest.\r\rMost advanced Gaian assets require bioroïd supervision crews to properly operate as bioengineered constructs does not lend themselves well to automation. \r\r",
+    "Labels": [
+      "bioroïd"
+    ],
+    "Links": [
+      "00FUHUVK0DROC8ZA",
+      "2V87V8TT51KLGK98",
+      "AD0HAAOENWHWMV24",
+      "K289M65J6K42IX5V",
+      "NQYBQ8E50HWJGBRU",
+      "PO69SFISGPZEP08X"
+    ],
+    "Key": "RO8UTT7XOUUSVK44"
+  },
+  {
+    "Content": "",
+    "Labels": [
+      "commArray",
+      "communicationArray"
+    ],
+    "Links": [
+      "E74PZWTHDUPHU18N"
+    ],
+    "Key": "RX5MZ491BXU26IZV"
+  },
+  {
+    "Content": "The conversion plant produces revenants out of the remains of dead troops and POWs. How the compact manage to revive the dead through cybernetic is a mystery to the other races. In fact, it doesn't : unbeknown to most, necromancy - the acolytes strange animation powers - are an integral part and the process, and acolytes must be present to essentially revive the dead.",
+    "Labels": [
+      "conversionPlant"
+    ],
+    "Links": [
+      "FOMTV2F73ITBFMMC"
+    ],
+    "Key": "S0M7IP9NXLMD18IO"
+  },
+  {
+    "Content": "Attack powers need to be activated to take effect. They can target are area of effect or a single target unit and inflict some kind of damage or hindrance.\r\rdaze\rEMBurst\rpyro ",
+    "Labels": [
+      "attackPowers"
+    ],
+    "Links": [
+      "0YR4SI7DWXDYLOGO",
+      "EZZ2VGEZS8J9DNN9",
+      "O3N7PDVEBYCVD4XZ",
+      "RWZ0PIR2J5LIRY0A",
+      "THQ9EZTOO2RJHGXG"
+    ],
+    "Key": "S6Y08ENFAUB27FY4"
+  },
+  {
+    "Content": "The biomass pump generates biomass, on which other gaian Infrastructures and units can be grown. It needs access to water and mass to operate.",
+    "Labels": [
+      "biomassPump"
+    ],
+    "Links": [
+      "D53C5NAQZ7SH1O77"
+    ],
+    "Key": "S87BA0S84IYPNKRP"
+  },
+  {
+    "Content": "Drones are remote-controlled or semi-autonomous units used by the terran races. Terran drone technology is older than spaceflight and forms the basis of the Outcasts drone technology. The colonial shirks the use of drones because of their fear of hacking at the hand of advanced AI systems. The Gaian use bioengineered drones controlled  through the Affinity gene.\r\rThe xenos have similar but distinct units. traveller's machine are inhabited by sentient traveller ghosts and as such are completely autonomous. The network uses dedicated sub-sentient platforms with a very low subroutine capacity so as to be disposable tools and not living beings. ",
+    "Labels": [
+      "drone",
+      "droneTechnology"
+    ],
+    "Links": [
+      "Y75E5B8798M5FFZC",
+      "3JINCGEZNW9M1LUY"
+    ],
+    "Key": "SFFZDDUN18U8NIHI"
+  },
+  {
+    "Content": "ghost possession - alan wake  : defence against organics\rpsyTech\rhate beacon influence minds suicide friendly fire apathy \r\r    marker :  Corrupt sentient being into acolytes.,",
+    "Labels": [
+      "marker"
+    ],
+    "Links": [
+      "FOMTV2F73ITBFMMC"
+    ],
+    "Key": "SGJPPO07TJMWTOTH"
+  },
+  {
+    "Content": "The colonial relies massively though not exclusively on railgun technology in its weapons' design.\r\r\rsandcaster - laser diffusing chaff\r\rionCannon, \r\rmissileBattery \r\rartillery railgun \r\rgustavCannon \r\rchaffMissiles \r\rfusionNukes \r\rgrapshotCannon \r\rparticleCannon \r\rflameThrower\rfieldMortar\rhowitzer\rchaffGrenades\rchainSword \r\rpneumaticSpike A favorite of the armored infantry, this low-tech melee weapon can pierce heavy armored troops , \r\rimpaler The standard assault rifle carried by assault marines. Its huge tungsten slugs are capable to pierce most armours. Unarmoured troops can't make effective use of this weapon. \r\rgaussRifle \r",
+    "Labels": [
+      "colonialWeapon",
+      "colonialWeaponry"
+    ],
+    "Links": [
+      "94VNCLJJ6N82WAQ1",
+      "CR7GA7257TV7UZKV",
+      "D9JZITUW0FE7JIEZ",
+      "DVUQDMR00HO1WXW2",
+      "ETJE0V7I8UJT59N1",
+      "IWV2Z4JMGGEVEIYI",
+      "M2D8GXJUW9UU2U9L",
+      "OFSLGOYSKEBQ37FG",
+      "SIFO5WOFDG2E45GF",
+      "TKLJOKM96CUF3M0X",
+      "W1KCW0SRO40LP1ND",
+      "W4C6UNWP8S93OUIO",
+      "Z4GF3C4AK3AC3US7"
+    ],
+    "Key": "SIFO5WOFDG2E45GF"
+  },
+  {
+    "Content": "sovereign produce and send minions evolve to produce whole armies if stationary \r",
+    "Labels": [
+      "sovereign"
+    ],
+    "Links": [
+      "F9FG4AFPSXXSFHF2"
+    ],
+    "Key": "SOPWGVCTHX0XYG5I"
+  },
+  {
+    "Content": "While regular guard units assure the local defence of colonial assets, it is the marine colonial marine corp that is ultimately responsible for the security of all colonial outposts on the frontier.\r\rWith the spaceships of the colonial frontier fleet responsible for space combat, the colonial marine corp will be the one to conduct planetary assault, reclaim former territory and secure the way for long term occupation of enemy territory.\r\r// Colonial infantry make massive use of automatic railguns and projectile weaponry. \r// armoredInfantry\r\r\r",
+    "Labels": [
+      "marineBattalion",
+      "marineCorp"
+    ],
+    "Links": [
+      "0EKNPGHR53TE8HY3",
+      "3T6TV93JGTL03G2Q",
+      "4KH1NQ05DPT0J365",
+      "D4ND46ELA9ZT73G3",
+      "KLGBD7WVDG7PFMMS",
+      "R45U7LOJL9GPAUNP",
+      "UOR9S6A29S2WI2IP"
+    ],
+    "Key": "SPR3K0FRMBA6LPQT"
+  },
+  {
+    "Content": "Despite its huge pool of recruits, trained personal has always been difficult to find on the frontlines given the high attrition rate facing technologically superior foes. An offshoot of the ancient cortical stack design, VET technology was developed in order to drastically reduce training time by imprinting new skills into the recruits brains. Given its proximity to banned technology, VET's introduction was highly controversial, but pragmatism and the dire need for qualified troops ultimately won the day.",
+    "Labels": [
+      "VET",
+      "virtual educational training"
+    ],
+    "Links": [
+      "Y75E5B8798M5FFZC"
+    ],
+    "Key": "SRKH3RX5L51TGYJY"
+  },
+  {
+    "Content": "",
+    "Labels": [
+      "arcGun"
+    ],
+    "Links": [
+      "6JL4NFZW0PTI0JS1"
+    ],
+    "Key": "SWIZ4LMQVYGH7QJK"
+  },
+  {
+    "Content": "colonialTacticalWeaponry, gaianTacticalWeapons, outcastTacticalWeapons, travellerTacticalWeapons, travellerTacticalWeapons, networkTacticalWeapons, weaponry\r\ralchemist\rtechnoInhibiter\rriftGenerator\rpacifier\r",
+    "Labels": [
+      "tacticalWeaponry",
+      "tacticalWeapons"
+    ],
+    "Links": [
+      "6UNGB495KG10IIRX",
+      "9QT48S1HB07AIR7Q",
+      "OPIJOMAKN3EWHM7Z"
+    ],
+    "Key": "T0UKVYMB9VOJX20E"
+  },
+  {
+    "Content": "travellerInfantryWeapon",
+    "Labels": [
+      "phaseBlade"
+    ],
+    "Links": [
+      "6JL4NFZW0PTI0JS1"
+    ],
+    "Key": "T5LLH7IVCKQ3DNGJ"
+  },
+  {
+    "Content": "gaianAircraft",
+    "Labels": [
+      "skyTree"
+    ],
+    "Links": [
+      "F9FG4AFPSXXSFHF2"
+    ],
+    "Key": "TD7EJU57H7WD4219"
+  },
+  {
+    "Content": "The Stream have developed quantum teleport technology, allowing one-way teleportation through spacetime to any location in the distant universe without the need for FTL spacecrafts. The energy requirements are so important that only small units can make the trip however. Once established, a two-way dimensional warp gate can be tethered between the two locations, to eventually form a network of colonised worlds.\r\rQuantum teleportation allowing travel through time.\r",
+    "Labels": [
+      "quantumTeleportation"
+    ],
+    "Links": [
+      "EM3LHF1YUW7CU1AS"
+    ],
+    "Key": "TF2RM04NSRCGCT5V"
+  },
+  {
+    "Content": "",
+    "Labels": [
+      "daze"
+    ],
+    "Links": [
+      "S6Y08ENFAUB27FY4"
+    ],
+    "Key": "THQ9EZTOO2RJHGXG"
+  },
+  {
+    "Content": "With the colonial's ground doctrine heavy on infantry, armoured units are primarily designed to take on a support role. They are slow, but well armoured and concentrates on artillery.\r\r",
+    "Labels": [
+      "colonialAssets"
+    ],
+    "Links": [
+      "3NC1K05FQ3RMG4ZU",
+      "517IIS1A28LFHYVL",
+      "8QDSFIZ9O1UCDN3R",
+      "FFYGN1QJLF31KMGD",
+      "HL25JDZOCOHMG698",
+      "ILASSQBRHZHAW90E",
+      "J1HWB7L1BVG20PCH",
+      "MUOWEIQIRDLKT5WU",
+      "SIFO5WOFDG2E45GF",
+      "TKLJOKM96CUF3M0X",
+      "TO68J9HI9WZWBXGX",
+      "U7L0L5JRUFEOHADK"
+    ],
+    "Key": "TKLJOKM96CUF3M0X"
+  },
+  {
+    "Content": "A faction assets regroup its units, structures, orbitals and navy. Assets need resources to be built and operate, but some generate resources as well.\r\rEach race produces different units. There are different kinds of units: infantry, ground units and aircrafts battle in atmosphere; spacecrafts fight in space. Units are typically but not always produced in Infrastructures using common and specialised resources.",
+    "Labels": [
+      "asset"
+    ],
+    "Links": [
+      "4D27A9WGMUZR7D92",
+      "5ZJ3PQALBEHCXX7Q",
+      "8QDSFIZ9O1UCDN3R",
+      "9ELQDNF3JWWVWJQ0",
+      "AD0HAAOENWHWMV24",
+      "DBBBWEQJC6BHPCOW",
+      "FXE1AX0FLFODMBX5",
+      "GTCZXF4B4HTMX5YZ",
+      "L17VAF45J2O8QOCW",
+      "P69OFXLIV0355O4Y",
+      "QL9U16DAO2N7EHCE",
+      "TMWELU4V16MXK9KX"
+    ],
+    "Key": "TMWELU4V16MXK9KX"
+  },
+  {
+    "Content": "transdimensionalTechnology : pass through walls, true invisibility\rgravitation strike : attract asteroid\rtractorBeam : crash spacecrafts\rpurifier : force terraform\rterraformTechnology\rmercenaries \r\rzone of thought\rmine net    lighting field > anti projectile net \rtechnocore\rmolecular binding - allow mecha\rAsteroid Mawlers; singularity asteroid eaters  \rhive missiles\rchaos eat sentience. Shadow hunts\rnecrotic nullzone    \rDatalink between villages  \r\rbase dedicated to energy generation\renergy transfered on the grid.\rbase like a motherboard processor\rreality dysfontion\ralters rules of physics locally\r\rdemons   exploit the 4th dimensions take place out of the world\rdestroy sentience    \rungoliant  \reldrich   seing one cause damage  computers not immune.  \rnanonics imprint    \rmolecular binding generator   iron curtain\rimparted chemical knowledge; \r\rDoom Chaos cube   banish all demons   \r  Mimic > imitate environment  \rpraetor > inquisitor> elite colonial   Ghost copy   \r\rDatanetwork witz firewall.  link base  improve productivity but leave vulnearable  share unit infos.    Radio Post  communicate btween settlements  datalink with satellites.   scrins   hardSurface and thetagenerators    \rAffinity binding   backlash with destruction\r combine spore launchers\rcomm grenade.\rFTL comm swarm.    \rdirected temporal anomaly   displace to far future.     \rTime bubble.     \r\rsuicide wasps   antiair living missiles  anti persnonal cluster wasp\rsuper soldier serum\rneural wip    \rlaunch field  catapult vessels at startup   \rshifting bodies   occupy same spacecraft  call evolved form at will\rdirectional AT field    \rKilling micro.missile   deadly in closed spacecrafts\rBerserker    && Warp speeds > speed wall stress destroz ship if it is damaged\rmultidimensional missile   warp target out of phase.\r\r skip drive ftl  real spacecraft  accelerate and slow ftl  exponential energy cost with speed    shift spacecraft  disaper under way  need speed to enter ftl  create artificial wormhole    caps drive  instantenuous travel between gravity wells follow natural paths    Gate network    jump shift  short jump  need heavy calculations     black hole    bionic power    phase tech   anchors in warp spacecraft to form a network of travel   \r\rtau omnitool    grey  radiatom power    reaction drive  ion \rplasma;     comm laser  major heat       heat absorption  can absorb low environnment energy  sun     > stay in statis in nodule and slowly grow    \r\rarmagedhpn   disgorge continuous drpnes   Subspacecraft engine  tap into the universe energy grid     \rstar pump  - hijack fusion energy through gravity manipulation    \rzpm  infinite energy storage  steady output degrade with excessive charge    \rantimatter storage  must be powered and produced  - power indie ships    \rfusion coil - power autjority warships amd heavy assailt robots    \rconversion beam\rfission pile  low power  infinite need extra particle     dust engine  collect exotic particles around star       mass effect with current through special exotic partcle for gravity manipulation    mechanic electropulse  drone  consume substance as food;      entropic drive  absorb heat and energy from every targets  use to multiply phage material \renergy as prime medium to replîcate  replîcation very energy expensive != swarm\rturbine  high consumption and output     combustion cell  indie     singularity drive  free energy   highest tech     dust  consciousness produc     photosynthesis  eden  fusion reactor     \rdilithyum cristal\r\rconverter weapon  feed mass desabilized and converted into energy ray     autocract weapon  make speialized projectiles itself   charge from ground through microvave energy   atmospheric disruption  cloud of localised ligthning\rwork like mines   spacecraft lens  stargate laser   sun array  concentrated mirrors   ASat  antisarellite missiles   buy clearance to ship new tech  up and down with kill ratio  mines and territory control   apocalypse weapon    atmosphere ignition\rmind possesion  cursed power    hell gate  continuous outporing of demons\rnanite cloud  disable everything    Forester  spore with supercharged life emergy  feed of everothing    irrafiatopn  zerg power \r     \rcursed artefact  use souls   Psychic kill sat  one target   cerebrate symbion  allow ftl commands to overlords    acid pool  recycle units or eneny corpse into ressources    biometal\r\rrare earth\roil\rgeyser\rhelium 3\rsupply fleet  general power for colonial    \rmanpower\rcivilian center  recruit  center of civilan economy    \r\rzerg  free prduction from biomass but need to eat;    build microchips    harvester cool name    intermediary product   hull frame  sensors     fuel cells \r _ psy emitter   drill tank    dimension drill  cut landscape pure annihilatoon.\rsubspacecraft mine  disrupt ftl travel and materail world  fabric of the universe      interdict gravitational tech    subspacecraft cannpn   instantaneous fire over line of sight  can hit n anorher planet    gardian  shogun battlehead sentiwn ship     Titan  precursor robot    orichalcuç  super powered rock or Splash     composer   reotganize matter into robornanite    apple of creation   access to builder tech tree     derelict ship   promothean relic with out of order systems       seal extra dimentional invasion     dyson disk \rhalo   promothean megasteucture    evil programm sealed in a can   lost tech blueèrints _ must be loaded to produce       Biosentient race  alien code  morphing    energy ZPM    propulsion    singularity drive  pulled by artificial blackhole   equipment     ZPM modules    different specialized races. \r few of each types to allocate     Dark matter   reactionless drive     strike anywhere on the map   production    interdictor  tractor beam sheep  bloxk hyperspacecraft   satellite     biobomber   ensiminate surface   Superweapon     wormhole generator   weapons     small scale plasma weapon     nanoblades  internal peoduction     missiles    it virus   erase blueprints   cpnverter   digitize life forms    starship landong pad   bring in and out of orbit     wormhole datalink  upload contruction matrix    energy matrix deploy itself into material object  \r   \rEmpty spacecraft stations  can conquier  build systems   bioactive lowtechs   Tramline   Hypergate  keys    numpad  Ai missions    parts  biold in cubes  Mirrors   world of a tech  scrins   Oil rig    Ion cannon    Growing ressource ray   priest   Temporal Barge   return circle location to past   Liquid scrap gun  shotgun effect  transform fuel to projectile   Directional radar    Remote Infrastructure (in périmètre radius)   Traqueur cloud  call airstrike    Brouilleur  empêché remote control   Batiscaphe     corals island   Miner  produce Heavy mines concentration \r amphibious    Kaiten    Tron engineer    HoloDrones     Subvert virus _ take over    Virtual energy controls    Earthquake bombs   Biometal bomb  convert raw material to energy  \r\r  Terrans\rpersonal    Grenade launcher HE\r\rMINE    \rIT    Flare   \rMissiles    AI rockets    \rsidewinder    \rsatellite killer    \rcruise missile   \rbombs\rIncendiary    \r\rClustermines\rAntibunker\r\rsplash    \rtorpedoes\rDepth charge    Guided\rsalvo  spread pattern \rartillery \rTank\r\rloader base   \rmobile base \rmissile launcher\rmedevac\rfurtive bomber\rairfoil transport  \rspeed boVTolat\r \rantiship artillery platform \rcommand ship        \r •    RC whisker  recon drones    \rbathyscaphe robot  repair \rantipsy \r     \rtrenches    \rAI turret \rcommand bunker\rextractor \r \rcistern \rgenerator\rcasern\rmedbay on land and sea    \r   \rmobile launcher   \r    \rmines    \rFilter generator ",
+    "Labels": [
+      "__raceCollect"
+    ],
+    "Links": [
+      "F9FG4AFPSXXSFHF2"
+    ],
+    "Key": "TN2QJI0ZQ0OQ4UMA"
+  },
+  {
+    "Content": "[empty]",
+    "Labels": [
+      "colonialWheelers"
+    ],
+    "Links": [
+      "3NC1K05FQ3RMG4ZU",
+      "FSZMMDC5FZNJK8UI",
+      "TKLJOKM96CUF3M0X"
+    ],
+    "Key": "TO68J9HI9WZWBXGX"
+  },
+  {
+    "Content": "outcastInfrastructure",
+    "Labels": [
+      "motorPool"
+    ],
+    "Links": [
+      "F9FG4AFPSXXSFHF2"
+    ],
+    "Key": "TQDF2BJ0WHJWP1Y2"
+  },
+  {
+    "Content": "",
+    "Labels": [
+      "hangar"
+    ],
+    "Links": [
+      "D4ND46ELA9ZT73G3"
+    ],
+    "Key": "TS89RXMXBF0Y5QMJ"
+  },
+  {
+    "Content": "colonialMarine Colonial shock troop in heavy power armour. Very Effective in high number",
+    "Labels": [
+      "trooper"
+    ],
+    "Links": [
+      "KLGBD7WVDG7PFMMS"
+    ],
+    "Key": "TT2J3B1PRVFKX92F"
+  },
+  {
+    "Content": "A staple of colonial warfare, the use of walkers in civilian settings is based on intimidation tactics rather than real combat effectiveness. On the frontier hoverer, we're the terrain is often very poor and roads are virtually inexistant, walkers present many advantages over their wheeled or tracked counterparts.",
+    "Labels": [
+      "colonialWalkers"
+    ],
+    "Links": [
+      "15NX3VHDNLSO58F7",
+      "TKLJOKM96CUF3M0X",
+      "3NC1K05FQ3RMG4ZU",
+      "4K9B8UFLYJQWGWS7"
+    ],
+    "Key": "U7L0L5JRUFEOHADK"
+  },
+  {
+    "Content": " : radiationGun, Neutron Wave > kill all sentients combine defiler irradiate population \rirradiationTechnology",
+    "Labels": [
+      "defiler"
+    ],
+    "Links": [
+      "O8211NA3MMDBMN1J"
+    ],
+    "Key": "U8VUFHNR63C2ZNVE"
+  },
+  {
+    "Content": "Docking stations enable the docking of ships for transfer of goods and personal to the ground. They are armed but still need protection as their destruction would sever access to low orbit and reinforcements. They also serve as refuelling station for small crafts.",
+    "Labels": [
+      "dockingStation"
+    ],
+    "Links": [
+      "8LYVR63V8MJZMHFJ"
+    ],
+    "Key": "U9E3CJ3V7KSEEO5X"
+  },
+  {
+    "Content": "A three-meter tall lightly armoured fast walker designed for reconnaissance and patrol in difficult terrain. The light walker can be piloted by regular ground crew without the need for cybernetics. Too wimpy to be effective in its intended role, this equipment serve as a mobile defence turret in colonial garrisons, shoring up the perimeter defences under attack.",
+    "Labels": [
+      "scoutWalker"
+    ],
+    "Links": [
+      "0G52EZKO42DXOB8H",
+      "U7L0L5JRUFEOHADK"
+    ],
+    "Key": "UFJ8KWMKO4D8WFDZ"
+  },
+  {
+    "Content": "Bioengineered constructs whose template is centuries old, Servitors are charged of all manual labour as well as the maintenance of Gaian installations. They have limited defence abilities despite their relative toughness. Unlike more modern constructs such as voidhawks, they cannot reproduce and must be grown in dedicated biovats, although the process is fairly simple. ",
+    "Labels": [
+      "servitor",
+      "servitor"
+    ],
+    "Links": [
+      "N7CI2XAOYLWHS9BL",
+      "YK9OJVN7BAZY8YT8"
+    ],
+    "Key": "UH7MOCXPNNERUJWI"
+  },
+  {
+    "Content": "An automated orbital making use of a low-gravity environment to produce sizable quantity of antimatter. The collider ring needs to be linked to several energy collector to operate.",
+    "Labels": [
+      "antimatterRing",
+      "colliderRing"
+    ],
+    "Links": [
+      "AY2VJ7D6NAC4C6YU"
+    ],
+    "Key": "UH7YW3OR4B36I8Z1"
+  },
+  {
+    "Content": "Space and air superiority fighter.",
+    "Labels": [
+      "corsair"
+    ],
+    "Links": [
+      "X79WX60R1PSEECIE"
+    ],
+    "Key": "UJMZ7QCG97NNBNWZ"
+  },
+  {
+    "Content": "travellerNavalWeapons",
+    "Labels": [
+      "plasmaTorch"
+    ],
+    "Links": [
+      "F9FG4AFPSXXSFHF2"
+    ],
+    "Key": "UO60ZDK5TATLOL3N"
+  },
+  {
+    "Content": "Elite soldier in specialised gear integrated with cybernetic brain plugs. Combat controllers do not usually carry personal weapons. They are responsible for directing artillery and orbital fire as well as coordinate reinforcement on the ground. Letting an enemy combat controller in the vicinity of your installation is inviting its imminent destruction by saturation fire.",
+    "Labels": [
+      "combatController"
+    ],
+    "Links": [
+      "SPR3K0FRMBA6LPQT"
+    ],
+    "Key": "UOR9S6A29S2WI2IP"
+  },
+  {
+    "Content": "A lost technology,  mindloading is used by outcasts in lieu of FTL travel by travellerIng their consciousness to data before broadcasting via ancible. Technological limitations precludes humans to live as data inside a virtual world, only storage as packed consciousness is possible. As such, human are not \"living\" while their mind is in storage and await reincarnation to pick up their life as they left it.\r\rAn offshoot of mindloading technology are cortical stacks, which continually records mental state of the owner. Provided it is recovered, pseudo-reincarnation in a clone body after death on the battlefield is thus possible.\r\rIt is not possible to use mindloading technology makes several copies of the same individual. The limitation is not technical but legal, and harks back to old earth international laws. It is hard baked inside the probes hardware and cannot be circumvented.",
+    "Labels": [
+      "corticalStack",
+      "mindloading"
+    ],
+    "Links": [],
+    "Key": "UZRJOEMDYJTTDYYH"
+  },
+  {
+    "Content": "orcagunship : Living Creature cybernetically modified for air combat",
+    "Labels": [
+      "orca"
+    ],
+    "Links": [
+      "8M373ZR7ZAQIUVJW"
+    ],
+    "Key": "V194WINOYJK2YJ1E"
+  },
+  {
+    "Content": "",
+    "Labels": [
+      "colossus"
+    ],
+    "Links": [
+      "L8E132EZIATN7756"
+    ],
+    "Key": "VBHAYSALB7O9PUFS"
+  },
+  {
+    "Content": "Through their mastery of arcanoTech, ziggurats enable defeated traveller's essence to be rescued at time of death. Ziggurat will recreate the flesh of the departed and allow them to walk once more in this reality.\r\r// Once built, Ziggurats will slowly accumulate essence.",
+    "Labels": [
+      "ziggurat"
+    ],
+    "Links": [
+      "4D27A9WGMUZR7D92"
+    ],
+    "Key": "VELINSCFLL76KZ7C"
+  },
+  {
+    "Content": "heaviliyArmoured mecha",
+    "Labels": [
+      "scarab"
+    ],
+    "Links": [
+      "AFRMUE9R31MDGQYW"
+    ],
+    "Key": "VETW0I53WV5O9YE3"
+  },
+  {
+    "Content": "travellerShipWeapons",
+    "Labels": [
+      "voidCannon"
+    ],
+    "Links": [
+      "F9FG4AFPSXXSFHF2"
+    ],
+    "Key": "VJ925F9W5O244OBJ"
+  },
+  {
+    "Content": "outcastArmour\r\r",
+    "Labels": [
+      "battleMech"
+    ],
+    "Links": [
+      "F9FG4AFPSXXSFHF2"
+    ],
+    "Key": "VK51ZAC5OGPHD4ZO"
+  },
+  {
+    "Content": "",
+    "Labels": [
+      "guardianBattery"
+    ],
+    "Links": [
+      "LO139K5U0RXMRHRN",
+      "OPIJOMAKN3EWHM7Z"
+    ],
+    "Key": "VR4FV4FJSY3A662N"
+  },
+  {
+    "Content": "defencePower",
+    "Labels": [
+      "precog"
+    ],
+    "Links": [
+      "F9FG4AFPSXXSFHF2"
+    ],
+    "Key": "VSZGIBG7GSZ1PBHZ"
+  },
+  {
+    "Content": "defencePower",
+    "Labels": [
+      "blur"
+    ],
+    "Links": [
+      "RWZ0PIR2J5LIRY0A"
+    ],
+    "Key": "VTI95YSUZXTDE35F"
+  },
+  {
+    "Content": "An area of effect burst of energy which damages or disable enemy technology.",
+    "Labels": [
+      "EMBurst"
+    ],
+    "Links": [
+      "S6Y08ENFAUB27FY4"
+    ],
+    "Key": "VU8A0YLW1AFWR7Y0"
+  },
+  {
+    "Content": "Keepers of ancient knowledge and master of engineering, scribes are tasked with all the logistical needs of the chapter. As non combattant, they will never accrue the renown to challenge for supremacy. As Knight Travellers are not foolish and understand how precious that is, scribes are always very well guarded.  ",
+    "Labels": [
+      "scribe"
+    ],
+    "Links": [
+      "1RRXJRZ6TZC3JXIS",
+      "BS0JCX365JJ5XAL7"
+    ],
+    "Key": "VVZS034MV99PMB3A"
+  },
+  {
+    "Content": "Very lightly armed and poorly armoured transport vessels. They carry supplies or raw ore and ice between the orbitals and the fleet. They are not equipped for interstellar travel.",
+    "Labels": [
+      "supplySloop"
+    ],
+    "Links": [
+      "5MMK9JXGNWGAII8D"
+    ],
+    "Key": "W164KYFGINFSR71W"
+  },
+  {
+    "Content": "",
+    "Labels": [
+      "chaffMissile"
+    ],
+    "Links": [
+      "SIFO5WOFDG2E45GF"
+    ],
+    "Key": "W1KCW0SRO40LP1ND"
+  },
+  {
+    "Content": "The colonial retain the ancient knowledge of atomics. It employs tactical nukes both in atmosphere and as a ship killing weapon.",
+    "Labels": [
+      "colonialTacticalWeaponry",
+      "colonialTacticalWeapons"
+    ],
+    "Links": [
+      "SIFO5WOFDG2E45GF",
+      "T0UKVYMB9VOJX20E"
+    ],
+    "Key": "W4C6UNWP8S93OUIO"
+  },
+  {
+    "Content": "colonialNavalWeaponry",
+    "Labels": [
+      "particleCannon"
+    ],
+    "Links": [
+      "F9FG4AFPSXXSFHF2"
+    ],
+    "Key": "W9QZ7PYGFGNLONUQ"
+  },
+  {
+    "Content": "Biological dropship",
+    "Labels": [
+      "dragonfly"
+    ],
+    "Links": [
+      "AD0HAAOENWHWMV24"
+    ],
+    "Key": "WLRWBK3IQAKAH8UF"
+  },
+  {
+    "Content": "\rforceFieldEmitter :  travellerWeaponry,\rformatter :  outsidersInfantry,\rfuelLine :  colonialInfrastructure,\rgrenadeLauncher :  outcastWeapons,\rheatPump :  outcastWeaponry,\rinterceptor :  travellerAircraft, \rironCurtain :  networkpsyPower,\rITGun :  outcastWeapons,\rlandSpeeder :  gaianGroundUnit,\rlaserFence :  travellerInfrastructure,\rlaserBridge :  outcastInfrastructure,\rtugger :  outcastSpacecraft,\rLMG :  outcastWeapons,\rmaglevCabin :  colonialArmour,\rmaglevRail :  colonialInfrastructure,\rmimic :  travellerInfantry,\rmissile Silo :  outcastInfrastructure,\rmobileFactory :  outcastAircraft,\rmonitor :  networkExperimental,\rmotherboard :  outcastInfrastructure,\rnaniteProjector :  outcastWeaponry,\rneedleFighter :  outcastAircraft,\rnovaBomb :  outcastProjectiles,\rnursery :  outcastInfrastructure,\ropticalDeflector :  outcastWeapon,\routworlder :  gaianInfantry,\rparticleLance :  heavyoutcastWeapons,\rpatternHopper : \rplasmaBattery :  colonialWeapons,\rplasmaDeflector :  colonialWeapons,\rpowerLoader :  colonialArmour,\rPower node :  outcastInfrastructure,,\rprobe :  travellerAircraft,\rprotector :  travellerArmour,\rpulser :  travellerInfantryWeapons,\rpurifier :  ,\rraffinerie :  colonialInfrastructure,\rrailgunArtillery :  outcastNavalWeapons,\rrally :  psyPower,\rreclamationBarge :  travellerAircraft,\rrecycler :  ,\rrelayPylon :  travellerInfrastructure,\rremoteTurret :  travellerInfrastructure,\rremoteViewing :  psyPower,\rringShip :  travellerSpacecraft,\rrootNetwork :  gaianInfrastructure,\rScout Ship :  gaianAircraft,\rseedShip :  gaianSpacecraft,\rshieldGenerator :  travellerInfrastructure,\rsiegeTank :  colonialArmour,\rsingularityReactor :  travellerInfrastructure,\rslicer :  streamInfantry,\rspaceplane :  colonialSpacecraft,\rspyGrenade :  psyPower,\rstealthDestroyer :  outcastSpacecraft,\rstealthField :  psyPower,\rstorm Wagon :  ,\rsupply Truck :  colonialArmour,\rsupplyDrone :  outcastAircraft,\rsurveyor :  outcastAircraft,\rnetwork pool :  outcastInfrastructure,\rnetwork Queen :  outcastArmour,\rtelepathy :  psyPower,\rtheOutsider :  outsidersInfantry,\rtractorBeam :  travellerWeapons,\rtransit :  psyPower,\rtransportStation :  colonialInfrastructure,\rvirusProjector :  outcastWeaponry,\rwall :  colonialInfrastructure,\rzat :  travellerInfantryWeapons",
+    "Labels": [
+      "__hierarchy"
+    ],
+    "Links": [
+      "F9FG4AFPSXXSFHF2"
+    ],
+    "Key": "WR8ESJJJ9WNGRPBD"
+  },
+  {
+    "Content": " \"Powerful drone which deploys a wave-gun before firing.\", \r",
+    "Labels": [
+      "cyberdisk"
+    ],
+    "Links": [
+      "LV55CSX9EK8U86NM"
+    ],
+    "Key": "WT8ODAUYSQBF1WGR"
+  },
+  {
+    "Content": " with marine, heavy gun and atomics \r",
+    "Labels": [
+      "battleCruiser"
+    ],
+    "Links": [
+      "5MMK9JXGNWGAII8D"
+    ],
+    "Key": "WTIWBI818P6FRMXD"
+  },
+  {
+    "Content": "massDriver : Assist the lifting of spacecraftcraft., \r\rMass driver : put robotic payload in orbit ",
+    "Labels": [
+      "massDriver"
+    ],
+    "Links": [
+      "E74PZWTHDUPHU18N"
+    ],
+    "Key": "WVKP0SW6DKUUCM4J"
+  },
+  {
+    "Content": "Massive organic monster designed to attack heavily fortified positions. The Tyrans are not gestated until needed as they require a large amount of resources to be grown.",
+    "Labels": [
+      "tyran"
+    ],
+    "Links": [
+      "3C5WLHU8HK78EF5Z"
+    ],
+    "Key": "WXPQMLPNTEQGQJJ1"
+  },
+  {
+    "Content": "The most important outcast spacecraft, pioneer probes are AI controlled von Neumann machines launched from earth centuries ago in order to colonise the cosmos. It hosts the consciousness of dozens of trained engineers inside its data banks. Upon arrival in an habitable star system, the probe will scavenge resources and deploy a basic infrastructure, including vats chamber to reincarnate its crew. Once a production threshold is attained and the location is secured, it will set about the production of other probes and load them with a duplicate of its minds.",
+    "Labels": [
+      "pioneer"
+    ],
+    "Links": [
+      "O9RBKZSWUR913NFR"
+    ],
+    "Key": "WYY8FP8JUU24UDYC"
+  },
+  {
+    "Content": "Political or common-law prisoners from the colonies, convicts are essentially indentured labour operating in mining outposts or auto-factories. Captured POW automatically end up as convicts if not killed outright. Convicts costs next to no resource points, but have no loyalty to the colonial and need to be under constant surveillance.",
+    "Labels": [
+      "convict"
+    ],
+    "Links": [
+      "A1NG97Y9823ZAIUA",
+      "KLGBD7WVDG7PFMMS"
+    ],
+    "Key": "WZOQ9CVLPUDAD8QQ"
+  },
+  {
+    "Content": "A one-use disposable atmospheric entry vehicle. Drop pods enable outcast spaceships to deliver troops and equipment on the without the need for specialised shuttlecrafts. Pods are unarmed and vulnerable to enemy fire on the decelerating phase.",
+    "Labels": [
+      "dropPod"
+    ],
+    "Links": [
+      "3I4JTHOC648SMYK2"
+    ],
+    "Key": "X1HL5JPEQWNNXQLG"
+  },
+  {
+    "Content": "travellerGroundWeapon",
+    "Labels": [
+      "plasmaCannon"
+    ],
+    "Links": [
+      "F9FG4AFPSXXSFHF2"
+    ],
+    "Key": "X1VYSGNCHA888H9N"
+  },
+  {
+    "Content": "The resource specific for the network. Subroutines are self-emergent entities residing in network units. Each unit needs a minimum of subroutines to operate and can house a set maximum of them as well. Subroutines slowly reproduce with time, occupying the available space and raising the unit efficiency.\r\rA destroyed unit subroutines can escape to nearby units, providing storage space is available. Given the production capability of network technology, a task force can rebuild itself very rapidly if enough units were spared to host the surviving subroutines.",
+    "Labels": [
+      "subroutine"
+    ],
+    "Links": [
+      "F9FG4AFPSXXSFHF2"
+    ],
+    "Key": "X2EOY267KV6HCWNE"
+  },
+  {
+    "Content": "The outcasts LASER technology focus on impulse LASERs, discharging the accumulators in a millisecond of high energy beam. By contrast, gaian biological LASERs are low energy beams damaging the target over time.",
+    "Labels": [
+      "LASER"
+    ],
+    "Links": [
+      "6R6DFXZZ8AOU4WGI",
+      "Y75E5B8798M5FFZC"
+    ],
+    "Key": "XGOK7JYS0BMN196L"
+  },
+  {
+    "Content": "An specialised germinated polyp, solar farms conglomerate in orbit and send their collected solar energy by organic chemical laser beam to a receiving orbital. Solar farms can also project energy to propel sailed spacecrafts.",
+    "Labels": [
+      "solarFarm"
+    ],
+    "Links": [
+      "LGULGADCGMTIN82I"
+    ],
+    "Key": "XOMWH1SU1DP5BL0W"
+  },
+  {
+    "Content": "outcastNavalWeaponry",
+    "Labels": [
+      "positronLance"
+    ],
+    "Links": [
+      "F9FG4AFPSXXSFHF2"
+    ],
+    "Key": "XQPGRAE47IKLJFOZ"
+  },
+  {
+    "Content": "\rframe : Humanoïd platform inhabited by living algorythms., \r",
+    "Labels": [
+      "frame"
+    ],
+    "Links": [
+      "F9FG4AFPSXXSFHF2"
+    ],
+    "Key": "XVNOKZS79KW52Y4O"
+  },
+  {
+    "Content": "The outcasts' use of forgotten technologies allows them to colonise the stars at an early stage without any kind of FTL propulsion. Farcast technology allows them to pack or store their consciousness as data and transmit it by way of an ancible. It allowed in conjonction with faber technology to enact a large dispersal effort by way of AI controlled von Neumann probes named pioneers in order to save something of earth civilisation which faced total collapse.\r\rThe outcasts make extensive use of drone technology to shore up their numbers. Their elite units are piloted by cyborgs.\r\r- singularity AI : minds$\r\rThe outcast have stealth technology,\rantimatterProduction\r\rmissileTechnology\r\rstealthTechnology\rsonicWeaponry\rquantumTeleportation\rtransdimensionalTechnology",
+    "Labels": [
+      "outcastTechnology",
+      "outcastLore"
+    ],
+    "Links": [
+      "GPHQUHX2L3YZOM5D",
+      "A8ZRCU0CJNRIFYFY",
+      "0TMBDDDD44WK7JE1",
+      "8ALCDDJLDNSSW1C0",
+      "ZHOVQWRJQKNUEN1E"
+    ],
+    "Key": "Y75E5B8798M5FFZC"
+  },
+  {
+    "Content": "The common resources are metal, energy, fissiles and water. \r",
+    "Labels": [
+      "commonResource"
+    ],
+    "Links": [
+      "YMA1V1QORKNN4PDR"
+    ],
+    "Key": "Y8VMBM4O7N589QRY"
+  },
+  {
+    "Content": "travellerInfantry",
+    "Labels": [
+      "sheriff",
+      "templar"
+    ],
+    "Links": [
+      "N7CI2XAOYLWHS9BL"
+    ],
+    "Key": "YGMN5DTMR05XHFFM"
+  },
+  {
+    "Content": "The entire compact armed forces are centered around the mothership and its illimited energy output. The challenge in the",
+    "Labels": [
+      "mothership"
+    ],
+    "Links": [
+      "F9FG4AFPSXXSFHF2"
+    ],
+    "Key": "YIC04O5J2ED3T59A"
+  },
+  {
+    "Content": "",
+    "Labels": [
+      "citadel"
+    ],
+    "Links": [
+      "5T6QSL4TRF5EDWT2"
+    ],
+    "Key": "YM8WK6OZ3ZK1ASG0"
+  },
+  {
+    "Content": "Resources are necessary for Infrastructure and unit production. Resources are divided into common resources - used by all races -  and special resources specific to each races.\r\r",
+    "Labels": [
+      "resource"
+    ],
+    "Links": [
+      "TMWELU4V16MXK9KX"
+    ],
+    "Key": "YMA1V1QORKNN4PDR"
+  },
+  {
+    "Content": "dark matter production\rATOMICmISSILE / contuallz roam the glove\rtractorBeamArtillery : bring down enemy ships\rgravityStressColleciton\rdarkEnergy - used to power advanced units\rzeroPointEnergy - useful to power small arms, but produce to little to depend on only t\rpowerGeneration\renergyCell\renergyTransmitter\rpropulsionTechnology\rshieldTechnology\renergySinkTechnology\renergyReclamationTechnology\rarmourTechnology - ablative\rkineticPowers\rcognitivePowers\ranimatorPowers,\rmindPowers - \rwarpPowers - teleport\rquantumLockdown : time stops\rfusion\rinfiltrationTorpedo\rnecromant\rstealthTechnology\rquantumTeleportation - chronoTechnology\rclearance- task force, orbital bombardment\ranchor technology: fixes position in space time\rpromothean beacon\rprotection mesh-only lets infantry through\rITGun :  A microwave infiltration weapon. It can disable or degrade enemy technology for a time\rplasmaDeflector :  This device project a wide swath of ionised plasma which detonates all incoming projectiles\rdroneForge :  Flash build custom short-lived drones adapted to the threat\rfloater :  Animal native from the affronter-world.\rformatter :  Mimetic plague which transform sentients into duplicate of itself.\rgremlinSwarm :  Disposable auto-targeting drone fleet.,\rgrenadeLauncher :  Portable grenade launcher. Effective against lightly armoured targets and infantry.\rhunterKiller :  spacecraft hunter specializing in stealth ambushes.\rlandSpeeder :  Fast attack hovercraft mainly used to carry troops.\rlmg :  A common and effective universal machine gun design used as a squad weapon as well as on light vehicles.,\rmaglevCabin :  A linked train capable of transporting personal and equipment.\rmobileFactory :  Prone the battlefield Infrastructure units out of refuse,\rmonitor :  Gigantic walker equipped with a destructive wave.\rmotherboard :  Network terrain necessary to link structures.,\rneedleFighter :  Old failed superiority fighter drone prototype appropriated by the Network\routworlder :  Heavy grunt modified for work in heavy gravity. Can handle heavy weaponry not usually used by infantry.\rpatternHopper :  Steal pattern for better ones.,\rpredator :  Elite hunter equipped with camouflage technology.\rprotector :  Gigantic walker equipped with a shieldGenerator.,\rpulser :  Heavy handgun launching self-propelled grenades with various payloads.,\rraffinerie :  Produce heavy matter from regular deposits.\rreaver :  Jumppack fast attack unit,\rreclamationBarge :  Gather materiel, process it and equipment to the troops.,\rinfiltrator :  Infiltration unit capable of mimicking the enemy,\rskimmer :  Fast hovercraft.,\rslicer :  Underground mine armed with blade weapons.,  \rstealthDestroyer :  Small spacecraft relying on ambushes and flock tactics to ambush enemy fleets.,\rsupplyDrone :  Recycle scrap and damaged units,\rsurveyor :  Armored Blimp designed to hunt infantry,\rtheOutsider :  The only truly sentient being from the outworld. It can only be banished and not truly killed.,\rtransit :  Short teleport to the vicinity.,\rtransportStation :  Build autocrates and handle cargo traffic.\rutilityDrone :  Infantry deployed drone with multiple payloads",
+    "Labels": [
+      "__collect"
+    ],
+    "Links": [
+      "F9FG4AFPSXXSFHF2"
+    ],
+    "Key": "YQDAECBZBTFST13U"
+  },
+  {
+    "Content": "Ascended being returning in time of needs. Can only manifest for a short period.",
+    "Labels": [
+      "archon"
+    ],
+    "Links": [
+      "4D27A9WGMUZR7D92",
+      "QL9U16DAO2N7EHCE"
+    ],
+    "Key": "YRM32FC7W859NIWM"
+  },
+  {
+    "Content": "A mind operated ship",
+    "Labels": [
+      "battleSphere",
+      "alphaCube"
+    ],
+    "Links": [
+      "O9RBKZSWUR913NFR"
+    ],
+    "Key": "YXHMNE2A6N2MF5H6"
+  },
+  {
+    "Content": "edenist burrowing turret , one shoot boobytrap of thorns -> anti-infantry mines",
+    "Labels": [
+      "twister"
+    ],
+    "Links": [
+      "D53C5NAQZ7SH1O77"
+    ],
+    "Key": "Z1OHZ4BXKE31QBFA"
+  },
+  {
+    "Content": "Those gigantic piloted by expert knight are deposited onto hostile terrain to destroy all opposition. Castle represent the might of the ",
+    "Labels": [
+      "castle",
+      "fortress"
+    ],
+    "Links": [
+      "4D27A9WGMUZR7D92"
+    ],
+    "Key": "Z3MPRDVK8ZFESSPF"
+  },
+  {
+    "Content": "The races use different weaponry given their technological divergence. Some common aspects are to be found however. Infantry are more likely to rely on projectile or melee weapons given their cheap cost. The bulk and energy requirement of energy weapons means that they mostly are the domain of heavy ground units and space assets.\r\rThe colonial weaponry are built around railgun technology.",
+    "Labels": [
+      "weapon",
+      "weaponry"
+    ],
+    "Links": [
+      "6JL4NFZW0PTI0JS1",
+      "81XVBLQ0TFLJRR5A",
+      "9QT48S1HB07AIR7Q",
+      "D9JZITUW0FE7JIEZ",
+      "DE5CRH1WARTQFHUH",
+      "LIBEWEC35F13X8RX",
+      "NWJS9A0X3I9VPA6J",
+      "OPIJOMAKN3EWHM7Z",
+      "SIFO5WOFDG2E45GF",
+      "T0UKVYMB9VOJX20E"
+    ],
+    "Key": "Z4GF3C4AK3AC3US7"
+  },
+  {
+    "Content": "The elite frontline troops of the outcasts, exotrooper are reinforced with an external exoskeleton allowing them to carry heavy loads. They typically operate in small squads in offensive operations both on the ground and for boarding enemy ships and installations.\r",
+    "Labels": [
+      "exotrooper"
+    ],
+    "Links": [
+      "8L7RCNSZD2ZHNXZJ",
+      "DBBBWEQJC6BHPCOW"
+    ],
+    "Key": "Z4XL5BNR855UKS4E"
+  },
+  {
+    "Content": "The Colonial colonial's creation is a direct result of the invention of the Jump drive, which allowed a second wave of faster than light crafts to leave a dying earth. The technology involved is far in excess of everything else the colonial has developed, which leads some to believe than the jump drive was retro-engineered from alien technology retrieved from a derelict ship found in Sol, which would explain why it's design hasn't evolved since its discovery. In effect, nobody understands how it works. The design has limitations as the Jump calculations as well as the energy requirements means than only capital ships are able to use a jump drive, The distance between jumps are limited for a few light years and jumping near a gravity well is impossible. A ship is vulnerable after jump while its systems are rebooting, making it vulnerable. \r\rAlbubierre drive - blind jump in straight line to next gravity well \r\r()In effect, warp enabled spacecraft can only travel in a straight line between gravitational wells to and from Lagrange points. The charge needed for translation \r\r",
+    "Labels": [
+      "jumpDrive"
+    ],
+    "Links": [
+      "4KH1NQ05DPT0J365",
+      "EM3LHF1YUW7CU1AS"
+    ],
+    "Key": "Z6HER4KOGTNOHG3O"
+  },
+  {
+    "Content": "[empty]",
+    "Labels": [
+      "colonialDefences"
+    ],
+    "Links": [
+      "D4ND46ELA9ZT73G3",
+      "9HCPZJJBTB43ZT49"
+    ],
+    "Key": "Z6LQRDIFW10QKPNI"
+  },
+  {
+    "Content": "networkGroundWeaponry",
+    "Labels": [
+      "heatRay"
+    ],
+    "Links": [
+      "F9FG4AFPSXXSFHF2"
+    ],
+    "Key": "Z7455TMQQI5RV3UL"
+  },
+  {
+    "Content": "The most common traveller naval weapon, Phasers are energy efficient and deal a moderate amount of damage. They take a long time to recharge, and a phaser bank is set up so that the first emitter is ready to fire again when the last one has discharged. Alternatively, they can all be fired at once in a devastating alpha strike, leaving the attacker defenceless for a time.\r",
+    "Labels": [
+      "phaserBank"
+    ],
+    "Links": [
+      "F9FG4AFPSXXSFHF2"
+    ],
+    "Key": "ZBPXNMTUZGX35YKN"
+  },
+  {
+    "Content": "There are four different races. Each of them sport its own units, infrastructure and strategy. Some race can take divergent paths in leadership and tactics, which often causes infighting.\r\r\r\rraces assets are divided between its structures and units.\r\r\rthe Outsiders.\",\r",
+    "Labels": [
+      "race",
+      "techbase"
+    ],
+    "Links": [
+      "22MZTOQYWMGJ8MT8",
+      "9ELQDNF3JWWVWJQ0",
+      "A8ZRCU0CJNRIFYFY",
+      "AIGRSXQXKT0QUFYT",
+      "BPLJ96QKXZVIA10Y",
+      "H0RMFMOJGA6X1BNX",
+      "JD3OP9H72IV34XAT",
+      "M2D8GXJUW9UU2U9L",
+      "TMWELU4V16MXK9KX",
+      "ZHOVQWRJQKNUEN1E"
+    ],
+    "Key": "ZGQ5YKFHG7BT056A"
+  },
+  {
+    "Content": "[empty]\r\rFTL\r\rPowerGeneration",
+    "Labels": [
+      "lore",
+      "tech",
+      "technology"
+    ],
+    "Links": [
+      "3JINCGEZNW9M1LUY",
+      "4KH1NQ05DPT0J365",
+      "4Q2R1HQFB8EOQU0Y",
+      "6R6DFXZZ8AOU4WGI",
+      "AL07WRASEM5N1DTJ",
+      "BPLJ96QKXZVIA10Y",
+      "GPHQUHX2L3YZOM5D",
+      "LSW1606MHQVJF8GS",
+      "PCXK3JTJFQDETO30",
+      "QM3JM3VW7XO315A0",
+      "Y75E5B8798M5FFZC",
+      "ZGQ5YKFHG7BT056A"
+    ],
+    "Key": "ZHOVQWRJQKNUEN1E"
+  },
+  {
+    "Content": "Move through soil through sonic technology\r : Destructs to produce sinkhole capable of crumbling enemy defences, \r",
+    "Labels": [
+      "sinkWorm"
+    ],
+    "Links": [
+      "3QTT41T10V5RLE58"
+    ],
+    "Key": "ZJK8MYBA4SWGZXZA"
+  },
+  {
+    "Content": "Aircrafts are small-sized crafts capable of flight. They can be aircrafts designed to fly in atmosphere, void-capable spacecrafts or a combination og both. While some spacecrafts can operate in atmosphere, dedicated aircrafts are more cost effective in their designated roles. Air power is used differently among the races. ",
+    "Labels": [
+      "crafts",
+      "aircrafts",
+      "airPower",
+      "fighterCrafts",
+      "spacecrafts"
+    ],
+    "Links": [
+      "3I4JTHOC648SMYK2",
+      "8M373ZR7ZAQIUVJW",
+      "GTCZXF4B4HTMX5YZ",
+      "LNU1IIA0TAYF2V0S",
+      "ZOG04LC2Z0BSN41J"
+    ],
+    "Key": "ZLJ0OL9GZTOEZ5WO"
+  },
+  {
+    "Content": "Very lightly armed and armoured, the buggy is a very fast wheeled exploration vehicle used for reconnaissance and patrol in low risk environment. As its four occupants plus driver can fire at enemy target from their seats, a buggy can make a surprisingly dangerous opponent for enemy infantry.",
+    "Labels": [
+      "buggy"
+    ],
+    "Links": [
+      "LV55CSX9EK8U86NM"
+    ],
+    "Key": "ZLNQMBX2D6Q29V1T"
+  },
+  {
+    "Content": "scramblerPylon : Emit a field which inhibits stealth and psy powers, \rinhibitorTechnology",
+    "Labels": [
+      "scramblerPylon"
+    ],
+    "Links": [
+      "FOMTV2F73ITBFMMC"
+    ],
+    "Key": "ZR7K97WAMJVBLPGA"
+  },
+  {
+    "Content": "travellerTacticalWeapons",
+    "Labels": [
+      "riftGenerator"
+    ],
+    "Links": [
+      "F9FG4AFPSXXSFHF2"
+    ],
+    "Key": "ZXW4JHNQ1D68FJOW"
+  }
+]
