@@ -2,11 +2,13 @@ package convertOldJSONEntries;
 
 import ch.azure.aurore.IO.API.Disk;
 import ch.azure.aurore.IO.API.Settings;
-import ch.azure.aurore.lexiconDB.EntriesLink;
+import ch.azure.aurore.Strings.Strings;
+import ch.azure.aurore.lexiconDB.EntryContent;
 import ch.azure.aurore.lexiconDB.LexiconDatabase;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
+import java.io.File;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
@@ -17,56 +19,79 @@ import java.util.regex.Pattern;
 
 public class JSONToSQLite {
     public static final String CONVERT_DATABASE_NAME = "convertDatabase";
+    private static final String CONVERT_FOLDER = "Conversions";
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
 
-        Optional<String> pathStr = Settings.getInstance().getString(CONVERT_DATABASE_NAME);
-        if (pathStr.isEmpty())
+        Optional<String> name = Settings.getInstance().getString(CONVERT_DATABASE_NAME);
+        if (name.isEmpty())
             throw new IllegalStateException();
 
-        Path sourcePath = Paths.get(pathStr.get());
-        String dbStr = Disk.removeExtension(pathStr.get()) + ".SQLite";
+        Files.createDirectories(Path.of(CONVERT_FOLDER));
+
+        String pathStr = CONVERT_FOLDER + File.separator +  name.get();
+        Path sourcePath = Paths.get(pathStr);
+        if (!Files.exists(sourcePath.toAbsolutePath())){
+            System.out.println("json file doesn't exist at <" + sourcePath + ">");
+            return;
+        }
+        Disk.openFile(CONVERT_FOLDER);
+
+        String dbStr = Disk.removeExtension(pathStr) + ".SQLite";
         Disk.removeFile(dbStr);
 
         List<OldJSONEntry> entries = getJSONEntries(sourcePath);
         LexiconDatabase.getInstance().open(dbStr);
+        if (entries == null)
+            throw new IllegalStateException();
 
-        assert entries != null;
-        insertEntries(entries);
-        Set<EntriesLink> links = createLinks(entries);
-        insertLinks(links);
-
+        Map<EntryContent, OldJSONEntry> map = insertEntries(entries);
+        createLinks(map);
+        updateEntries(map.keySet());
         LexiconDatabase.getInstance().close();
     }
 
-    private static void insertLinks(Set<EntriesLink> links) {
-        for (var l:links) {
-            LexiconDatabase.getInstance().insertLink(l);
-        }
+    private static void updateEntries(Set<EntryContent> entries) {
+        entries.forEach(e -> LexiconDatabase.getInstance().updateEntry(e));
     }
 
-    private static Set<EntriesLink> createLinks(List<OldJSONEntry> entries) {
+    private static void createLinks(Map<EntryContent, OldJSONEntry> entries) {
 
-        Set<EntriesLink> links = new HashSet<>();
-        for (OldJSONEntry e:entries)
-            for (String linkKey : e.getLinks()) {
-                Optional<OldJSONEntry> entry = entries.stream().
-                        filter(oldJSONEntry -> oldJSONEntry.getKey().equals(linkKey)).findAny();
+        for (EntryContent newEntry : entries.keySet()) {
+            OldJSONEntry oldEntry = entries.get(newEntry);
 
-                if (entry.isPresent()){
-                    EntriesLink newLink = new EntriesLink(e.getId(), entry.get().getId());
-                    links.add(newLink);
-                }
+            for (String linkKey : oldEntry.getLinks()) {
+
+                Optional<EntryContent> link = getEntryByKey(entries, linkKey);
+                link.ifPresent(e -> EntryContent.createLink(e, newEntry));
             }
-
-        return links;
+        }
     }
 
-    private static void insertEntries(List<OldJSONEntry> entries) {
-        for (OldJSONEntry e : entries) {
-            int newId = LexiconDatabase.getInstance().insertEntry(e.getContent(), e.getLabels(), null);
-            e.setId(newId);
+    private static Optional<EntryContent> getEntryByKey(Map<EntryContent, OldJSONEntry> entries, String linkKey) {
+        for (EntryContent i:entries.keySet()) {
+            OldJSONEntry oldEntry = entries.get(i);
+            String key = oldEntry.getKey();
+            if (key.equals(linkKey))
+                return Optional.of(i);
         }
+        return Optional.empty();
+    }
+
+    private static Map<EntryContent,OldJSONEntry> insertEntries(List<OldJSONEntry> entries) {
+        Map<EntryContent,OldJSONEntry> map = new HashMap<>();
+        for (OldJSONEntry e : entries) {
+
+            Optional<EntryContent> entryContent = LexiconDatabase.getInstance().
+                    insertEntry(e.getContent(), e.getLabels());
+
+            if (entryContent.isEmpty())
+                throw new IllegalStateException();
+
+            e.setId(entryContent.get().getId());
+            map.put(entryContent.get() ,e);
+        }
+        return map;
     }
 
     private static List<OldJSONEntry> getJSONEntries(Path sourcePath) {
@@ -96,7 +121,9 @@ public class JSONToSQLite {
                 JsonNode labelsArrayNode = childNode.path("Labels");
                 List<String> labels = new ArrayList<>();
                 for (JsonNode n:labelsArrayNode) {
-                    labels.add(n.asText());
+                    String str = n.asText();
+                    if (!Strings.isNullOrEmpty(str))
+                        labels.add(n.asText());
                 }
                 entry.setLabels(labels);
 

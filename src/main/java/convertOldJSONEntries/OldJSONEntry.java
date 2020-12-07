@@ -4,11 +4,12 @@ import ch.azure.aurore.Strings.Strings;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Set;
 import java.util.stream.Collectors;
 
 public class OldJSONEntry {
     private String content;
-    private String labels;
+    private Set<String> labels;
     private String key;
     private List<String> links = new ArrayList<>();
     private int id;
@@ -30,16 +31,11 @@ public class OldJSONEntry {
     }
 
     public void setLabels(List<String> labels) {
-        try{
-            List<String> list = labels.stream().
-                    map(Strings::toFirstLower).
-                    sorted(String::compareToIgnoreCase).collect(Collectors.toList());
-
-            this.labels = Strings.toString(list, ", ");
-
-        }catch (ArrayIndexOutOfBoundsException e){
-            System.out.println(this.labels);
-        }
+        this.labels = labels.stream().
+                filter(s -> !Strings.isNullOrEmpty(s)).
+                map(Strings::toFirstLower).
+                collect(Collectors.toSet());
+        //      this.labels = Strings.toString(list, ", ");
     }
 
     public void setKey(String key) {
@@ -50,7 +46,7 @@ public class OldJSONEntry {
         this.links = links;
     }
 
-    public String getLabels() {
+    public Set<String> getLabels() {
         return labels;
     }
 
@@ -60,5 +56,9 @@ public class OldJSONEntry {
 
     public void setId(int id) {
         this.id=id;
+    }
+
+    public String getLinkIDs() {
+        return Strings.toString(this.links, "-");
     }
 }

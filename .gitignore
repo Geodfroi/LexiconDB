@@ -1,4 +1,3 @@
 # Project exclude paths
 /target/
-/craftLexicon.SQLite
-/edenLexicon.SQLite
+/TestFolder/
