@@ -7,7 +7,6 @@ import java.util.*;
 
 public class LexiconDatabase {
 
-
     public static LexiconDatabase getInstance() {
         return instance;
     }
@@ -117,7 +116,7 @@ public class LexiconDatabase {
         updateEntryStatement = conn.prepareStatement(UPDATE_ENTRY_STATEMENT);
     }
 
-    public Optional<EntryContent> insertEntry(String contentStr, Set<String> labels) {
+    public Optional<Integer> insertEntry(Set<String> labels, String contentStr) {
         ResultSet result = null;
         try {
 
@@ -132,40 +131,9 @@ public class LexiconDatabase {
 
             result = insertContentStatement.getGeneratedKeys();
             if (result.next()) {
-                int id = result.getInt(1);
-                return Optional.of(new EntryContent(id, labels, contentStr));
+                return Optional.of(result.getInt(1));
             }
             throw new SQLException("New content insert failed: can't get id");
-
-        } catch (SQLException e) {
-            e.printStackTrace();
-        } finally {
-            try {
-                if (result != null) {
-                    result.close();
-                }
-            } catch (SQLException e) {
-                e.printStackTrace();
-            }
-        }
-        return Optional.empty();
-    }
-
-    public Optional<EntryContent> queryEntry(int id){
-        ResultSet result = null;
-        try {
-            queryStatement.setInt(1, id);
-            result = queryStatement.executeQuery();
-            if (result.next()) {
-
-                String content = result.getString(2);
-                String labelStr = result.getString(3);
-                byte[] array = result.getBytes(4);
-
-                Set<String> labels = EntryContent.toLabelSet(labelStr);
-                EntryContent item = new EntryContent(id, labels, content, array);
-                return Optional.of(item);
-            }
 
         } catch (SQLException e) {
             e.printStackTrace();
@@ -228,7 +196,6 @@ public class LexiconDatabase {
     public boolean updateEntry(EntryContent entry){
 
         String labelStr = EntryContent.toLabelStr(entry.getLabels());
-
         try {
             updateEntryStatement.setString(1, entry.getContent());
             updateEntryStatement.setString(2, labelStr);
@@ -343,11 +310,6 @@ public class LexiconDatabase {
             }
         }
     return null;
-//        return otherIds.stream().
-//                map(this::queryEntry).
-//                filter(Optional::isPresent).
-//                map(otherEntry -> new EntriesLink(entry, otherEntry.get())).
-//                collect(Collectors.toSet());
     }
 
     public boolean removeLink(int id1, int id0) {
@@ -378,8 +340,43 @@ public class LexiconDatabase {
     }
 
     //endregion
+
+    //region static
+    public static String[] populateDummyDB(){
+        return TestDatabases.createDummyDB(false);
+    }
+    //endregion
 }
 
+//    public Optional<EntryContent> queryEntry(int id){
+////        ResultSet result = null;
+////        try {
+////            queryStatement.setInt(1, id);
+////            result = queryStatement.executeQuery();
+////            if (result.next()) {
+////
+////                String content = result.getString(2);
+////                String labelStr = result.getString(3);
+////                byte[] array = result.getBytes(4);
+////
+////                Set<String> labels = EntryContent.toLabelSet(labelStr);
+////                EntryContent item = new EntryContent(id, labels, content, array);
+////                return Optional.of(item);
+////            }
+////
+////        } catch (SQLException e) {
+////            e.printStackTrace();
+////        } finally {
+////            try {
+////                if (result != null) {
+////                    result.close();
+////                }
+////            } catch (SQLException e) {
+////                e.printStackTrace();
+////            }
+////        }
+////        return Optional.empty();
+////    }
 //__________________----------------------------
 //public class LexiconDatabase {
 //

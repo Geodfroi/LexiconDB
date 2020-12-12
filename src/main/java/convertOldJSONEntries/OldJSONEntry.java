@@ -1,6 +1,6 @@
 package convertOldJSONEntries;
 
-import ch.azure.aurore.Strings.Strings;
+import ch.azure.aurore.strings.Strings;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,6 +1,6 @@
 package ch.azure.aurore.lexiconDB;
 
-import ch.azure.aurore.Strings.Strings;
+import ch.azure.aurore.strings.Strings;
 
 import java.util.*;
 import java.util.stream.Collectors;
@@ -9,11 +9,11 @@ import java.util.stream.Stream;
 public class EntryContent {
 
     //region fields
-
     private final int id;
     private Set<String> labelSet;
     private String content;
     private byte[] image;
+    private boolean isModified;
     //endregion
 
     //region constructors
@@ -27,11 +27,8 @@ public class EntryContent {
         this.id =id;
         this.labelSet = labels;
         this.content = content;
-       // this.links = links;
         this.image = array;
     }
-
-
     //endregion
 
     //region accessors
@@ -52,7 +49,6 @@ public class EntryContent {
     public Set<String> getLabels() {
         return Collections.unmodifiableSet(this.labelSet);
     }
-
 
     public boolean hasImage(){
         return image != null && image.length > 0;
@@ -98,10 +94,8 @@ public class EntryContent {
     }
 
     private void onModified() {
-//        if (!updatesDisabled){
-            listeners.forEach(listener -> listener.entryModified(this));
-            LexiconDatabase.getInstance().updateEntry(this);
-       // }
+        isModified = true;
+        listeners.forEach(listener -> listener.entryModified(this));
     }
     //endregion
 
@@ -116,24 +110,27 @@ public class EntryContent {
         return toLabelStr(this.labelSet);
     }
 
+    public boolean saveEntry() {
+        if (isModified){
+            isModified = false;
+            return LexiconDatabase.getInstance().updateEntry(this);
+        }
+        return false;
+    }
 
     @Override
     public String toString() {
         return getFirstLabel();
     }
 
-//    void addLink(EntriesLink link) {
-//        this.links.add(link);
-//    }
-//
-//    void removeLink(EntriesLink link) {
-//        this.links.remove(link);
-//    }
-
     //region static methods
 
     public static boolean createLink(EntryContent o1, EntryContent o2) {
-        return LexiconDatabase.getInstance().insertLink(o1.getId(), o2.getId());
+        return createLink(o1.getId(), o2.getId());
+    }
+
+    public static boolean createLink(Integer o1, Integer o2) {
+        return LexiconDatabase.getInstance().insertLink(o1, o2);
     }
 
     public static Set<String> toLabelSet(String labelStr) {
@@ -154,6 +151,14 @@ public class EntryContent {
 
 // private boolean updatesDisabled;
 // private Set<Integer> links = new HashSet<>();
+
+//    void addLink(EntriesLink link) {
+//        this.links.add(link);
+//    }
+//
+//    void removeLink(EntriesLink link) {
+//        this.links.remove(link);
+//    }
 
 //    public Set<Integer> getLinks(){
 //        return Set.copyOf(this.links);
@@ -176,17 +181,8 @@ public class EntryContent {
 //        return false;
 //    }
 
-
 //    private void disableUpdates() {
 //        updatesDisabled = true;
-//    }
-
-//   public boolean saveEntry() {
-//        if (modified){
-//            modified = false;
-//            return  LexiconDatabase.getInstance().updateEntry(this);
-//        }
-//        return false;
 //    }
 
 //    public static Set<Integer> toLinkSet(String linkStr){

@@ -2,9 +2,9 @@ package convertOldJSONEntries;
 
 import ch.azure.aurore.IO.API.Disk;
 import ch.azure.aurore.IO.API.Settings;
-import ch.azure.aurore.Strings.Strings;
 import ch.azure.aurore.lexiconDB.EntryContent;
 import ch.azure.aurore.lexiconDB.LexiconDatabase;
+import ch.azure.aurore.strings.Strings;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
@@ -82,14 +82,15 @@ public class JSONToSQLite {
         Map<EntryContent,OldJSONEntry> map = new HashMap<>();
         for (OldJSONEntry e : entries) {
 
-            Optional<EntryContent> entryContent = LexiconDatabase.getInstance().
-                    insertEntry(e.getContent(), e.getLabels());
+            Optional<Integer> id = LexiconDatabase.getInstance().
+                    insertEntry(e.getLabels(), e.getContent());
 
-            if (entryContent.isEmpty())
+            if (id.isEmpty())
                 throw new IllegalStateException();
 
-            e.setId(entryContent.get().getId());
-            map.put(entryContent.get() ,e);
+            e.setId(id.get());
+            EntryContent content = new EntryContent(id.get(), e.getLabels(), e.getContent());
+            map.put(content ,e);
         }
         return map;
     }
