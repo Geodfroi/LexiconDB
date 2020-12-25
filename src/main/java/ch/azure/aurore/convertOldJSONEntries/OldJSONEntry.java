@@ -1,7 +1,8 @@
-package convertOldJSONEntries;
+package ch.azure.aurore.convertOldJSONEntries;
 
-import ch.azure.aurore.conversions.Conversions;
-import ch.azure.aurore.strings.Strings;
+
+import ch.azure.aurore.javaxt.conversions.Conversions;
+import ch.azure.aurore.javaxt.strings.Strings;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,7 +1,7 @@
 package ch.azure.aurore.lexiconDB;
 
-import ch.azure.aurore.IO.API.Disk;
-import ch.azure.aurore.sqlite.wrapper.SQLite;
+import ch.azure.aurore.javaxt.IO.API.Disk;
+import ch.azure.aurore.javaxt.sqlite.wrapper.SQLite;
 
 import java.io.File;
 import java.io.IOException;
@@ -50,12 +50,13 @@ public class TestDatabases {
         EntryContent lion = new EntryContent(0, Set.of("whiteLion"), "Lions are big felines");
         lion.setImage(bytes);
         EntryContent feline = new EntryContent(0, Set.of("feline"), "Felines are hunting animals");
+        sqLite.updateItems(animal, wolf,elephant,cat,lion, feline);
 
-        EntryLink.create(animal, elephant);
-        EntryLink.create(animal, wolf);
-        EntryLink.create(animal, feline);
-        EntryLink.create(feline, cat);
-        EntryLink.create(feline, lion);
+        EntryContent.createLink(animal, elephant);
+        EntryContent.createLink(animal, wolf);
+        EntryContent.createLink(animal, feline);
+        EntryContent.createLink(feline, cat);
+        EntryContent.createLink(feline, lion);
 
         sqLite.updateItems(animal, wolf, elephant, cat, lion, feline);
         sqLite.close();

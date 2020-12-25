@@ -1,54 +1,49 @@
 package ch.azure.aurore.lexiconDB;
 
-import ch.azure.aurore.conversions.Conversions;
-import ch.azure.aurore.sqlite.wrapper.annotations.DatabaseClass;
-import ch.azure.aurore.strings.Strings;
+import ch.azure.aurore.javaxt.conversions.Conversions;
+import ch.azure.aurore.javaxt.sqlite.wrapper.annotations.DatabaseClass;
+import ch.azure.aurore.javaxt.strings.Strings;
 
 import java.util.*;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
+@SuppressWarnings("unused")
 @DatabaseClass
 public class EntryContent {
 
+    private final List<IEntryListener> listeners = new ArrayList<>();
     private int _id;
     private boolean _modified = true;
-    private List<EntryLink> links = new ArrayList<>();
-    private Set<String> labelSet;
+    private Set<Integer> links = new HashSet<>();
+    private Set<String> labels;
     private String content;
     private byte[] image;
 
-    //region constructors
-    public EntryContent(){
+    public EntryContent() {
     }
 
     public EntryContent(int id, Set<String> labels, String contentStr) {
         this._id = id;
-        this.labelSet = labels;
+        this.labels = labels;
         this.content = contentStr;
     }
 
     public EntryContent(int id, Set<String> labels, String content, byte[] array) {
         this._id = id;
-        this.labelSet = labels;
+        this.labels = labels;
         this.content = content;
         this.image = array;
     }
-    //endregion
 
-    //region events
-    private final List<IEntryListener> listeners = new ArrayList<>();
-
-    public void addListener(IEntryListener listener) {
-        if (!listeners.contains(listener))
-            listeners.add(listener);
+    public static String[] createDummyDB() {
+        TestDatabases.createDummyDB(false);
+        return new String[]{TestDatabases.TEST_DATABASE_PATH, TestDatabases.TEST_OTHER_DATABASE_PATH};
     }
-    //endregion
 
-    public void addLink(EntryLink link) {
-        links.add(link);
-        links.sort(Comparator.comparingInt(EntryLink::get_id));
-        modified();
+    public static void createLink(EntryContent e0, EntryContent e1) {
+        e0.addLink(e1.get_id());
+        e1.addLink(e0.get_id());
     }
 
     public static Set<String> toLabelSet(String labelStr) {
@@ -64,35 +59,29 @@ public class EntryContent {
         return Conversions.toString(st, ", ");
     }
 
-    //region Accessors
+    public static void removeLink(EntryContent e0, EntryContent e1) {
+        e0.removeLink(e1);
+        e1.removeLink(e0);
+    }
+
+    private void removeLink(EntryContent e) {
+        if (links.contains(e._id)){
+            links.remove(e._id);
+            modified();
+        }
+    }
+
+    public void addListener(IEntryListener listener) {
+        if (!listeners.contains(listener))
+            listeners.add(listener);
+    }
+
     public String getContent() {
         if (Strings.isNullOrEmpty(content))
             return "";
         return content;
     }
 
-    public int get_id() {
-        return _id;
-    }
-
-    public byte[] getImage() {
-        return image;
-    }
-
-    public Set<String> getLabels() {
-        return Collections.unmodifiableSet(this.labelSet);
-    }
-
-    public List<EntryLink> getLinks() {
-        return links;
-    }
-
-    public boolean is_modified() {
-        return _modified;
-    }
-    //endregion
-
-    //region Mutators
     public void setContent(String content) {
         if (!Strings.isNullOrEmpty(content) && !content.equals(this.content)) {
             this.content = content;
@@ -101,8 +90,37 @@ public class EntryContent {
         }
     }
 
+    public int get_id() {
+        return _id;
+    }
+
     public void set_id(int _id) {
         this._id = _id;
+    }
+
+    public Set<String> getLabels() {
+        return Collections.unmodifiableSet(this.labels);
+    }
+
+    public void setLabels(Set<String> array) {
+        if (array == null || array.size() == 0) {
+            this.labels = new HashSet<>();
+        } else {
+            this.labels = array;
+        }
+        modified();
+    }
+
+    public Set<Integer> getLinks() {
+        return links;
+    }
+
+    public void setLinks(Set<Integer> links) {
+        this.links = links;
+    }
+
+    public byte[] getImage() {
+        return image;
     }
 
     public void setImage(byte[] image) {
@@ -112,33 +130,33 @@ public class EntryContent {
         }
     }
 
-    public void setLabels(Set<String> array) {
-        if (array == null || array.size() == 0) {
-            this.labelSet = new HashSet<>();
-        } else {
-            this.labelSet = array;
-        }
-        modified();
-    }
-
-    public void setLinks(List<EntryLink> links) {
-        this.links = links;
+    public boolean is_modified() {
+        return _modified;
     }
 
     public void set_modified(boolean _modified) {
         this._modified = _modified;
     }
-    //endregion
+
+    private void addLink(int id) {
+        if (!links.contains(id)) {
+            links.add(id);
+            modified();
+        }
+    }
 
     public String getFirstLabel() {
-        Optional<String> str = this.labelSet.stream().
+        if (labels == null)
+            return "";
+
+        Optional<String> str = this.labels.stream().
                 min(Comparator.naturalOrder());
 
-        return str.orElse("[]");
+        return str.orElse("");
     }
 
     public String getLabelStr() {
-        return toLabelStr(this.labelSet);
+        return toLabelStr(this.labels);
     }
 
     public boolean hasImage() {
@@ -169,35 +187,6 @@ public class EntryContent {
 //    }
 // private boolean updatesDisabled;
 // private Set<Integer> links = new HashSet<>();
-
-//    void addLink(EntriesLink link) {
-//        this.links.add(link);
-//    }
-//
-//    void removeLink(EntriesLink link) {
-//        this.links.remove(link);
-//    }
-
-//    public Set<Integer> getLinks(){
-//        return Set.copyOf(this.links);
-//    }
-
-//    private void createLink(int id) {
-//        links.add(id);
-//        onModified();
-//    }
-
-//    public String getLinkStr(){
-//        return toLinksStr(this.links);
-//    }
-
-//    public boolean removeLink(int id){
-//        if (this.links.remove(id)) {
-//            onModified();
-//            return true;
-//        }
-//        return false;
-//    }
 
 //    private void disableUpdates() {
 //        updatesDisabled = true;

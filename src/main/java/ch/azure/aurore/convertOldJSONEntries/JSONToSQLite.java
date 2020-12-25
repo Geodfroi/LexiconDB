@@ -1,11 +1,11 @@
-package convertOldJSONEntries;
+package ch.azure.aurore.convertOldJSONEntries;
 
-import ch.azure.aurore.IO.API.Disk;
-import ch.azure.aurore.IO.API.Settings;
+
+import ch.azure.aurore.javaxt.IO.API.Disk;
+import ch.azure.aurore.javaxt.IO.API.Settings;
+import ch.azure.aurore.javaxt.sqlite.wrapper.SQLite;
+import ch.azure.aurore.javaxt.strings.Strings;
 import ch.azure.aurore.lexiconDB.EntryContent;
-import ch.azure.aurore.lexiconDB.EntryLink;
-import ch.azure.aurore.sqlite.wrapper.SQLite;
-import ch.azure.aurore.strings.Strings;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
@@ -21,8 +21,6 @@ import java.util.regex.Pattern;
 public class JSONToSQLite {
     public static final String CONVERT_DATABASE_NAME = "convertDatabase";
     private static final String CONVERT_FOLDER = "Conversions";
-
-    static Map<String, EntryLink> existingLinks  = new HashMap<>();
 
     public static void main(String[] args) throws IOException {
 
@@ -61,19 +59,8 @@ public class JSONToSQLite {
 
             for (String linkKey : oldEntry.getLinks()) {
                 Optional<EntryContent> link = getEntryByKey(entries, linkKey);
-                link.ifPresent(e ->createLink(e, newEntry));
+                link.ifPresent(e -> EntryContent.createLink(e, newEntry));
             }
-        }
-    }
-
-    private static void createLink(EntryContent e0, EntryContent e1) {
-        int min = Math.min(e0.get_id(), e1.get_id());
-        int max = Math.max(e0.get_id(), e1.get_id());
-
-        String identifier = min + "-" + max;
-        if (!existingLinks.containsKey(identifier)){
-            EntryLink newLink = EntryLink.create(e0,e1);
-            existingLinks.put(identifier, newLink);
         }
     }
 

@@ -1,6 +1,7 @@
 package ch.azure.aurore.lexiconDB;
 
-import ch.azure.aurore.sqlite.wrapper.SQLite;
+
+import ch.azure.aurore.javaxt.sqlite.wrapper.SQLite;
 
 class LexiconDatabaseTest {
 
