@@ -1,5 +1,6 @@
 package convertOldJSONEntries;
 
+import ch.azure.aurore.conversions.Conversions;
 import ch.azure.aurore.strings.Strings;
 
 import java.util.ArrayList;
@@ -59,6 +60,6 @@ public class OldJSONEntry {
     }
 
     public String getLinkIDs() {
-        return Strings.toString(this.links, "-");
+        return Conversions.toString(this.links, "-");
     }
 }

@@ -1,24 +1,14 @@
 package ch.azure.aurore.lexiconDB;
 
-import org.junit.jupiter.api.Assertions;
-
-import java.util.Optional;
+import ch.azure.aurore.sqlite.wrapper.SQLite;
 
 class LexiconDatabaseTest {
 
-    @org.junit.jupiter.api.BeforeAll
-    static void beforeAll() {
-        TestDatabases.createDummyDB(false);
-        LexiconDatabase.getInstance().open(TestDatabases.TEST_DATABASE_PATH);
-    }
+    private static SQLite sqlite;
 
     @org.junit.jupiter.api.Test
     void queryEntry() {
-        int id = 3;
-        Optional<EntryContent> entry = LexiconDatabase.getInstance().queryEntries().stream().
-                filter(e -> e.getId() == id).findAny();
-        assert  entry.isPresent();
-        Assertions.assertEquals(entry.get().getId(), id);
+        TestDatabases.createDummyDB(false);
     }
 
 //    @org.junit.jupiter.api.Test

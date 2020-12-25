@@ -3,7 +3,8 @@ package convertOldJSONEntries;
 import ch.azure.aurore.IO.API.Disk;
 import ch.azure.aurore.IO.API.Settings;
 import ch.azure.aurore.lexiconDB.EntryContent;
-import ch.azure.aurore.lexiconDB.LexiconDatabase;
+import ch.azure.aurore.lexiconDB.EntryLink;
+import ch.azure.aurore.sqlite.wrapper.SQLite;
 import ch.azure.aurore.strings.Strings;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -21,15 +22,14 @@ public class JSONToSQLite {
     public static final String CONVERT_DATABASE_NAME = "convertDatabase";
     private static final String CONVERT_FOLDER = "Conversions";
 
+    static Map<String, EntryLink> existingLinks  = new HashMap<>();
+
     public static void main(String[] args) throws IOException {
 
-        Optional<String> name = Settings.getInstance().getString(CONVERT_DATABASE_NAME);
-        if (name.isEmpty())
-            throw new IllegalStateException();
-
+        String name = Settings.getInstance().getString(CONVERT_DATABASE_NAME);
         Files.createDirectories(Path.of(CONVERT_FOLDER));
 
-        String pathStr = CONVERT_FOLDER + File.separator +  name.get();
+        String pathStr = CONVERT_FOLDER + File.separator +  name;
         Path sourcePath = Paths.get(pathStr);
         if (!Files.exists(sourcePath.toAbsolutePath())){
             System.out.println("json file doesn't exist at <" + sourcePath + ">");
@@ -41,18 +41,17 @@ public class JSONToSQLite {
         Disk.removeFile(dbStr);
 
         List<OldJSONEntry> entries = getJSONEntries(sourcePath);
-        LexiconDatabase.getInstance().open(dbStr);
+        SQLite sql = SQLite.connect(dbStr);
         if (entries == null)
             throw new IllegalStateException();
 
-        Map<EntryContent, OldJSONEntry> map = insertEntries(entries);
+        Map<EntryContent, OldJSONEntry> map = insertEntries(sql, entries);
         createLinks(map);
-        updateEntries(map.keySet());
-        LexiconDatabase.getInstance().close();
-    }
+        for (EntryContent e: map.keySet()) {
+            sql.updateItem(e);
+        }
 
-    private static void updateEntries(Set<EntryContent> entries) {
-        entries.forEach(e -> LexiconDatabase.getInstance().updateEntry(e));
+        sql.close();
     }
 
     private static void createLinks(Map<EntryContent, OldJSONEntry> entries) {
@@ -61,10 +60,20 @@ public class JSONToSQLite {
             OldJSONEntry oldEntry = entries.get(newEntry);
 
             for (String linkKey : oldEntry.getLinks()) {
-
                 Optional<EntryContent> link = getEntryByKey(entries, linkKey);
-                link.ifPresent(e -> EntryContent.createLink(e, newEntry));
+                link.ifPresent(e ->createLink(e, newEntry));
             }
+        }
+    }
+
+    private static void createLink(EntryContent e0, EntryContent e1) {
+        int min = Math.min(e0.get_id(), e1.get_id());
+        int max = Math.max(e0.get_id(), e1.get_id());
+
+        String identifier = min + "-" + max;
+        if (!existingLinks.containsKey(identifier)){
+            EntryLink newLink = EntryLink.create(e0,e1);
+            existingLinks.put(identifier, newLink);
         }
     }
 
@@ -78,18 +87,18 @@ public class JSONToSQLite {
         return Optional.empty();
     }
 
-    private static Map<EntryContent,OldJSONEntry> insertEntries(List<OldJSONEntry> entries) {
+    private static Map<EntryContent,OldJSONEntry> insertEntries(SQLite sql, List<OldJSONEntry> entries) {
         Map<EntryContent,OldJSONEntry> map = new HashMap<>();
         for (OldJSONEntry e : entries) {
 
-            Optional<Integer> id = LexiconDatabase.getInstance().
-                    insertEntry(e.getLabels(), e.getContent());
-
-            if (id.isEmpty())
+            EntryContent entry = new EntryContent(0, e.getLabels(), e.getContent());
+            sql.updateItem(entry);
+            int id = entry.get_id();
+            if (id == -1)
                 throw new IllegalStateException();
 
-            e.setId(id.get());
-            EntryContent content = new EntryContent(id.get(), e.getLabels(), e.getContent());
+            e.setId(id);
+            EntryContent content = new EntryContent(id, e.getLabels(), e.getContent());
             map.put(content ,e);
         }
         return map;

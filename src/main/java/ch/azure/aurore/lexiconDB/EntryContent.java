@@ -1,45 +1,78 @@
 package ch.azure.aurore.lexiconDB;
 
+import ch.azure.aurore.conversions.Conversions;
+import ch.azure.aurore.sqlite.wrapper.annotations.DatabaseClass;
 import ch.azure.aurore.strings.Strings;
 
 import java.util.*;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
+@DatabaseClass
 public class EntryContent {
 
-    //region fields
-    private final int id;
+    private int _id;
+    private boolean _modified = true;
+    private List<EntryLink> links = new ArrayList<>();
     private Set<String> labelSet;
     private String content;
     private byte[] image;
-    private boolean isModified;
-    //endregion
 
     //region constructors
+    public EntryContent(){
+    }
+
     public EntryContent(int id, Set<String> labels, String contentStr) {
-        this.id = id;
+        this._id = id;
         this.labelSet = labels;
         this.content = contentStr;
     }
 
     public EntryContent(int id, Set<String> labels, String content, byte[] array) {
-        this.id =id;
+        this._id = id;
         this.labelSet = labels;
         this.content = content;
         this.image = array;
     }
     //endregion
 
-    //region accessors
+    //region events
+    private final List<IEntryListener> listeners = new ArrayList<>();
+
+    public void addListener(IEntryListener listener) {
+        if (!listeners.contains(listener))
+            listeners.add(listener);
+    }
+    //endregion
+
+    public void addLink(EntryLink link) {
+        links.add(link);
+        links.sort(Comparator.comparingInt(EntryLink::get_id));
+        modified();
+    }
+
+    public static Set<String> toLabelSet(String labelStr) {
+        return Arrays.stream(labelStr.split(", ")).
+                collect(Collectors.toSet());
+    }
+
+    public static String toLabelStr(Set<String> labels) {
+        Stream<String> st = labels.stream().
+                map(Strings::toFirstLower).
+                sorted(String::compareToIgnoreCase);
+
+        return Conversions.toString(st, ", ");
+    }
+
+    //region Accessors
     public String getContent() {
-        if (this.content == null)
+        if (Strings.isNullOrEmpty(content))
             return "";
         return content;
     }
 
-    public int getId() {
-        return id;
+    public int get_id() {
+        return _id;
     }
 
     public byte[] getImage() {
@@ -50,7 +83,65 @@ public class EntryContent {
         return Collections.unmodifiableSet(this.labelSet);
     }
 
-    public boolean hasImage(){
+    public List<EntryLink> getLinks() {
+        return links;
+    }
+
+    public boolean is_modified() {
+        return _modified;
+    }
+    //endregion
+
+    //region Mutators
+    public void setContent(String content) {
+        if (!Strings.isNullOrEmpty(content) && !content.equals(this.content)) {
+            this.content = content;
+
+            modified();
+        }
+    }
+
+    public void set_id(int _id) {
+        this._id = _id;
+    }
+
+    public void setImage(byte[] image) {
+        if (!Arrays.equals(this.image, image)) {
+            this.image = image;
+            modified();
+        }
+    }
+
+    public void setLabels(Set<String> array) {
+        if (array == null || array.size() == 0) {
+            this.labelSet = new HashSet<>();
+        } else {
+            this.labelSet = array;
+        }
+        modified();
+    }
+
+    public void setLinks(List<EntryLink> links) {
+        this.links = links;
+    }
+
+    public void set_modified(boolean _modified) {
+        this._modified = _modified;
+    }
+    //endregion
+
+    public String getFirstLabel() {
+        Optional<String> str = this.labelSet.stream().
+                min(Comparator.naturalOrder());
+
+        return str.orElse("[]");
+    }
+
+    public String getLabelStr() {
+        return toLabelStr(this.labelSet);
+    }
+
+    public boolean hasImage() {
         return image != null && image.length > 0;
     }
 
@@ -58,97 +149,24 @@ public class EntryContent {
         return content != null && !content.isEmpty() && !content.isBlank();
     }
 
-    public void setContent(String content) {
-        if (!Strings.isNullOrEmpty(content) && !content.equals(this.content)){
-            this.content = content;
-
-            onModified();
-        }
-    }
-
-    public void setImage(byte[] image) {
-        if (!Arrays.equals(this.image,image)){
-            this.image = image;
-            onModified();
-        }
-    }
-
-    public void setLabels(Set<String> array){
-        if (array == null || array.size()==0){
-            this.labelSet = new HashSet<>();
-        }
-        else {
-            this.labelSet = array;
-        }
-        onModified();
-    }
-
-    //endregion
-
-    //region events
-    private final List<IEntryListener> listeners = new ArrayList<>();
-
-    public void addListener(IEntryListener listener){
-        if (!listeners.contains(listener))
-            listeners.add(listener);
-    }
-
-    private void onModified() {
-        isModified = true;
+    private void modified() {
+        _modified = true;
         listeners.forEach(listener -> listener.entryModified(this));
-    }
-    //endregion
-
-    public String getFirstLabel(){
-        Optional<String> str = this.labelSet.stream().
-                min(Comparator.naturalOrder());
-
-        return str.orElse("[]");
-    }
-
-    public String getLabelStr(){
-        return toLabelStr(this.labelSet);
-    }
-
-    public boolean saveEntry() {
-        if (isModified){
-            isModified = false;
-            return LexiconDatabase.getInstance().updateEntry(this);
-        }
-        return false;
     }
 
     @Override
     public String toString() {
         return getFirstLabel();
     }
-
-    //region static methods
-
-    public static boolean createLink(EntryContent o1, EntryContent o2) {
-        return createLink(o1.getId(), o2.getId());
-    }
-
-    public static boolean createLink(Integer o1, Integer o2) {
-        return LexiconDatabase.getInstance().insertLink(o1, o2);
-    }
-
-    public static Set<String> toLabelSet(String labelStr) {
-        return Arrays.stream(labelStr.split(", ")).
-                collect(Collectors.toSet());
-    }
-
-    public static String toLabelStr(Set<String> labels) {
-        Stream<String> st  = labels.stream().
-                map(Strings::toFirstLower).
-                sorted(String::compareToIgnoreCase);
-
-        return Strings.toString(st, ", ");
-    }
-
-    //endregion
 }
 
+//    public boolean saveEntry() {
+//        if (_modified) {
+//            _modified = false;
+//            return LexiconDatabase.getInstance().updateEntry(this);
+//        }
+//        return false;
+//    }
 // private boolean updatesDisabled;
 // private Set<Integer> links = new HashSet<>();
 

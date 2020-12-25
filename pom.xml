@@ -47,6 +47,12 @@
             <version>RELEASE</version>
             <scope>test</scope>
         </dependency>
+
+<!--        <dependency>-->
+<!--            <groupId>org.openjfx</groupId>-->
+<!--            <artifactId>javafx-fxml</artifactId>-->
+<!--            <version>15</version>-->
+<!--        </dependency>-->
         <!--        <dependency>-->
 <!--            <groupId>org.javatuples</groupId>-->
 <!--            <artifactId>javatuples</artifactId>-->
